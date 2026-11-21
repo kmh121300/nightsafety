@@ -299,3 +299,4 @@ F-10-01~04는 명세의 별도 제안입니다. 현장 기록은 R5의 검증 �
 | 2026-11-21 | 팀 공유 문서의 기존 발표 문서 링크 복구 | README/ROADMAP 링크를 현재 실제 파일명으로 연결. 앱 진행 상태·과거 결과·날짜 변화 없음. | [공유 정리 로그](log/log-2026-11-21-github-share-preparation.md), [문서 안내](README.md) |
 
 | 2026-11-21 | 사용자 지정 GitHub 저장소 nightsafety 확인/최초 업로드 절차 안내 | 웹 빈 저장소 표시·원격 참조 없음, 로컬 미초기화 확인. 실제 init/커밋/푸시 미실행. 앱/인수 상태 변화 없음. | [공유 로그](log/log-2026-11-21-github-share-preparation.md) |
+| 2026-11-21 | `.gitattributes` 추가(GitHub 언어 통계에서 초기 PoC HTML 제외) | `night-safety-project-readiness/osm_poc_v2/route-v2.html`을 `linguist-generated=true`로 지정. 기능·진행 상태 불변, 로컬 커밋까지 완료(푸시 미실행). | [.gitattributes](.gitattributes) |
