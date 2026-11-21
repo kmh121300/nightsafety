@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "pid": "7125",
+  "exit_info": [
+    "timestamp=2026-11-05 14:12:27.131 pid=5986 realUid=10232 packageUid=10232 definingUid=10232 user=0",
+    "process=kr.ac.tukorea.nightsafety reason=16 (PACKAGE UPDATED) subreason=0 (UNKNOWN) status=0",
+    "importance=100 pss=0.00 rss=0.00 description=stop kr.ac.tukorea.nightsafety due to installPackageLI state=empty trace=null",
+    "timestamp=2026-11-05 14:07:31.319 pid=5689 realUid=10232 packageUid=10232 definingUid=10232 user=0",
+    "process=kr.ac.tukorea.nightsafety reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0",
+    "importance=100 pss=0.00 rss=0.00 description=stop kr.ac.tukorea.nightsafety due to from pid 5977 state=empty trace=null"
+  ]
+}

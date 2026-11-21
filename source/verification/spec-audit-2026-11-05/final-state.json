@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-05",
+  "server_health": "ready",
+  "db_verified": true,
+  "db_mode": "startup_snapshot",
+  "devices": [
+    {
+      "serial": "emulator-5556",
+      "installed_apk_sha256": "b50ae48ddaaa76ea933ad9f86821963f2f3d0aa3e9132f11b994012f2886084d",
+      "pid": "20693",
+      "reverse_restored": true
+    },
+    {
+      "serial": "emulator-5558",
+      "installed_apk_sha256": "b50ae48ddaaa76ea933ad9f86821963f2f3d0aa3e9132f11b994012f2886084d",
+      "pid": "7125",
+      "reverse_restored": true
+    }
+  ]
+}

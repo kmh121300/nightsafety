@@ -1,0 +1,5272 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7315593,
+            37.3418341
+          ],
+          [
+            126.7320654,
+            37.3423622
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799703999,
+        "to": 9799758217,
+        "way": 1067311768,
+        "distance_m": 73.82433397423546,
+        "policy_cost": 73.82433397423546,
+        "class": "road_inferred_foot",
+        "highway": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320654,
+            37.3423622
+          ],
+          [
+            126.7320446,
+            37.34238
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799758217,
+        "to": 4657273080,
+        "way": 471567474,
+        "distance_m": 2.701597875380869,
+        "policy_cost": 2.701597875380869,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320446,
+            37.34238
+          ],
+          [
+            126.7320795,
+            37.3424154
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273080,
+        "to": 4657273079,
+        "way": 493192211,
+        "distance_m": 5.0013328134921995,
+        "policy_cost": 5.0013328134921995,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320795,
+            37.3424154
+          ],
+          [
+            126.7331472,
+            37.3435511
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273079,
+        "to": 13702941711,
+        "way": 493192211,
+        "distance_m": 157.65981110094475,
+        "policy_cost": 157.65981110094475,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7331472,
+            37.3435511
+          ],
+          [
+            126.7332937,
+            37.3437069
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702941711,
+        "to": 2066808536,
+        "way": 493192211,
+        "distance_m": 21.629864543053216,
+        "policy_cost": 21.629864543053216,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7332937,
+            37.3437069
+          ],
+          [
+            126.7333862,
+            37.3438029
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808536,
+        "to": 2939050965,
+        "way": 632707162,
+        "distance_m": 13.446748191531665,
+        "policy_cost": 13.446748191531665,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7333862,
+            37.3438029
+          ],
+          [
+            126.7335495,
+            37.3439721
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2939050965,
+        "to": 2066808533,
+        "way": 632707162,
+        "distance_m": 23.714333073490508,
+        "policy_cost": 23.714333073490508,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7335495,
+            37.3439721
+          ],
+          [
+            126.7338654,
+            37.3442995
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808533,
+        "to": 4657273086,
+        "way": 632707162,
+        "distance_m": 45.88240118393437,
+        "policy_cost": 45.88240118393437,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7338654,
+            37.3442995
+          ],
+          [
+            126.7339806,
+            37.3444188
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273086,
+        "to": 3448675376,
+        "way": 632707162,
+        "distance_m": 16.72375674335779,
+        "policy_cost": 16.72375674335779,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7339806,
+            37.3444188
+          ],
+          [
+            126.7343085,
+            37.3447539
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 3448675376,
+        "to": 4657273810,
+        "way": 632707162,
+        "distance_m": 47.20838420881451,
+        "policy_cost": 47.20838420881451,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7343085,
+            37.3447539
+          ],
+          [
+            126.7347766,
+            37.3452437
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273810,
+        "to": 4657273082,
+        "way": 632707162,
+        "distance_m": 68.39997127908764,
+        "policy_cost": 68.39997127908764,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7347766,
+            37.3452437
+          ],
+          [
+            126.7352817,
+            37.3457582
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273082,
+        "to": 4657273808,
+        "way": 632707162,
+        "distance_m": 72.5715538393826,
+        "policy_cost": 72.5715538393826,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7352817,
+            37.3457582
+          ],
+          [
+            126.7357285,
+            37.3462302
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273808,
+        "to": 4657273798,
+        "way": 632707162,
+        "distance_m": 65.6852503927574,
+        "policy_cost": 65.6852503927574,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7357285,
+            37.3462302
+          ],
+          [
+            126.7363289,
+            37.3468525
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273798,
+        "to": 2066808538,
+        "way": 632707162,
+        "distance_m": 87.20692484447734,
+        "policy_cost": 87.20692484447734,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7363289,
+            37.3468525
+          ],
+          [
+            126.7364453,
+            37.3469731
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808538,
+        "to": 3040044444,
+        "way": 632707162,
+        "distance_m": 16.9028031937912,
+        "policy_cost": 16.9028031937912,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7364453,
+            37.3469731
+          ],
+          [
+            126.7368249,
+            37.3473665
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044444,
+        "to": 4657546810,
+        "way": 632707162,
+        "distance_m": 55.131912613393254,
+        "policy_cost": 55.131912613393254,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7368249,
+            37.3473665
+          ],
+          [
+            126.7380022,
+            37.3485765
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546810,
+        "to": 3040044482,
+        "way": 632707162,
+        "distance_m": 170.09698841225054,
+        "policy_cost": 170.09698841225054,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7380022,
+            37.3485765
+          ],
+          [
+            126.739351,
+            37.3499843
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044482,
+        "to": 2066808540,
+        "way": 632707162,
+        "distance_m": 196.7738449040813,
+        "policy_cost": 196.7738449040813,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739351,
+            37.3499843
+          ],
+          [
+            126.739408,
+            37.3500434
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808540,
+        "to": 9204855889,
+        "way": 632707162,
+        "distance_m": 8.280839555863814,
+        "policy_cost": 8.280839555863814,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739408,
+            37.3500434
+          ],
+          [
+            126.7394577,
+            37.3500949
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9204855889,
+        "to": 3040044492,
+        "way": 632707162,
+        "distance_m": 7.217569116294663,
+        "policy_cost": 7.217569116294663,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7394577,
+            37.3500949
+          ],
+          [
+            126.7396186,
+            37.3502533
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044492,
+        "to": 4673859720,
+        "way": 632707160,
+        "distance_m": 22.638665341600742,
+        "policy_cost": 22.638665341600742,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7396186,
+            37.3502533
+          ],
+          [
+            126.7399587,
+            37.3505835
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673859720,
+        "to": 4673858135,
+        "way": 632707160,
+        "distance_m": 47.453868822125045,
+        "policy_cost": 47.453868822125045,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7399587,
+            37.3505835
+          ],
+          [
+            126.7407494,
+            37.3514449
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673858135,
+        "to": 2974599502,
+        "way": 632707160,
+        "distance_m": 118.57223665039534,
+        "policy_cost": 118.57223665039534,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7407494,
+            37.3514449
+          ],
+          [
+            126.7407438,
+            37.3515404
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2974599502,
+        "to": 2974599504,
+        "way": 632707160,
+        "distance_m": 10.63066067817659,
+        "policy_cost": 10.63066067817659,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7407438,
+            37.3515404
+          ],
+          [
+            126.7407799,
+            37.3515888
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2974599504,
+        "to": 2875397275,
+        "way": 299918172,
+        "distance_m": 6.256708816360463,
+        "policy_cost": 6.256708816360463,
+        "class": "road_inferred_foot",
+        "highway": "secondary",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7407799,
+            37.3515888
+          ],
+          [
+            126.7409937,
+            37.3519823
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 2875397275,
+        "to": 4675706755,
+        "way": 299918172,
+        "distance_m": 47.661974720353555,
+        "policy_cost": 47.661974720353555,
+        "class": "road_inferred_foot",
+        "highway": "secondary",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7409937,
+            37.3519823
+          ],
+          [
+            126.7420372,
+            37.3516827
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 4675706755,
+        "to": 9667705503,
+        "way": 473454840,
+        "distance_m": 98.0685987133938,
+        "policy_cost": 98.0685987133938,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "4",
+        "name": "마유로418번길",
+        "name:en": "Mayu-ro 418beon-gil",
+        "name:ko": "마유로418번길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7420372,
+            37.3516827
+          ],
+          [
+            126.7422523,
+            37.3516209
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705503,
+        "to": 9667705521,
+        "way": 473454840,
+        "distance_m": 20.216843188881164,
+        "policy_cost": 20.216843188881164,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "4",
+        "name": "마유로418번길",
+        "name:en": "Mayu-ro 418beon-gil",
+        "name:ko": "마유로418번길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7422523,
+            37.3516209
+          ],
+          [
+            126.7423994,
+            37.3516216
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705521,
+        "to": 9667705520,
+        "way": 1052014020,
+        "distance_m": 13.00269503502928,
+        "policy_cost": 13.00269503502928,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423994,
+            37.3516216
+          ],
+          [
+            126.7424718,
+            37.3516179
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705520,
+        "to": 9667705519,
+        "way": 1052014020,
+        "distance_m": 6.412791654150772,
+        "policy_cost": 6.412791654150772,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424718,
+            37.3516179
+          ],
+          [
+            126.7427226,
+            37.3515747
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705519,
+        "to": 9667705518,
+        "way": 1052014020,
+        "distance_m": 22.683186284765828,
+        "policy_cost": 22.683186284765828,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7427226,
+            37.3515747
+          ],
+          [
+            126.7427353,
+            37.3515972
+          ]
+        ]
+      },
+      "properties": {
+        "route": "distance_only",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705518,
+        "to": 4665188383,
+        "way": 472303067,
+        "distance_m": 2.742194983157181,
+        "policy_cost": 2.742194983157181,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7315593,
+            37.3418341
+          ],
+          [
+            126.7320654,
+            37.3423622
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799703999,
+        "to": 9799758217,
+        "way": 1067311768,
+        "distance_m": 73.82433397423546,
+        "policy_cost": 221.47300192270637,
+        "class": "road_inferred_foot",
+        "highway": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320654,
+            37.3423622
+          ],
+          [
+            126.7320446,
+            37.34238
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799758217,
+        "to": 4657273080,
+        "way": 471567474,
+        "distance_m": 2.701597875380869,
+        "policy_cost": 8.104793626142607,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320446,
+            37.34238
+          ],
+          [
+            126.7320795,
+            37.3424154
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273080,
+        "to": 4657273079,
+        "way": 493192211,
+        "distance_m": 5.0013328134921995,
+        "policy_cost": 7.501999220238299,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320795,
+            37.3424154
+          ],
+          [
+            126.7331472,
+            37.3435511
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273079,
+        "to": 13702941711,
+        "way": 493192211,
+        "distance_m": 157.65981110094475,
+        "policy_cost": 236.48971665141713,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7331472,
+            37.3435511
+          ],
+          [
+            126.7332937,
+            37.3437069
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702941711,
+        "to": 2066808536,
+        "way": 493192211,
+        "distance_m": 21.629864543053216,
+        "policy_cost": 32.444796814579824,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7332937,
+            37.3437069
+          ],
+          [
+            126.7333862,
+            37.3438029
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808536,
+        "to": 2939050965,
+        "way": 632707162,
+        "distance_m": 13.446748191531665,
+        "policy_cost": 20.170122287297495,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7333862,
+            37.3438029
+          ],
+          [
+            126.7335495,
+            37.3439721
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 2939050965,
+        "to": 2066808533,
+        "way": 632707162,
+        "distance_m": 23.714333073490508,
+        "policy_cost": 35.57149961023576,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7335495,
+            37.3439721
+          ],
+          [
+            126.7338654,
+            37.3442995
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808533,
+        "to": 4657273086,
+        "way": 632707162,
+        "distance_m": 45.88240118393437,
+        "policy_cost": 68.82360177590155,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7338654,
+            37.3442995
+          ],
+          [
+            126.7339806,
+            37.3444188
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273086,
+        "to": 3448675376,
+        "way": 632707162,
+        "distance_m": 16.72375674335779,
+        "policy_cost": 25.085635115036684,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7339806,
+            37.3444188
+          ],
+          [
+            126.7343085,
+            37.3447539
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 3448675376,
+        "to": 4657273810,
+        "way": 632707162,
+        "distance_m": 47.20838420881451,
+        "policy_cost": 70.81257631322177,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7343085,
+            37.3447539
+          ],
+          [
+            126.7347338,
+            37.3444945
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273810,
+        "to": 6947385438,
+        "way": 471567487,
+        "distance_m": 47.3865195484577,
+        "policy_cost": 47.3865195484577,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7347338,
+            37.3444945
+          ],
+          [
+            126.7353848,
+            37.3440975
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 6947385438,
+        "to": 6947385441,
+        "way": 471567487,
+        "distance_m": 72.52997126841368,
+        "policy_cost": 72.52997126841368,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7353848,
+            37.3440975
+          ],
+          [
+            126.7357023,
+            37.3439039
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 6947385441,
+        "to": 6947385439,
+        "way": 471567487,
+        "distance_m": 35.37232290080697,
+        "policy_cost": 35.37232290080697,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7357023,
+            37.3439039
+          ],
+          [
+            126.7361553,
+            37.3443622
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 6947385439,
+        "to": 5973733593,
+        "way": 471592948,
+        "distance_m": 64.8123511057095,
+        "policy_cost": 64.8123511057095,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7361553,
+            37.3443622
+          ],
+          [
+            126.7366676,
+            37.3448802
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 5973733593,
+        "to": 6947385440,
+        "way": 471592948,
+        "distance_m": 73.2707509240802,
+        "policy_cost": 73.2707509240802,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7366676,
+            37.3448802
+          ],
+          [
+            126.7371394,
+            37.3453572
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 6947385440,
+        "to": 5973733594,
+        "way": 471592948,
+        "distance_m": 67.47382648090064,
+        "policy_cost": 67.47382648090064,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7371394,
+            37.3453572
+          ],
+          [
+            126.7374259,
+            37.3456469
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 5973733594,
+        "to": 4657546808,
+        "way": 471592948,
+        "distance_m": 40.97702057501789,
+        "policy_cost": 40.97702057501789,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7374259,
+            37.3456469
+          ],
+          [
+            126.73815,
+            37.3463964
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546808,
+        "to": 4657546809,
+        "way": 471592949,
+        "distance_m": 105.08510668605652,
+        "policy_cost": 105.08510668605652,
+        "class": "dedicated_pedestrian",
+        "bridge": "yes",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.73815,
+            37.3463964
+          ],
+          [
+            126.7382448,
+            37.3464947
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546809,
+        "to": 8189625930,
+        "way": 471592951,
+        "distance_m": 13.773236228377693,
+        "policy_cost": 13.773236228377693,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7382448,
+            37.3464947
+          ],
+          [
+            126.739394,
+            37.3476987
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625930,
+        "to": 3040044456,
+        "way": 471592951,
+        "distance_m": 168.0574589714075,
+        "policy_cost": 168.0574589714075,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739394,
+            37.3476987
+          ],
+          [
+            126.7394847,
+            37.3477804
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044456,
+        "to": 4657546812,
+        "way": 471592951,
+        "distance_m": 12.116602196882942,
+        "policy_cost": 12.116602196882942,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7394847,
+            37.3477804
+          ],
+          [
+            126.7394287,
+            37.3479041
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546812,
+        "to": 4657546813,
+        "way": 471592952,
+        "distance_m": 14.618477171769374,
+        "policy_cost": 14.618477171769374,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7394287,
+            37.3479041
+          ],
+          [
+            126.739758,
+            37.3479962
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546813,
+        "to": 4657546814,
+        "way": 471592952,
+        "distance_m": 30.85786581145462,
+        "policy_cost": 30.85786581145462,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739758,
+            37.3479962
+          ],
+          [
+            126.7397668,
+            37.3481137
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546814,
+        "to": 4657546816,
+        "way": 471592953,
+        "distance_m": 13.088558267607816,
+        "policy_cost": 13.088558267607816,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7397668,
+            37.3481137
+          ],
+          [
+            126.7401026,
+            37.348295
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546816,
+        "to": 4657546817,
+        "way": 471592953,
+        "distance_m": 35.88196454081623,
+        "policy_cost": 35.88196454081623,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7401026,
+            37.348295
+          ],
+          [
+            126.7402459,
+            37.348551
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546817,
+        "to": 4657546827,
+        "way": 471592953,
+        "distance_m": 31.15710994124136,
+        "policy_cost": 31.15710994124136,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7402459,
+            37.348551
+          ],
+          [
+            126.7406093,
+            37.3485999
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546827,
+        "to": 4657546828,
+        "way": 471592956,
+        "distance_m": 32.57989977063664,
+        "policy_cost": 32.57989977063664,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7406093,
+            37.3485999
+          ],
+          [
+            126.7409522,
+            37.3489219
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546828,
+        "to": 4657546829,
+        "way": 471592956,
+        "distance_m": 46.91191268675759,
+        "policy_cost": 46.91191268675759,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7409522,
+            37.3489219
+          ],
+          [
+            126.7411167,
+            37.3488237
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546829,
+        "to": 4665188372,
+        "way": 471592954,
+        "distance_m": 18.1844294252396,
+        "policy_cost": 18.1844294252396,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411167,
+            37.3488237
+          ],
+          [
+            126.7411792,
+            37.3488825
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188372,
+        "to": 8189625929,
+        "way": 472303064,
+        "distance_m": 8.559867384582432,
+        "policy_cost": 8.559867384582432,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411792,
+            37.3488825
+          ],
+          [
+            126.7412813,
+            37.3489784
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625929,
+        "to": 8189625928,
+        "way": 472303064,
+        "distance_m": 13.97017529836715,
+        "policy_cost": 13.97017529836715,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7412813,
+            37.3489784
+          ],
+          [
+            126.7413294,
+            37.3490236
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625928,
+        "to": 4665188373,
+        "way": 472303064,
+        "distance_m": 6.583212272471202,
+        "policy_cost": 6.583212272471202,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7413294,
+            37.3490236
+          ],
+          [
+            126.7412944,
+            37.3490433
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188373,
+        "to": 4665188374,
+        "way": 672158188,
+        "distance_m": 3.7908100194844057,
+        "policy_cost": 3.7908100194844057,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7412944,
+            37.3490433
+          ],
+          [
+            126.7411351,
+            37.3493194
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188374,
+        "to": 4665188375,
+        "way": 672158188,
+        "distance_m": 33.77620630565442,
+        "policy_cost": 33.77620630565442,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411351,
+            37.3493194
+          ],
+          [
+            126.7407531,
+            37.3495502
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188375,
+        "to": 4673861124,
+        "way": 473224934,
+        "distance_m": 42.41254023001912,
+        "policy_cost": 127.23762069005735,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7407531,
+            37.3495502
+          ],
+          [
+            126.7411448,
+            37.3499623
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861124,
+        "to": 4673861123,
+        "way": 473225094,
+        "distance_m": 57.43356239121352,
+        "policy_cost": 172.30068717364057,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411448,
+            37.3499623
+          ],
+          [
+            126.7411461,
+            37.3502832
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861123,
+        "to": 4698282477,
+        "way": 473225094,
+        "distance_m": 35.68268627741224,
+        "policy_cost": 107.0480588322367,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411461,
+            37.3502832
+          ],
+          [
+            126.7411448,
+            37.3505573
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4698282477,
+        "to": 4673861122,
+        "way": 473225094,
+        "distance_m": 30.4787881128661,
+        "policy_cost": 91.4363643385983,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411448,
+            37.3505573
+          ],
+          [
+            126.7417205,
+            37.3505589
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861122,
+        "to": 4665188378,
+        "way": 473225014,
+        "distance_m": 50.88830159878435,
+        "policy_cost": 152.66490479635306,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7417205,
+            37.3505589
+          ],
+          [
+            126.7416206,
+            37.3507236
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188378,
+        "to": 4665188379,
+        "way": 882558015,
+        "distance_m": 20.331592480706227,
+        "policy_cost": 20.331592480706227,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7416206,
+            37.3507236
+          ],
+          [
+            126.7417654,
+            37.3510282
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188379,
+        "to": 4665188380,
+        "way": 882558015,
+        "distance_m": 36.20773555750357,
+        "policy_cost": 36.20773555750357,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7417654,
+            37.3510282
+          ],
+          [
+            126.7423072,
+            37.350906
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188380,
+        "to": 4665188381,
+        "way": 882558015,
+        "distance_m": 49.78153987810771,
+        "policy_cost": 49.78153987810771,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423072,
+            37.350906
+          ],
+          [
+            126.7423301,
+            37.3509494
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188381,
+        "to": 8189625924,
+        "way": 472303066,
+        "distance_m": 5.2331973020493265,
+        "policy_cost": 5.2331973020493265,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423301,
+            37.3509494
+          ],
+          [
+            126.7423555,
+            37.3509975
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625924,
+        "to": 8189625925,
+        "way": 472303066,
+        "distance_m": 5.800611123940737,
+        "policy_cost": 5.800611123940737,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423555,
+            37.3509975
+          ],
+          [
+            126.7423856,
+            37.3510544
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625925,
+        "to": 4665188382,
+        "way": 472303066,
+        "distance_m": 6.863660027270467,
+        "policy_cost": 6.863660027270467,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423856,
+            37.3510544
+          ],
+          [
+            126.7424159,
+            37.3511152
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188382,
+        "to": 4665188388,
+        "way": 472303066,
+        "distance_m": 7.2718503602988545,
+        "policy_cost": 7.2718503602988545,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424159,
+            37.3511152
+          ],
+          [
+            126.7424801,
+            37.3510986
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188388,
+        "to": 4665188385,
+        "way": 472303069,
+        "distance_m": 5.967455778890334,
+        "policy_cost": 5.967455778890334,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424801,
+            37.3510986
+          ],
+          [
+            126.7426432,
+            37.3514349
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188385,
+        "to": 4665188384,
+        "way": 472303068,
+        "distance_m": 40.077713713285064,
+        "policy_cost": 40.077713713285064,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7426432,
+            37.3514349
+          ],
+          [
+            126.7426792,
+            37.3514983
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188384,
+        "to": 8189625926,
+        "way": 472303067,
+        "distance_m": 7.73466914654804,
+        "policy_cost": 7.73466914654804,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7426792,
+            37.3514983
+          ],
+          [
+            126.7427226,
+            37.3515747
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625926,
+        "to": 9667705518,
+        "way": 472303067,
+        "distance_m": 9.321306321070137,
+        "policy_cost": 9.321306321070137,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7427226,
+            37.3515747
+          ],
+          [
+            126.7427353,
+            37.3515972
+          ]
+        ]
+      },
+      "properties": {
+        "route": "moderate_pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705518,
+        "to": 4665188383,
+        "way": 472303067,
+        "distance_m": 2.742194983157181,
+        "policy_cost": 2.742194983157181,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7315593,
+            37.3418341
+          ],
+          [
+            126.7320654,
+            37.3423622
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799703999,
+        "to": 9799758217,
+        "way": 1067311768,
+        "distance_m": 73.82433397423546,
+        "policy_cost": 295.29733589694183,
+        "class": "road_inferred_foot",
+        "highway": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320654,
+            37.3423622
+          ],
+          [
+            126.7320446,
+            37.34238
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799758217,
+        "to": 4657273080,
+        "way": 471567474,
+        "distance_m": 2.701597875380869,
+        "policy_cost": 10.806391501523477,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320446,
+            37.34238
+          ],
+          [
+            126.7320795,
+            37.3424154
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273080,
+        "to": 4657273079,
+        "way": 493192211,
+        "distance_m": 5.0013328134921995,
+        "policy_cost": 10.002665626984399,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320795,
+            37.3424154
+          ],
+          [
+            126.7331472,
+            37.3435511
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273079,
+        "to": 13702941711,
+        "way": 493192211,
+        "distance_m": 157.65981110094475,
+        "policy_cost": 315.3196222018895,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7331472,
+            37.3435511
+          ],
+          [
+            126.7332733,
+            37.343468
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702941711,
+        "to": 13702941752,
+        "way": 1495768614,
+        "distance_m": 14.479248821382402,
+        "policy_cost": 14.479248821382402,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7332733,
+            37.343468
+          ],
+          [
+            126.7331949,
+            37.3433834
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702941752,
+        "to": 13702934127,
+        "way": 1495767511,
+        "distance_m": 11.684521687568045,
+        "policy_cost": 11.684521687568045,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7331949,
+            37.3433834
+          ],
+          [
+            126.7335497,
+            37.3432276
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934127,
+        "to": 13702934147,
+        "way": 1495767507,
+        "distance_m": 35.83138184750631,
+        "policy_cost": 35.83138184750631,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7335497,
+            37.3432276
+          ],
+          [
+            126.7336967,
+            37.3431551
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934147,
+        "to": 13702934126,
+        "way": 1495767507,
+        "distance_m": 15.29255518486179,
+        "policy_cost": 15.29255518486179,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7336967,
+            37.3431551
+          ],
+          [
+            126.7338886,
+            37.3429523
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934126,
+        "to": 13702934128,
+        "way": 1495767507,
+        "distance_m": 28.218935381050002,
+        "policy_cost": 28.218935381050002,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7338886,
+            37.3429523
+          ],
+          [
+            126.7339086,
+            37.3429312
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934128,
+        "to": 13702934125,
+        "way": 1495767507,
+        "distance_m": 2.937807137788418,
+        "policy_cost": 2.937807137788418,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7339086,
+            37.3429312
+          ],
+          [
+            126.7346141,
+            37.3424578
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934125,
+        "to": 13702934124,
+        "way": 1495767507,
+        "distance_m": 81.61315124680432,
+        "policy_cost": 81.61315124680432,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7346141,
+            37.3424578
+          ],
+          [
+            126.7350164,
+            37.3423368
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934124,
+        "to": 13702934123,
+        "way": 1495767507,
+        "distance_m": 38.024435837904626,
+        "policy_cost": 38.024435837904626,
+        "class": "dedicated_pedestrian",
+        "footway": "sidewalk",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7350164,
+            37.3423368
+          ],
+          [
+            126.7348833,
+            37.3427416
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702934123,
+        "to": 4665335047,
+        "way": 472321927,
+        "distance_m": 46.524266871148626,
+        "policy_cost": 46.524266871148626,
+        "class": "dedicated_pedestrian",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "paving_stones"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7348833,
+            37.3427416
+          ],
+          [
+            126.7349766,
+            37.3428362
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665335047,
+        "to": 8189625948,
+        "way": 472321928,
+        "distance_m": 13.367089219783207,
+        "policy_cost": 13.367089219783207,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7349766,
+            37.3428362
+          ],
+          [
+            126.7350477,
+            37.3429083
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625948,
+        "to": 4665335048,
+        "way": 472321928,
+        "distance_m": 10.187307308501435,
+        "policy_cost": 10.187307308501435,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway",
+        "lit": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7350477,
+            37.3429083
+          ],
+          [
+            126.7348467,
+            37.3430309
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665335048,
+        "to": 4657546807,
+        "way": 472321929,
+        "distance_m": 22.395917303604502,
+        "policy_cost": 22.395917303604502,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7348467,
+            37.3430309
+          ],
+          [
+            126.7352385,
+            37.3434351
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546807,
+        "to": 5973733592,
+        "way": 471592948,
+        "distance_m": 56.742399348735105,
+        "policy_cost": 56.742399348735105,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7352385,
+            37.3434351
+          ],
+          [
+            126.7357023,
+            37.3439039
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 5973733592,
+        "to": 6947385439,
+        "way": 471592948,
+        "distance_m": 66.32043248967253,
+        "policy_cost": 66.32043248967253,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7357023,
+            37.3439039
+          ],
+          [
+            126.7361553,
+            37.3443622
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 6947385439,
+        "to": 5973733593,
+        "way": 471592948,
+        "distance_m": 64.8123511057095,
+        "policy_cost": 64.8123511057095,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7361553,
+            37.3443622
+          ],
+          [
+            126.7366676,
+            37.3448802
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 5973733593,
+        "to": 6947385440,
+        "way": 471592948,
+        "distance_m": 73.2707509240802,
+        "policy_cost": 73.2707509240802,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7366676,
+            37.3448802
+          ],
+          [
+            126.7371394,
+            37.3453572
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 6947385440,
+        "to": 5973733594,
+        "way": 471592948,
+        "distance_m": 67.47382648090064,
+        "policy_cost": 67.47382648090064,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7371394,
+            37.3453572
+          ],
+          [
+            126.7374259,
+            37.3456469
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 5973733594,
+        "to": 4657546808,
+        "way": 471592948,
+        "distance_m": 40.97702057501789,
+        "policy_cost": 40.97702057501789,
+        "class": "dedicated_pedestrian",
+        "highway": "pedestrian",
+        "name": "중심상가3길",
+        "name:en": "Jungsimsangga 3-gil",
+        "name:ko": "중심상가3길"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7374259,
+            37.3456469
+          ],
+          [
+            126.73815,
+            37.3463964
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546808,
+        "to": 4657546809,
+        "way": 471592949,
+        "distance_m": 105.08510668605652,
+        "policy_cost": 105.08510668605652,
+        "class": "dedicated_pedestrian",
+        "bridge": "yes",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.73815,
+            37.3463964
+          ],
+          [
+            126.7382448,
+            37.3464947
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546809,
+        "to": 8189625930,
+        "way": 471592951,
+        "distance_m": 13.773236228377693,
+        "policy_cost": 13.773236228377693,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7382448,
+            37.3464947
+          ],
+          [
+            126.739394,
+            37.3476987
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625930,
+        "to": 3040044456,
+        "way": 471592951,
+        "distance_m": 168.0574589714075,
+        "policy_cost": 168.0574589714075,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739394,
+            37.3476987
+          ],
+          [
+            126.7394847,
+            37.3477804
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044456,
+        "to": 4657546812,
+        "way": 471592951,
+        "distance_m": 12.116602196882942,
+        "policy_cost": 12.116602196882942,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7394847,
+            37.3477804
+          ],
+          [
+            126.7394287,
+            37.3479041
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546812,
+        "to": 4657546813,
+        "way": 471592952,
+        "distance_m": 14.618477171769374,
+        "policy_cost": 14.618477171769374,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7394287,
+            37.3479041
+          ],
+          [
+            126.739758,
+            37.3479962
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546813,
+        "to": 4657546814,
+        "way": 471592952,
+        "distance_m": 30.85786581145462,
+        "policy_cost": 30.85786581145462,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739758,
+            37.3479962
+          ],
+          [
+            126.7397668,
+            37.3481137
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546814,
+        "to": 4657546816,
+        "way": 471592953,
+        "distance_m": 13.088558267607816,
+        "policy_cost": 13.088558267607816,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7397668,
+            37.3481137
+          ],
+          [
+            126.7401026,
+            37.348295
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546816,
+        "to": 4657546817,
+        "way": 471592953,
+        "distance_m": 35.88196454081623,
+        "policy_cost": 35.88196454081623,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7401026,
+            37.348295
+          ],
+          [
+            126.7402459,
+            37.348551
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546817,
+        "to": 4657546827,
+        "way": 471592953,
+        "distance_m": 31.15710994124136,
+        "policy_cost": 31.15710994124136,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7402459,
+            37.348551
+          ],
+          [
+            126.7406093,
+            37.3485999
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546827,
+        "to": 4657546828,
+        "way": 471592956,
+        "distance_m": 32.57989977063664,
+        "policy_cost": 32.57989977063664,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7406093,
+            37.3485999
+          ],
+          [
+            126.7409522,
+            37.3489219
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546828,
+        "to": 4657546829,
+        "way": 471592956,
+        "distance_m": 46.91191268675759,
+        "policy_cost": 46.91191268675759,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7409522,
+            37.3489219
+          ],
+          [
+            126.7411167,
+            37.3488237
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546829,
+        "to": 4665188372,
+        "way": 471592954,
+        "distance_m": 18.1844294252396,
+        "policy_cost": 18.1844294252396,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411167,
+            37.3488237
+          ],
+          [
+            126.7411792,
+            37.3488825
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188372,
+        "to": 8189625929,
+        "way": 472303064,
+        "distance_m": 8.559867384582432,
+        "policy_cost": 8.559867384582432,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411792,
+            37.3488825
+          ],
+          [
+            126.7412813,
+            37.3489784
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625929,
+        "to": 8189625928,
+        "way": 472303064,
+        "distance_m": 13.97017529836715,
+        "policy_cost": 13.97017529836715,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7412813,
+            37.3489784
+          ],
+          [
+            126.7413294,
+            37.3490236
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625928,
+        "to": 4665188373,
+        "way": 472303064,
+        "distance_m": 6.583212272471202,
+        "policy_cost": 6.583212272471202,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7413294,
+            37.3490236
+          ],
+          [
+            126.7412944,
+            37.3490433
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188373,
+        "to": 4665188374,
+        "way": 672158188,
+        "distance_m": 3.7908100194844057,
+        "policy_cost": 3.7908100194844057,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7412944,
+            37.3490433
+          ],
+          [
+            126.7411351,
+            37.3493194
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188374,
+        "to": 4665188375,
+        "way": 672158188,
+        "distance_m": 33.77620630565442,
+        "policy_cost": 33.77620630565442,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411351,
+            37.3493194
+          ],
+          [
+            126.7407531,
+            37.3495502
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188375,
+        "to": 4673861124,
+        "way": 473224934,
+        "distance_m": 42.41254023001912,
+        "policy_cost": 169.65016092007647,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "2",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7407531,
+            37.3495502
+          ],
+          [
+            126.7411448,
+            37.3499623
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861124,
+        "to": 4673861123,
+        "way": 473225094,
+        "distance_m": 57.43356239121352,
+        "policy_cost": 229.73424956485408,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411448,
+            37.3499623
+          ],
+          [
+            126.7411461,
+            37.3502832
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861123,
+        "to": 4698282477,
+        "way": 473225094,
+        "distance_m": 35.68268627741224,
+        "policy_cost": 142.73074510964895,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411461,
+            37.3502832
+          ],
+          [
+            126.7411448,
+            37.3505573
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4698282477,
+        "to": 4673861122,
+        "way": 473225094,
+        "distance_m": 30.4787881128661,
+        "policy_cost": 121.9151524514644,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "name": "군서마을로",
+        "name:en": "Gunseomaeul-ro",
+        "name:ko": "군서마을로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411448,
+            37.3505573
+          ],
+          [
+            126.7417205,
+            37.3505589
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861122,
+        "to": 4665188378,
+        "way": 473225014,
+        "distance_m": 50.88830159878435,
+        "policy_cost": 203.5532063951374,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7417205,
+            37.3505589
+          ],
+          [
+            126.7416206,
+            37.3507236
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188378,
+        "to": 4665188379,
+        "way": 882558015,
+        "distance_m": 20.331592480706227,
+        "policy_cost": 20.331592480706227,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7416206,
+            37.3507236
+          ],
+          [
+            126.7417654,
+            37.3510282
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188379,
+        "to": 4665188380,
+        "way": 882558015,
+        "distance_m": 36.20773555750357,
+        "policy_cost": 36.20773555750357,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7417654,
+            37.3510282
+          ],
+          [
+            126.7423072,
+            37.350906
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188380,
+        "to": 4665188381,
+        "way": 882558015,
+        "distance_m": 49.78153987810771,
+        "policy_cost": 49.78153987810771,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423072,
+            37.350906
+          ],
+          [
+            126.7423301,
+            37.3509494
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188381,
+        "to": 8189625924,
+        "way": 472303066,
+        "distance_m": 5.2331973020493265,
+        "policy_cost": 5.2331973020493265,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423301,
+            37.3509494
+          ],
+          [
+            126.7423555,
+            37.3509975
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625924,
+        "to": 8189625925,
+        "way": 472303066,
+        "distance_m": 5.800611123940737,
+        "policy_cost": 5.800611123940737,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423555,
+            37.3509975
+          ],
+          [
+            126.7423856,
+            37.3510544
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625925,
+        "to": 4665188382,
+        "way": 472303066,
+        "distance_m": 6.863660027270467,
+        "policy_cost": 6.863660027270467,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423856,
+            37.3510544
+          ],
+          [
+            126.7424159,
+            37.3511152
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188382,
+        "to": 4665188388,
+        "way": 472303066,
+        "distance_m": 7.2718503602988545,
+        "policy_cost": 7.2718503602988545,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424159,
+            37.3511152
+          ],
+          [
+            126.7424801,
+            37.3510986
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188388,
+        "to": 4665188385,
+        "way": 472303069,
+        "distance_m": 5.967455778890334,
+        "policy_cost": 5.967455778890334,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424801,
+            37.3510986
+          ],
+          [
+            126.7426432,
+            37.3514349
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188385,
+        "to": 4665188384,
+        "way": 472303068,
+        "distance_m": 40.077713713285064,
+        "policy_cost": 40.077713713285064,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7426432,
+            37.3514349
+          ],
+          [
+            126.7426792,
+            37.3514983
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188384,
+        "to": 8189625926,
+        "way": 472303067,
+        "distance_m": 7.73466914654804,
+        "policy_cost": 7.73466914654804,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7426792,
+            37.3514983
+          ],
+          [
+            126.7427226,
+            37.3515747
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625926,
+        "to": 9667705518,
+        "way": 472303067,
+        "distance_m": 9.321306321070137,
+        "policy_cost": 9.321306321070137,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7427226,
+            37.3515747
+          ],
+          [
+            126.7427353,
+            37.3515972
+          ]
+        ]
+      },
+      "properties": {
+        "route": "pedestrian_preferred",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705518,
+        "to": 4665188383,
+        "way": 472303067,
+        "distance_m": 2.742194983157181,
+        "policy_cost": 2.742194983157181,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7315593,
+            37.3418341
+          ],
+          [
+            126.7320654,
+            37.3423622
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799703999,
+        "to": 9799758217,
+        "way": 1067311768,
+        "distance_m": 73.82433397423546,
+        "policy_cost": 73.82433397423546,
+        "class": "road_inferred_foot",
+        "highway": "service"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320654,
+            37.3423622
+          ],
+          [
+            126.7320446,
+            37.34238
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 9799758217,
+        "to": 4657273080,
+        "way": 471567474,
+        "distance_m": 2.701597875380869,
+        "policy_cost": 2.701597875380869,
+        "class": "road_inferred_foot",
+        "highway": "service",
+        "oneway": "no",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320446,
+            37.34238
+          ],
+          [
+            126.7320795,
+            37.3424154
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273080,
+        "to": 4657273079,
+        "way": 493192211,
+        "distance_m": 5.0013328134921995,
+        "policy_cost": 5.0013328134921995,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320795,
+            37.3424154
+          ],
+          [
+            126.7331472,
+            37.3435511
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273079,
+        "to": 13702941711,
+        "way": 493192211,
+        "distance_m": 157.65981110094475,
+        "policy_cost": 157.65981110094475,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7331472,
+            37.3435511
+          ],
+          [
+            126.7332937,
+            37.3437069
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 13702941711,
+        "to": 2066808536,
+        "way": 493192211,
+        "distance_m": 21.629864543053216,
+        "policy_cost": 21.629864543053216,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "maxheight:signed": "no",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7332937,
+            37.3437069
+          ],
+          [
+            126.7333862,
+            37.3438029
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808536,
+        "to": 2939050965,
+        "way": 632707162,
+        "distance_m": 13.446748191531665,
+        "policy_cost": 13.446748191531665,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7333862,
+            37.3438029
+          ],
+          [
+            126.7335495,
+            37.3439721
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 2939050965,
+        "to": 2066808533,
+        "way": 632707162,
+        "distance_m": 23.714333073490508,
+        "policy_cost": 23.714333073490508,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7335495,
+            37.3439721
+          ],
+          [
+            126.7338654,
+            37.3442995
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808533,
+        "to": 4657273086,
+        "way": 632707162,
+        "distance_m": 45.88240118393437,
+        "policy_cost": 45.88240118393437,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7338654,
+            37.3442995
+          ],
+          [
+            126.7339806,
+            37.3444188
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273086,
+        "to": 3448675376,
+        "way": 632707162,
+        "distance_m": 16.72375674335779,
+        "policy_cost": 16.72375674335779,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7339806,
+            37.3444188
+          ],
+          [
+            126.7343085,
+            37.3447539
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 3448675376,
+        "to": 4657273810,
+        "way": 632707162,
+        "distance_m": 47.20838420881451,
+        "policy_cost": 47.20838420881451,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7343085,
+            37.3447539
+          ],
+          [
+            126.7347766,
+            37.3452437
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273810,
+        "to": 4657273082,
+        "way": 632707162,
+        "distance_m": 68.39997127908764,
+        "policy_cost": 68.39997127908764,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7347766,
+            37.3452437
+          ],
+          [
+            126.7352817,
+            37.3457582
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273082,
+        "to": 4657273808,
+        "way": 632707162,
+        "distance_m": 72.5715538393826,
+        "policy_cost": 72.5715538393826,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7352817,
+            37.3457582
+          ],
+          [
+            126.7357285,
+            37.3462302
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273808,
+        "to": 4657273798,
+        "way": 632707162,
+        "distance_m": 65.6852503927574,
+        "policy_cost": 65.6852503927574,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7357285,
+            37.3462302
+          ],
+          [
+            126.7363289,
+            37.3468525
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657273798,
+        "to": 2066808538,
+        "way": 632707162,
+        "distance_m": 87.20692484447734,
+        "policy_cost": 87.20692484447734,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7363289,
+            37.3468525
+          ],
+          [
+            126.7364453,
+            37.3469731
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808538,
+        "to": 3040044444,
+        "way": 632707162,
+        "distance_m": 16.9028031937912,
+        "policy_cost": 16.9028031937912,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7364453,
+            37.3469731
+          ],
+          [
+            126.7368249,
+            37.3473665
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044444,
+        "to": 4657546810,
+        "way": 632707162,
+        "distance_m": 55.131912613393254,
+        "policy_cost": 55.131912613393254,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7368249,
+            37.3473665
+          ],
+          [
+            126.7380022,
+            37.3485765
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4657546810,
+        "to": 3040044482,
+        "way": 632707162,
+        "distance_m": 170.09698841225054,
+        "policy_cost": 170.09698841225054,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7380022,
+            37.3485765
+          ],
+          [
+            126.739351,
+            37.3499843
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044482,
+        "to": 2066808540,
+        "way": 632707162,
+        "distance_m": 196.7738449040813,
+        "policy_cost": 196.7738449040813,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739351,
+            37.3499843
+          ],
+          [
+            126.739408,
+            37.3500434
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 2066808540,
+        "to": 9204855889,
+        "way": 632707162,
+        "distance_m": 8.280839555863814,
+        "policy_cost": 8.280839555863814,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.739408,
+            37.3500434
+          ],
+          [
+            126.7394577,
+            37.3500949
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 9204855889,
+        "to": 3040044492,
+        "way": 632707162,
+        "distance_m": 7.217569116294663,
+        "policy_cost": 7.217569116294663,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7394577,
+            37.3500949
+          ],
+          [
+            126.7396186,
+            37.3502533
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 3040044492,
+        "to": 4673859720,
+        "way": 632707160,
+        "distance_m": 22.638665341600742,
+        "policy_cost": 22.638665341600742,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7396186,
+            37.3502533
+          ],
+          [
+            126.7399587,
+            37.3505835
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673859720,
+        "to": 4673858135,
+        "way": 632707160,
+        "distance_m": 47.453868822125045,
+        "policy_cost": 47.453868822125045,
+        "class": "road_explicit_foot",
+        "foot": "yes",
+        "highway": "tertiary",
+        "lanes": "3",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7399587,
+            37.3505835
+          ],
+          [
+            126.7411448,
+            37.3505573
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673858135,
+        "to": 4673861122,
+        "way": 473225014,
+        "distance_m": 104.88367831740977,
+        "policy_cost": 104.88367831740977,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411448,
+            37.3505573
+          ],
+          [
+            126.7417205,
+            37.3505589
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4673861122,
+        "to": 4665188378,
+        "way": 473225014,
+        "distance_m": 50.88830159878435,
+        "policy_cost": 50.88830159878435,
+        "class": "road_inferred_foot",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "마유로",
+        "name:en": "Mayu-ro",
+        "name:ko": "마유로",
+        "oneway": "yes",
+        "surface": "asphalt"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7417205,
+            37.3505589
+          ],
+          [
+            126.7416206,
+            37.3507236
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188378,
+        "to": 4665188379,
+        "way": 882558015,
+        "distance_m": 20.331592480706227,
+        "policy_cost": 20.331592480706227,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7416206,
+            37.3507236
+          ],
+          [
+            126.7417654,
+            37.3510282
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188379,
+        "to": 4665188380,
+        "way": 882558015,
+        "distance_m": 36.20773555750357,
+        "policy_cost": 36.20773555750357,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7417654,
+            37.3510282
+          ],
+          [
+            126.7423072,
+            37.350906
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188380,
+        "to": 4665188381,
+        "way": 882558015,
+        "distance_m": 49.78153987810771,
+        "policy_cost": 49.78153987810771,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423072,
+            37.350906
+          ],
+          [
+            126.7423301,
+            37.3509494
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188381,
+        "to": 8189625924,
+        "way": 472303066,
+        "distance_m": 5.2331973020493265,
+        "policy_cost": 5.2331973020493265,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423301,
+            37.3509494
+          ],
+          [
+            126.7423555,
+            37.3509975
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625924,
+        "to": 8189625925,
+        "way": 472303066,
+        "distance_m": 5.800611123940737,
+        "policy_cost": 5.800611123940737,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423555,
+            37.3509975
+          ],
+          [
+            126.7423856,
+            37.3510544
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625925,
+        "to": 4665188382,
+        "way": 472303066,
+        "distance_m": 6.863660027270467,
+        "policy_cost": 6.863660027270467,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7423856,
+            37.3510544
+          ],
+          [
+            126.7424159,
+            37.3511152
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188382,
+        "to": 4665188388,
+        "way": 472303066,
+        "distance_m": 7.2718503602988545,
+        "policy_cost": 7.2718503602988545,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424159,
+            37.3511152
+          ],
+          [
+            126.7424801,
+            37.3510986
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188388,
+        "to": 4665188385,
+        "way": 472303069,
+        "distance_m": 5.967455778890334,
+        "policy_cost": 5.967455778890334,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7424801,
+            37.3510986
+          ],
+          [
+            126.7426432,
+            37.3514349
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188385,
+        "to": 4665188384,
+        "way": 472303068,
+        "distance_m": 40.077713713285064,
+        "policy_cost": 40.077713713285064,
+        "class": "dedicated_pedestrian",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7426432,
+            37.3514349
+          ],
+          [
+            126.7426792,
+            37.3514983
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 4665188384,
+        "to": 8189625926,
+        "way": 472303067,
+        "distance_m": 7.73466914654804,
+        "policy_cost": 7.73466914654804,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7426792,
+            37.3514983
+          ],
+          [
+            126.7427226,
+            37.3515747
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 8189625926,
+        "to": 9667705518,
+        "way": 472303067,
+        "distance_m": 9.321306321070137,
+        "policy_cost": 9.321306321070137,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7427226,
+            37.3515747
+          ],
+          [
+            126.7427353,
+            37.3515972
+          ]
+        ]
+      },
+      "properties": {
+        "route": "primary_secondary_excluded",
+        "status": "review_candidate_route_incomplete",
+        "from": 9667705518,
+        "to": 4665188383,
+        "way": 472303067,
+        "distance_m": 2.742194983157181,
+        "policy_cost": 2.742194983157181,
+        "class": "dedicated_pedestrian",
+        "crossing": "marked",
+        "crossing:markings": "zebra",
+        "footway": "crossing",
+        "highway": "footway"
+      }
+    }
+  ]
+}

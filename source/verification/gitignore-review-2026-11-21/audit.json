@@ -1,0 +1,183 @@
+{
+  "date": "2026-11-21",
+  "root_gitignore_exists": false,
+  "root_or_source_repository": false,
+  "evaluated_files": 710,
+  "ignored_evaluated_files": 2,
+  "candidate_files": 708,
+  "candidate_bytes": 596482872,
+  "pruned_generated_directories": [
+    "source/.gradle",
+    "source/.idea",
+    "source/.kotlin",
+    "source/.venv",
+    "source/build",
+    "source/app/build",
+    "source/server/__pycache__",
+    "source/tools/__pycache__"
+  ],
+  "samples": [
+    {
+      "path": "source/local.properties",
+      "ignored": true,
+      "rule": "source/.gitignore:4:local.properties\tsource/local.properties"
+    },
+    {
+      "path": "source/.env.local",
+      "ignored": true,
+      "rule": "source/.gitignore:10:.env.local\tsource/.env.local"
+    },
+    {
+      "path": "source/app/build/outputs/apk/debug/app-debug.apk",
+      "ignored": true,
+      "rule": "source/.gitignore:3:**/build/\tsource/app/build/outputs/apk/debug/app-debug.apk"
+    },
+    {
+      "path": "night_safety_ui.zip",
+      "ignored": false,
+      "rule": ""
+    }
+  ],
+  "text_secret_hits": [],
+  "archive_secret_hits": [
+    {
+      "path": "night_safety_ui.zip",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "night_safety_ui/local.properties"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-06/night-safety-mvp-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-06-fullscreen/night-safety-fullscreen-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-06-ui-sheet-fixes/night-safety-ui-sheet-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-06-viewbinding/night-safety-viewbinding-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-07-bell-icon/night-safety-bell-icon-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-07-facility-addresses/night-safety-facility-addresses-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-07-facility-clusters/night-safety-facility-clusters-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-07-facility-icons/night-safety-facility-icons-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/delivery/2026-11-07-route-display/night-safety-route-display-debug.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    },
+    {
+      "path": "source/verification/fullscreen-2026-11-06/caption-preview.apk",
+      "secret_types": [
+        "TMAP_APP_KEY"
+      ],
+      "members": [
+        "classes3.dex"
+      ]
+    }
+  ],
+  "archives_checked": 11,
+  "over_100_MiB": [],
+  "largest_candidate_groups": [
+    [
+      "source/delivery",
+      402204253
+    ],
+    [
+      "source/verification",
+      143833532
+    ],
+    [
+      "source/app",
+      18874302
+    ],
+    [
+      "night_safety_ui.zip",
+      17434609
+    ],
+    [
+      "night-safety-project-readiness/osm_poc_v2",
+      9928655
+    ],
+    [
+      "night-safety-project-readiness/project_readiness",
+      1306995
+    ],
+    [
+      "csv/보안등정보현황(제공표준).csv",
+      1179234
+    ],
+    [
+      "csv/안전비상벨위치정보_경기시흥시.csv",
+      431973
+    ],
+    [
+      "csv/CCTV정보_경기시흥시.csv",
+      413320
+    ]
+  ]
+}

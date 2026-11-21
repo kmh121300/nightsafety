@@ -1,0 +1,251 @@
+{
+  "date": "2026-11-21",
+  "scope": "local source tree; no project git init/commit/push",
+  "candidate_files": 701,
+  "candidate_bytes": 132240110,
+  "checks": [
+    {
+      "path": ".env.production",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "nested/.env.local",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "night-safety-project-readiness/osm_poc_v2/__pycache__/poc.pyc",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "night_safety_ui.zip",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "private/backup.7z",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "private/key.pem",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "private/server.key",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "private/signing.jks",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "private/signing.p12",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.env.local",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.env.production",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.gradle/cache.bin",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.idea/workspace.xml",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.venv/pyvenv.cfg",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/build/outputs/apk/debug/app-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-06-fullscreen/night-safety-fullscreen-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-06-ui-sheet-fixes/night-safety-ui-sheet-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-06-viewbinding/night-safety-viewbinding-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-06/night-safety-mvp-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-07-bell-icon/night-safety-bell-icon-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-07-facility-addresses/night-safety-facility-addresses-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-07-facility-clusters/night-safety-facility-clusters-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-07-facility-icons/night-safety-facility-icons-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/delivery/2026-11-07-route-display/night-safety-route-display-debug.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/local.properties",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/local.properties.backup",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/server/data/export.json",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": "source/verification/fullscreen-2026-11-06/caption-preview.apk",
+      "expected": "ignored",
+      "result": "PASS"
+    },
+    {
+      "path": ".gitignore",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.gitignore",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/local.properties.example",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/.env.example",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/gradlew",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/gradlew.bat",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/gradle/wrapper/gradle-wrapper.jar",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/gradle/wrapper/gradle-wrapper.properties",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/libs/tmap-sdk-3.7.aar",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/libs/vsm-tmap-sdk-v2-eaa-2.0.14.aar",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/server/app.py",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/server/requirements.txt",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/src/main/assets/pilot-facilities.geojson",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/src/main/assets/pilot-security-lights.geojson",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/src/main/assets/result-v2.json",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "source/app/src/main/assets/routes-v2.geojson",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "night-safety-project-readiness/osm_poc_v2/raw.osm",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "path": "night-safety-project-readiness/osm_poc_v2/poc.py",
+      "expected": "included",
+      "result": "PASS"
+    },
+    {
+      "check": "temporary_git_add_matches_candidates",
+      "result": "PASS"
+    }
+  ],
+  "known_credential_hits": [],
+  "credential_pattern_hits": [],
+  "nested_archives_inspected": 7,
+  "unscanned_oversized_archive_members": [],
+  "outcome": "PASS",
+  "rules_sha256": {
+    ".gitignore": "25c79f0ae01f1a71a6fb83927bca758d74875bd1ed1d0ca8e03e66aed1e48dc3",
+    "source/.gitignore": "4e9e9b6b6cb6787e26b2d38e46e6225d439523964add6b558ebfab2a1848c61f"
+  }
+}

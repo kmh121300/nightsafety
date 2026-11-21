@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/result_panel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="28dp">
+
+    <!-- 상단 드래그 핸들 -->
+    <View
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="12dp"
+        android:background="@drawable/ui_drag_handle" />
+
+    <!-- 1. 경로 비교 및 핵심 요약 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/UiSectionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:letterSpacing="0.01"
+            android:text="@string/ui_comparison"
+            android:textColor="@color/ui_ink"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/route_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/ui_route_card_bg"
+            android:contentDescription="@string/ui_route_choice"
+            android:minHeight="48dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp" />
+
+        <TextView
+            android:id="@+id/route_summary"
+            style="@style/UiBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:accessibilityLiveRegion="polite"
+            android:lineSpacingExtra="4dp"
+            android:text="@string/ui_initial"
+            android:textColor="@color/ui_muted"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/score_heading"
+            style="@style/UiBody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:text="@string/ui_indicator"
+            android:textColor="@color/ui_ink"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+
+        <!-- 안전지표 3개 지표 카드 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ui_metric"
+                android:gravity="center"
+                android:minHeight="78dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/score_label"
+                    style="@style/UiBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ui_score"
+                    android:textColor="@color/ui_muted"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/score_value"
+                    style="@style/UiMetricValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textColor="@color/ui_teal"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                android:background="@drawable/ui_metric"
+                android:gravity="center"
+                android:minHeight="78dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/average_label"
+                    style="@style/UiBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ui_average"
+                    android:textColor="@color/ui_muted"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/average_value"
+                    style="@style/UiMetricValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textColor="@color/ui_ink"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="6dp"
+                android:layout_weight="1"
+                android:background="@drawable/ui_metric"
+                android:gravity="center"
+                android:minHeight="78dp"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/weak_label"
+                    style="@style/UiBody"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/ui_weak"
+                    android:textColor="@color/ui_muted"
+                    android:textSize="11sp" />
+
+                <TextView
+                    android:id="@+id/weak_value"
+                    style="@style/UiMetricValue"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="4dp"
+                    android:gravity="center"
+                    android:textColor="@color/ui_caution"
+                    android:textSize="19sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/grade_legend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                style="@style/UiBody"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ui_normal"
+                android:textColor="@color/ui_green"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/UiBody"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ui_caution"
+                android:textColor="@color/ui_caution"
+                android:textSize="12sp" />
+
+            <TextView
+                style="@style/UiBody"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/ui_vulnerable"
+                android:textColor="@color/ui_red"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- 시설 요약 정보 박스 -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/ui_metric"
+            android:orientation="vertical"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/route_facility_counts"
+                style="@style/UiBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:accessibilityLiveRegion="polite"
+                android:lineSpacingExtra="3dp"
+                android:textColor="@color/ui_ink"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/warning"
+                style="@style/UiBody"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:accessibilityLiveRegion="polite"
+                android:text="@string/ui_initial"
+                android:textColor="@color/ui_caution"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <!-- 메인 저장 버튼 -->
+        <Button
+            android:id="@+id/save_favorite"
+            style="@style/UiPrimaryButton"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="14dp"
+            android:background="@drawable/ui_primary_button"
+            android:text="@string/ui_save"
+            android:textColor="#0B1120"
+            android:textSize="13sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/ui_line" />
+
+    <!-- 2. 안전 시설 필터 & 부가 기능 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/UiSectionTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/ui_filters"
+            android:textColor="@color/ui_ink"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/cctv_filter"
+                style="@style/UiFilter"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/ui_teal"
+                android:checked="true"
+                android:text="@string/ui_cctv"
+                android:textColor="@color/ui_ink" />
+
+            <CheckBox
+                android:id="@+id/bell_filter"
+                style="@style/UiFilter"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/ui_teal"
+                android:checked="true"
+                android:text="@string/ui_bell"
+                android:textColor="@color/ui_ink" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal">
+
+            <CheckBox
+                android:id="@+id/lamp_filter"
+                style="@style/UiFilter"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/ui_teal"
+                android:checked="true"
+                android:text="@string/ui_lamp"
+                android:textColor="@color/ui_ink" />
+
+            <CheckBox
+                android:id="@+id/police_filter"
+                style="@style/UiFilter"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:buttonTint="@color/ui_teal"
+                android:checked="true"
+                android:text="@string/ui_police"
+                android:textColor="@color/ui_ink" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/facility_list"
+                style="@style/UiButton"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:background="@drawable/ui_button"
+                android:text="@string/ui_facilities"
+                android:textColor="@color/ui_ink"
+                android:textSize="13sp" />
+
+            <Button
+                android:id="@+id/weak_segments"
+                style="@style/UiButton"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:background="@drawable/ui_button"
+                android:text="@string/ui_weak_segments"
+                android:textColor="@color/ui_ink"
+                android:textSize="13sp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/data_info"
+            style="@style/UiInputButton"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/ui_sources"
+            android:textColor="@color/ui_muted"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-06",
+  "apk_sha256": "eb23f011afd8758722af2eaee31164216dbaa997b89b450771963d88034cc38d",
+  "scope": "Final single-line caption, fullscreen layout and exit; search-result flows separately tested on identical DEX caption-prior APK",
+  "profiles": [],
+  "failure": "Return caption missing",
+  "cleanup_errors": []
+}

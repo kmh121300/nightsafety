@@ -1,0 +1,252 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7427353,
+            37.3515972
+          ],
+          [
+            126.7427421,
+            37.35171
+          ]
+        ]
+      },
+      "properties": {
+        "id": "station-exit-gap",
+        "kind": "missing_endpoint_connector",
+        "status": "unverified_review_candidate",
+        "accepted": false,
+        "added_to_graph": false,
+        "reason_ko": "출구 노드가 어떤 highway way에도 없으며, 가까운 횡단보도 노드와12.56m 이격. 단순 근접은 연결 근거가 아니다. 검증 전 edge를 추가하지 않는다.",
+        "source_osm_ids": {
+          "nodes": [
+            4665188383,
+            3403277121
+          ],
+          "ways": [
+            472303067
+          ]
+        },
+        "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+        "gap_m": 12.557198653001862
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7315593,
+            37.3418341
+          ],
+          [
+            126.7314522,
+            37.3417787
+          ]
+        ]
+      },
+      "properties": {
+        "id": "side-door-explicit-access-gap",
+        "kind": "origin_access_review",
+        "status": "unverified_review_candidate",
+        "accepted": false,
+        "added_to_graph": false,
+        "reason_ko": "옆문 도보(service) 바깥 endpoint와 명시 foot=yes 도로노드는 서로 다른 node ID. 근접11.30m를 자동 연결하지 않는다. 이 대상은 전용 footway가 아니다.",
+        "source_osm_ids": {
+          "nodes": [
+            9799703999,
+            4130186271
+          ],
+          "ways": [
+            411314663,
+            493192211,
+            1067311761,
+            1067311768
+          ]
+        },
+        "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+        "gap_m": 11.295643279053783,
+        "target_geometry_class": "road_explicit_foot"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7407494,
+            37.3514449
+          ],
+          [
+            126.7417654,
+            37.3510282
+          ]
+        ]
+      },
+      "properties": {
+        "id": "explicit-component-nearest-gap",
+        "kind": "component_gap_review",
+        "status": "unverified_review_candidate",
+        "accepted": false,
+        "added_to_graph": false,
+        "reason_ko": "출발·역 explicit 성분 사이의 가장 가까운 node 쌍. 직선은 관측 경로가 아니며 연결을 허용하지 않는다.",
+        "source_osm_ids": {
+          "nodes": [
+            2974599502,
+            4665188380
+          ]
+        },
+        "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+        "gap_m": 101.05532657549332
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7315593,
+            37.3418341
+          ],
+          [
+            126.7320654,
+            37.3423622
+          ],
+          [
+            126.7320446,
+            37.34238
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road-run-0",
+        "kind": "sidewalk_geometry_review",
+        "status": "unverified_review_candidate",
+        "accepted": false,
+        "added_to_graph": false,
+        "reason_ko": "원본 도로 선형으로만 연결된 구간. 실제 보도의 위치·연속성과 횡단 topology를 확인할 우선 검토 대상이며 도로 중심선 offset은 생성하지 않는다.",
+        "source_osm_ids": {
+          "nodes": [
+            9799703999,
+            9799758217,
+            4657273080
+          ],
+          "ways": [
+            1067311768,
+            471567474
+          ]
+        },
+        "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+        "distance_m": 76.52593184961633,
+        "geometry_class": "road_inferred_foot"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7320446,
+            37.34238
+          ],
+          [
+            126.7320795,
+            37.3424154
+          ],
+          [
+            126.7331472,
+            37.3435511
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road-run-1",
+        "kind": "sidewalk_geometry_review",
+        "status": "unverified_review_candidate",
+        "accepted": false,
+        "added_to_graph": false,
+        "reason_ko": "원본 도로 선형으로만 연결된 구간. 실제 보도의 위치·연속성과 횡단 topology를 확인할 우선 검토 대상이며 도로 중심선 offset은 생성하지 않는다.",
+        "source_osm_ids": {
+          "nodes": [
+            4657273080,
+            4657273079,
+            13702941711
+          ],
+          "ways": [
+            493192211
+          ]
+        },
+        "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+        "distance_m": 162.66114391443696,
+        "geometry_class": "road_explicit_foot"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            126.7411351,
+            37.3493194
+          ],
+          [
+            126.7407531,
+            37.3495502
+          ],
+          [
+            126.7411448,
+            37.3499623
+          ],
+          [
+            126.7411461,
+            37.3502832
+          ],
+          [
+            126.7411448,
+            37.3505573
+          ],
+          [
+            126.7417205,
+            37.3505589
+          ]
+        ]
+      },
+      "properties": {
+        "id": "road-run-3",
+        "kind": "sidewalk_geometry_review",
+        "status": "unverified_review_candidate",
+        "accepted": false,
+        "added_to_graph": false,
+        "reason_ko": "원본 도로 선형으로만 연결된 구간. 실제 보도의 위치·연속성과 횡단 topology를 확인할 우선 검토 대상이며 도로 중심선 offset은 생성하지 않는다.",
+        "source_osm_ids": {
+          "nodes": [
+            4665188375,
+            4673861124,
+            4673861123,
+            4698282477,
+            4673861122,
+            4665188378
+          ],
+          "ways": [
+            473224934,
+            473225094,
+            473225014
+          ]
+        },
+        "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+        "distance_m": 216.89587861029534,
+        "geometry_class": "road_inferred_foot"
+      }
+    }
+  ]
+}

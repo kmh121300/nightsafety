@@ -1,0 +1,120 @@
+[
+  {
+    "name": "gg_security_lamps",
+    "url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VEY71398U2941WM4E7PV21507518&infSeq=1",
+    "checked_at_utc": "2026-10-27T04:15:40.604078+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 643576,
+    "final_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VEY71398U2941WM4E7PV21507518&infSeq=1",
+    "file": "gg_security_lamps.response",
+    "sha256": "fcdeb144df0cf8442bf140e02a3e310e31d7ae6c41de137fe53358e1c4626c67",
+    "title": "보안등 정보 현황(제공표준) | 데이터 | 경기데이터드림",
+    "dataset_links": [],
+    "api_links": []
+  },
+  {
+    "name": "gg_cctv",
+    "url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VIPK0N53968Q7DV5TT2312643570&infSeq=3",
+    "checked_at_utc": "2026-10-27T04:15:40.606729+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 643588,
+    "final_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VIPK0N53968Q7DV5TT2312643570&infSeq=3",
+    "file": "gg_cctv.response",
+    "sha256": "66c032e07e1a01b3ed2ba14305f4dea329af138cf18b8b33f48c9c279012dc1b",
+    "title": "CCTV 현황(제공표준) | 데이터 | 경기데이터드림",
+    "dataset_links": [],
+    "api_links": []
+  },
+  {
+    "name": "smart_lamp_sample",
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=100",
+    "checked_at_utc": "2026-10-27T04:15:40.607718+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 3684,
+    "final_url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=100",
+    "file": "smart_lamp_sample.response",
+    "sha256": "652c7b1bf03956fb199ef5eaaa2f9c8034e220ed044be0774799a53ec73bb14e",
+    "dataset_links": [],
+    "api_links": [],
+    "json_top_keys": [
+      "Smartstlamp"
+    ],
+    "head": [
+      {
+        "list_total_count": 71
+      },
+      {
+        "RESULT": {
+          "CODE": "INFO-000",
+          "MESSAGE": "정상 처리되었습니다."
+        }
+      },
+      {
+        "api_version": "1.0"
+      }
+    ],
+    "rows": 5,
+    "municipalities": [
+      "만안구"
+    ],
+    "source_dates": [
+      "20260206"
+    ]
+  },
+  {
+    "name": "smart_lamp_siheung",
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=5&SIGUN_NM=%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+    "checked_at_utc": "2026-10-27T04:15:40.926296+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 82,
+    "final_url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=5&SIGUN_NM=%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+    "file": "smart_lamp_siheung.response",
+    "sha256": "3cca3288065e641403e5076ee83d32d69de4425718148e0a4c25eeded68a0a8a",
+    "dataset_links": [],
+    "api_links": [],
+    "json_top_keys": [
+      "RESULT"
+    ],
+    "result": {
+      "CODE": "INFO-200",
+      "MESSAGE": "해당하는 데이터가 없습니다."
+    }
+  },
+  {
+    "name": "localdata_cctv",
+    "url": "https://file.localdata.go.kr/file/cctv_info/info",
+    "checked_at_utc": "2026-10-27T04:15:41.125653+00:00",
+    "error": "HTTPError",
+    "http_status": 403
+  },
+  {
+    "name": "portal_bell_search",
+    "url": "https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%95%88%EC%A0%84%EB%B9%84%EC%83%81%EB%B2%A8&dType=TOTAL",
+    "checked_at_utc": "2026-10-27T04:15:41.259762+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "bytes": 481497,
+    "final_url": "https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%95%88%EC%A0%84%EB%B9%84%EC%83%81%EB%B2%A8&dType=TOTAL",
+    "file": "portal_bell_search.response",
+    "sha256": "c45b29f081597476b4360f89b29e021c4d2b0d4ca0ded0b88e063fd15c7c988d",
+    "title": "공공데이터포털",
+    "dataset_links": [
+      "/data/15011425/openapi.do",
+      "/data/15028206/standard.do",
+      "/data/15095271/openapi.do",
+      "/data/15098438/openapi.do",
+      "/data/15099274/fileData.do",
+      "/data/15108941/fileData.do",
+      "/data/15109044/fileData.do",
+      "/data/15142601/fileData.do",
+      "/data/15146113/fileData.do",
+      "/data/15149530/openapi.do",
+      "/data/15160013/openapi.do"
+    ],
+    "api_links": []
+  }
+]

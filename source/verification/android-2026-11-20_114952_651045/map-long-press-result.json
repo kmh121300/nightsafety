@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-20",
+  "apk_sha256": "8b5ae22b7efb87c3381da82885ca43d5e24875cb08513f948f5a53ef27602acc",
+  "outcome": "FAIL",
+  "failure": "Unwanted snap confirmation dialog",
+  "observations": []
+}

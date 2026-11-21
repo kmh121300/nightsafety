@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "request_id": "6c14a747-4b8a-4f75-812e-5a27c8ff87cd",
+  "status": "success",
+  "data": {
+    "versions": {
+      "graph_version": "osm-bb4586cbb583",
+      "active_bundle_id": "local-mvp-3types-v1",
+      "facility_version": "pilot-15b18eb4d217",
+      "routing_config_version": "dijkstra-3types-risk-v1",
+      "scoring_config_version": "mvp-3types-20-5-k2050100-q05-equal-v1"
+    },
+    "source_states": {
+      "cctv": {
+        "status": "ready",
+        "records": 270,
+        "age_days": 304,
+        "source_url": null,
+        "collected_at": null,
+        "display_only": false,
+        "source_as_of": "2026-01-20",
+        "historical_experimental": false,
+        "official_scoring_eligible": true
+      },
+      "security_lamp": {
+        "status": "ready",
+        "records": 870,
+        "age_days": 269,
+        "source_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VEY71398U2941WM4E7PV21507518&infSeq=1",
+        "collected_at": null,
+        "display_only": false,
+        "source_as_of": "2026-02-24",
+        "historical_experimental": false,
+        "official_scoring_eligible": true
+      },
+      "emergency_bell": {
+        "status": "ready",
+        "records": 238,
+        "age_days": 302,
+        "source_url": null,
+        "collected_at": null,
+        "display_only": false,
+        "source_as_of": "2026-01-22",
+        "historical_experimental": false,
+        "official_scoring_eligible": true
+      }
+    },
+    "score_basis_types": [
+      "cctv",
+      "emergency_bell",
+      "security_lamp"
+    ],
+    "missing_types": [],
+    "routes": [],
+    "selected_roles": {},
+    "candidate_search_complete": false,
+    "place": {
+      "latitude": 37.3575956,
+      "longitude": 126.7486186,
+      "node_id": 8189540018,
+      "label": "가까운 보행 지점",
+      "source": "osm"
+    },
+    "requested": {
+      "latitude": 37.358,
+      "longitude": 126.748
+    },
+    "gap_m": 70.7911687711276,
+    "connector_status": "unverified_gap"
+  },
+  "warnings": []
+}

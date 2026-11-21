@@ -1,0 +1,21 @@
+test_access_override (test_graph.GraphTests.test_access_override) ... ok
+test_astar_matches_dijkstra (test_graph.GraphTests.test_astar_matches_dijkstra) ... ok
+test_barrier (test_graph.GraphTests.test_barrier) ... ok
+test_conservative_filters (test_graph.GraphTests.test_conservative_filters) ... ok
+test_no_geometric_joins (test_graph.GraphTests.test_no_geometric_joins) ... ok
+test_vehicle_oneway_and_foot_oneway (test_graph.GraphTests.test_vehicle_oneway_and_foot_oneway) ... ok
+test_candidate_false_way_incidence_rejected (test_v2.V2Tests.test_candidate_false_way_incidence_rejected) ... ok
+test_cost_tie_prefers_shorter_physical_distance (test_v2.V2Tests.test_cost_tie_prefers_shorter_physical_distance) ... ok
+test_exact_endpoint_incomplete_default (test_v2.V2Tests.test_exact_endpoint_incomplete_default) ... ok
+test_illicit_edge_provenance_rejected (test_v2.V2Tests.test_illicit_edge_provenance_rejected) ... ok
+test_invalid_policy_rejected (test_v2.V2Tests.test_invalid_policy_rejected) ... ok
+test_measured_improvement_and_sensitivity (test_v2.V2Tests.test_measured_improvement_and_sensitivity) ... ok
+test_origin_nearest_explicit_road_not_footway (test_v2.V2Tests.test_origin_nearest_explicit_road_not_footway) ... ok
+test_original_snapshot_and_review_only (test_v2.V2Tests.test_original_snapshot_and_review_only) ... ok
+test_segment_projection_does_not_insert_connector (test_v2.V2Tests.test_segment_projection_does_not_insert_connector) ... ok
+test_weighted_cost_optimum_and_dijkstra (test_v2.V2Tests.test_weighted_cost_optimum_and_dijkstra) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 1.340s
+
+OK

@@ -1,0 +1,7 @@
+{
+  "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=126.719,37.334,126.751,37.359",
+  "retrieved_utc": "2026-10-05T05:49:57.594016+00:00",
+  "timestamp_basis": "original successful download file write time",
+  "http_status": 200,
+  "overpass_attempt": "HTTP406; map API succeeded; no access restrictions bypassed"
+}

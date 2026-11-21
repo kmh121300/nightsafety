@@ -1,0 +1,21 @@
+{
+  "created_date": "2026-11-06",
+  "last_updated": "2026-11-06",
+  "file": "night-safety-fullscreen-debug.apk",
+  "sha256": "eb23f011afd8758722af2eaee31164216dbaa997b89b450771963d88034cc38d",
+  "bytes": 44619967,
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "validation": "API35 final APK small/pane fullscreen TMAP/local 4 flows PASS",
+  "unit_tests_count": 27,
+  "lint_errors": 0,
+  "lint_warnings": 41,
+  "tool_tests": 13,
+  "physical_device_verified": false,
+  "report": "../../verification/fullscreen-2026-11-06/verification.md",
+  "unit_tests_last_run": "2026-11-06",
+  "unit_execution": "27 passed after Kotlin change; final strings-only build UP-TO-DATE",
+  "final_ui_flows": 4,
+  "standard_ui_basis": "Identical DEX caption-preview APK 6d2f3577bbe17bf55320abf27c688c8857ea2efd0a4171ec36958d66b2413821"
+}

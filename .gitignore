@@ -1,0 +1,46 @@
+# Local settings, credentials and signing material
+local.properties
+local.properties.*
+!local.properties.example
+key.properties
+keystore.properties
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+*.key
+
+# Generated environments, caches and machine settings
+.gradle/
+.kotlin/
+.idea/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+**/build/
+captures/
+*.log
+.DS_Store
+Thumbs.db
+
+# Packaged apps and transfer/backup archives can contain local credentials
+*.apk
+*.aab
+*.apks
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+
+# Local database exports and application databases
+/source/server/data/
+*.db
+*.sqlite
+*.sqlite3

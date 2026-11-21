@@ -1,0 +1,4 @@
+# Android Studio generates sdk.dir for each developer's Android SDK.
+# Leave the key blank to use the local map preview, or set your own TMAP key locally.
+TMAP_APP_KEY=
+API_BASE_URL=http://127.0.0.1:8765

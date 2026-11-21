@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-06",
+  "serial": "emulator-5556",
+  "outcome": "FAIL",
+  "failure": "preview clipped below 48dp",
+  "apk_sha256": "b50ae48ddaaa76ea933ad9f86821963f2f3d0aa3e9132f11b994012f2886084d",
+  "steps": [
+    "Handled an external Android system ANR dialog (wait when available)"
+  ],
+  "original_size": "Physical size: 1080x2220",
+  "original_density": "Physical density: 440",
+  "observations": [
+    {
+      "profile": "small",
+      "state": "initial",
+      "map": [
+        27,
+        662,
+        693,
+        942
+      ],
+      "buttons": {
+        "location": [
+          477,
+          680,
+          675,
+          788
+        ],
+        "reset_map": [
+          477,
+          797,
+          675,
+          905
+        ],
+        "preview": [
+          477,
+          914,
+          675,
+          924
+        ]
+      }
+    }
+  ],
+  "cleanup_errors": [],
+  "adb_reverse_restored": true,
+  "empty_error_source": "Isolated fixture on the selected emulator; no DB data changed"
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "outcome": "PASS",
+  "failure": "",
+  "steps": [
+    "missing lighting",
+    "live recovery",
+    "zero route same PID"
+  ],
+  "pid": "7125",
+  "apk_sha256": "b50ae48ddaaa76ea933ad9f86821963f2f3d0aa3e9132f11b994012f2886084d",
+  "continues": "android-2026-11-05_231337_494618",
+  "adb_reverse_restored": true
+}

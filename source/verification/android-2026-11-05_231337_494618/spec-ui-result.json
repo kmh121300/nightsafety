@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-05",
+  "serial": "emulator-5558",
+  "apk_sha256": "b50ae48ddaaa76ea933ad9f86821963f2f3d0aa3e9132f11b994012f2886084d",
+  "outcome": "FAIL",
+  "failure": "Control unavailable: route_facility_counts",
+  "steps": [
+    "Three route counts match live API and remain unchanged by map filtering",
+    "Repeated endpoint input dialogs open without app disappearance"
+  ],
+  "pids": [
+    {
+      "stage": "map_ready",
+      "pid": "7125"
+    },
+    {
+      "stage": "input_open_1",
+      "pid": "7125"
+    },
+    {
+      "stage": "input_open_2",
+      "pid": "7125"
+    }
+  ],
+  "expected_live_counts": {
+    "cctv": 16,
+    "emergency_bell": 16,
+    "security_lamp": 12
+  },
+  "fixture": "Missing lighting response injected only on the selected emulator",
+  "adb_reverse_restored": true
+}

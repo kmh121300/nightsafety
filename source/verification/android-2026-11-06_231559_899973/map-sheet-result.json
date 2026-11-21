@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-06",
+  "profile": "standard",
+  "apk_sha256": "039efba8118cdc538581bb4aebd49a900b609d54ca3f5640597c0fc8ddf870b9",
+  "failure": "Map buttons overlap search/header",
+  "outcome": "FAIL",
+  "cleanup_errors": [],
+  "measurements": {},
+  "steps": []
+}

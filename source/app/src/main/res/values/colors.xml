@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 밤길 안전 다크 네이비 테마 팔레트 -->
+    <color name="ui_background">#0B1120</color>
+    <color name="ui_surface">#162032</color>
+    <color name="ui_ink">#F8FAFC</color>
+    <color name="ui_muted">#94A3B8</color>
+    <color name="ui_teal">#10B981</color>
+    <color name="ui_line">#283548</color>
+    <color name="ui_soft">#1E293B</color>
+    <color name="ui_green">#34D399</color>
+    <color name="ui_caution">#FBBF24</color>
+    <color name="ui_red">#F87171</color>
+    <color name="ui_glass_border">#334155</color>
+    <color name="ui_mint_border">#10B981</color>
+</resources>

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "request_id": "145eb336-a1b1-444d-ac79-9c22eef5e9c9",
+  "status": "success",
+  "data": {
+    "versions": {
+      "graph_version": "osm-bb4586cbb583",
+      "active_bundle_id": "local-mvp-3types-v1",
+      "facility_version": "pilot-15b18eb4d217",
+      "routing_config_version": "dijkstra-3types-risk-v1",
+      "scoring_config_version": "mvp-3types-20-5-k2050100-q05-equal-v1"
+    },
+    "source_states": {
+      "cctv": {
+        "status": "ready",
+        "records": 270,
+        "age_days": 304,
+        "source_url": null,
+        "collected_at": null,
+        "display_only": false,
+        "source_as_of": "2026-01-20",
+        "historical_experimental": false,
+        "official_scoring_eligible": true
+      },
+      "security_lamp": {
+        "status": "ready",
+        "records": 870,
+        "age_days": 269,
+        "source_url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VEY71398U2941WM4E7PV21507518&infSeq=1",
+        "collected_at": null,
+        "display_only": false,
+        "source_as_of": "2026-02-24",
+        "historical_experimental": false,
+        "official_scoring_eligible": true
+      },
+      "emergency_bell": {
+        "status": "ready",
+        "records": 238,
+        "age_days": 302,
+        "source_url": null,
+        "collected_at": null,
+        "display_only": false,
+        "source_as_of": "2026-01-22",
+        "historical_experimental": false,
+        "official_scoring_eligible": true
+      }
+    },
+    "score_basis_types": [
+      "cctv",
+      "emergency_bell",
+      "security_lamp"
+    ],
+    "missing_types": [],
+    "routes": [],
+    "selected_roles": {},
+    "candidate_search_complete": false,
+    "health": "ready",
+    "mode": "local_public_facility_index",
+    "database": {
+      "configured": true,
+      "verified": true,
+      "schema": "safenight",
+      "mode": "startup_snapshot",
+      "message": "PostGIS snapshot loaded at startup; Dijkstra runs in memory"
+    }
+  },
+  "warnings": []
+}

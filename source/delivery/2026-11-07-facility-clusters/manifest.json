@@ -1,0 +1,14 @@
+{
+  "created_date": "2026-11-07",
+  "last_updated": "2026-11-07",
+  "file": "night-safety-facility-clusters-debug.apk",
+  "sha256": "ac7590cf9b55f28ddddb06fbed4b23bf723ca13e56447c7d8441ea5b2cc87d89",
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "unit_tests": 36,
+  "lint_errors": 0,
+  "lint_warnings": 41,
+  "physical_device_verified": false,
+  "report": "../../verification/facility-clusters-2026-11-07/verification.md"
+}

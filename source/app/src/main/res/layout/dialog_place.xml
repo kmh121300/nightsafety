@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/ui_surface"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <EditText
+        android:id="@+id/place_query"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/ui_metric"
+        android:backgroundTint="@color/ui_soft"
+        android:hint="@string/ui_place_query_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:textColor="@color/ui_ink"
+        android:textColorHint="@color/ui_muted"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/place_lookup"
+        style="@style/UiButton"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/ui_teal"
+        android:text="@string/ui_place_lookup"
+        android:textColor="#0B1120"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@color/ui_line" />
+
+    <EditText
+        android:id="@+id/place_label"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/ui_metric"
+        android:backgroundTint="@color/ui_soft"
+        android:hint="@string/ui_place_label_hint"
+        android:inputType="text"
+        android:maxLines="1"
+        android:paddingStart="14dp"
+        android:paddingEnd="14dp"
+        android:textColor="@color/ui_ink"
+        android:textColorHint="@color/ui_muted"
+        android:textSize="13sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/place_latitude"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginEnd="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/ui_metric"
+            android:backgroundTint="@color/ui_soft"
+            android:hint="@string/ui_latitude"
+            android:inputType="numberDecimal|numberSigned"
+            android:maxLines="1"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="@color/ui_ink"
+            android:textColorHint="@color/ui_muted"
+            android:textSize="13sp" />
+
+        <EditText
+            android:id="@+id/place_longitude"
+            android:layout_width="0dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="6dp"
+            android:layout_weight="1"
+            android:background="@drawable/ui_metric"
+            android:backgroundTint="@color/ui_soft"
+            android:hint="@string/ui_longitude"
+            android:inputType="numberDecimal|numberSigned"
+            android:maxLines="1"
+            android:paddingStart="14dp"
+            android:paddingEnd="14dp"
+            android:textColor="@color/ui_ink"
+            android:textColorHint="@color/ui_muted"
+            android:textSize="13sp" />
+    </LinearLayout>
+</LinearLayout>

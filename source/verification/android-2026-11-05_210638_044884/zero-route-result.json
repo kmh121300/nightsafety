@@ -1,0 +1,16 @@
+{
+  "작성일": "2026-11-05",
+  "최종 수정일": "2026-11-05",
+  "verified_at": "2026-11-05T21:12:17.604406",
+  "api": "35",
+  "serial": "emulator-5556",
+  "apk_sha256": "ebf2b079d96fccd74381278cb98b9648c3caaf7081f63ddaacf02d1296bf91d9",
+  "summary": "빠른 경로 · 보행선 우선 · 0m · 약 0.0분\n전용 보행선 0.0% · 시설 기록 1381개 표시",
+  "metric_values": {
+    "score_value": "—",
+    "average_value": "—",
+    "weak_value": "—"
+  },
+  "normal_numeric_before_zero": true,
+  "no_route_line_visual_review": true
+}

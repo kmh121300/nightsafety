@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-06",
+  "profile": "small",
+  "apk_sha256": "13ce7c7c37936e36e6c3028f3f6ee38dda1ae9d09c4da1ae72526be7d7c78cb4",
+  "failure": "Control unavailable: reset_map",
+  "outcome": "FAIL",
+  "cleanup_errors": [],
+  "measurements": {
+    "summary": [
+      36,
+      1110,
+      684,
+      1199
+    ],
+    "buttons": {
+      "location": [
+        233,
+        721,
+        377,
+        829
+      ],
+      "reset_map": [
+        549,
+        721,
+        693,
+        829
+      ],
+      "preview": [
+        391,
+        721,
+        535,
+        829
+      ]
+    },
+    "sheet": [
+      0,
+      856,
+      720,
+      1280
+    ]
+  },
+  "steps": []
+}

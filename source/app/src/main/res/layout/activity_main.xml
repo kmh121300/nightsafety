@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ui_background">
+
+    <!-- 1. 배경 전체화면 지도 -->
+    <include
+        android:id="@+id/map_panel"
+        layout="@layout/view_map_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <!-- 2. 상단 플로팅 카드 (툴바 + 검색 - 하나의 슬림한 글래스 카드) -->
+    <LinearLayout
+        android:id="@+id/top_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="14dp"
+        android:background="@drawable/ui_glass_card"
+        android:elevation="12dp"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+        <include
+            android:id="@+id/toolbar"
+            layout="@layout/view_toolbar" />
+
+        <include
+            android:id="@+id/search_card"
+            layout="@layout/view_search_card" />
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/expand_top_card"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="top|end"
+        android:background="@drawable/ui_button"
+        android:contentDescription="@string/ui_expand_top_card"
+        android:elevation="12dp"
+        android:padding="12dp"
+        android:src="@drawable/ic_expand_top_card"
+        android:visibility="gone" />
+
+    <!-- 3. 하단 슬라이딩 바텀시트 (Material BottomSheet - 둥근 모서리 24dp) -->
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/controls_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ui_bottom_sheet_bg"
+        android:clipToPadding="false"
+        android:elevation="20dp"
+        android:fillViewport="true"
+        app:behavior_fitToContents="true"
+        app:behavior_hideable="true"
+        app:behavior_peekHeight="136dp"
+        app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+        <include
+            android:id="@+id/result_panel"
+            layout="@layout/view_result_panel" />
+    </androidx.core.widget.NestedScrollView>
+
+    <FrameLayout
+        android:id="@+id/sheet_restore_area"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/ui_bottom_sheet_bg"
+        android:contentDescription="@string/ui_restore_route_sheet"
+        android:clickable="true"
+        android:focusable="true"
+        android:elevation="24dp"
+        android:visibility="gone">
+
+        <View
+            android:layout_width="40dp"
+            android:layout_height="4dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ui_drag_handle"
+            android:importantForAccessibility="no" />
+    </FrameLayout>
+
+    <View
+        android:id="@+id/navigation_scrim"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:background="@color/ui_background"
+        android:elevation="24dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,7 @@
+{
+  "date": "2026-11-20",
+  "apk_sha256": "0d965d977dfcf5d4ec8207d58c5a2450a976b763139a1ea14937fdaa589af814",
+  "outcome": "FAIL",
+  "failure": "Missing expected UI: 출발지로 설정",
+  "observations": []
+}

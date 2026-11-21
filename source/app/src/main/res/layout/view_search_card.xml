@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <!-- 세로 점선/연결 인디케이터 (출발 ⚪ 민트 점 ~ 도착 ⚪ 앰버 점) -->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:paddingStart="4dp"
+            android:paddingTop="14dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="14dp">
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/ui_dot_mint" />
+
+            <View
+                android:layout_width="1.5dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="1"
+                android:background="#4094A3B8" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:background="@drawable/ui_dot_amber" />
+        </LinearLayout>
+
+        <!-- 출발 / 도착 입력 박스 -->
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/ui_field"
+            android:orientation="vertical"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp">
+
+            <!-- 출발 줄 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/UiBody"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_origin"
+                    android:textColor="@color/ui_teal"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/origin_input"
+                    style="@style/UiInputButton"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:text="@string/ui_origin_hint"
+                    android:textColor="@color/ui_ink"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/ui_line" />
+
+            <!-- 도착 줄 -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    style="@style/UiBody"
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ui_destination"
+                    android:textColor="@color/ui_caution"
+                    android:textSize="12sp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/destination_input"
+                    style="@style/UiInputButton"
+                    android:layout_width="0dp"
+                    android:layout_height="38dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical|start"
+                    android:paddingStart="4dp"
+                    android:paddingEnd="4dp"
+                    android:text="@string/ui_destination_hint"
+                    android:textColor="@color/ui_ink"
+                    android:textSize="13sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- 전환 버튼 -->
+        <Button
+            android:id="@+id/swap_endpoints"
+            style="@style/UiButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="8dp"
+            android:background="@drawable/ui_button"
+            android:contentDescription="@string/ui_swap_description"
+            android:minWidth="40dp"
+            android:minHeight="40dp"
+            android:padding="0dp"
+            android:text="⇅"
+            android:textColor="@color/ui_teal"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- 경로 검색 버튼 -->
+    <Button
+        android:id="@+id/search_routes"
+        style="@style/UiPrimaryButton"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/ui_primary_button"
+        android:minHeight="40dp"
+        android:text="@string/ui_search"
+        android:textColor="#0B1120"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+</LinearLayout>

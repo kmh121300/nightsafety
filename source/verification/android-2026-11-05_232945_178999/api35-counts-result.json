@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-05",
+  "serial": "emulator-5556",
+  "outcome": "PASS",
+  "apk_sha256": "b50ae48ddaaa76ea933ad9f86821963f2f3d0aa3e9132f11b994012f2886084d",
+  "counts": {
+    "cctv": 16,
+    "emergency_bell": 16,
+    "security_lamp": 12
+  },
+  "scope": "Normal server search and count display only; not full UI8"
+}

@@ -1,0 +1,1 @@
+{"outcome": "PASS", "apk_sha256": "94d927e6288926389c495d7f7f2a0abe11f0dee6478cc152501dddc696e370b2", "checks": ["minimize top with lower hidden", "restore top preserves lower hidden", "lower handle still restores summary"]}

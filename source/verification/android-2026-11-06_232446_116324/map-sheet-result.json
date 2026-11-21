@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-06",
+  "profile": "standard",
+  "apk_sha256": "13ce7c7c37936e36e6c3028f3f6ee38dda1ae9d09c4da1ae72526be7d7c78cb4",
+  "failure": "",
+  "outcome": "PASS",
+  "cleanup_errors": [],
+  "measurements": {
+    "summary": [
+      44,
+      2011,
+      1036,
+      2121
+    ],
+    "buttons": {
+      "location": [
+        485,
+        1536,
+        661,
+        1668
+      ],
+      "reset_map": [
+        871,
+        1536,
+        1047,
+        1668
+      ],
+      "preview": [
+        678,
+        1536,
+        854,
+        1668
+      ]
+    },
+    "sheet": [
+      0,
+      1701,
+      1080,
+      2220
+    ]
+  },
+  "steps": [
+    "standard: no overlap, visible summary, sheet and fullscreen/back"
+  ]
+}

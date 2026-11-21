@@ -1,0 +1,8 @@
+{
+  "date": "2026-11-20",
+  "apk_sha256": "e3aa9b935e3e95419c69b38ba1f5ea7499de9464cfc9f4cfd3e81bab55d0ff2f",
+  "outcome": "FAIL",
+  "failure": "Summary did not hide",
+  "size": "Physical size: 1080x2220",
+  "density": "Physical density: 440"
+}

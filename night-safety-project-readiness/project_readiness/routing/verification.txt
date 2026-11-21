@@ -1,0 +1,485 @@
+{
+  "modes": {
+    "inferred": {
+      "vertices": 4080,
+      "directed_edges": 9904,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 24,
+      "reverse_reachable_pairs": 24,
+      "tested_pairs": 40
+    },
+    "no_major": {
+      "vertices": 3909,
+      "directed_edges": 9424,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 24,
+      "reverse_reachable_pairs": 24,
+      "tested_pairs": 40
+    },
+    "explicit": {
+      "vertices": 887,
+      "directed_edges": 1708,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 0,
+      "reverse_reachable_pairs": 0,
+      "tested_pairs": 40
+    },
+    "no_steps_bridge": {
+      "vertices": 4080,
+      "directed_edges": 9786,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 24,
+      "reverse_reachable_pairs": 24,
+      "tested_pairs": 40
+    },
+    "no_untagged_access": {
+      "vertices": 4080,
+      "directed_edges": 154,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 0,
+      "reverse_reachable_pairs": 0,
+      "tested_pairs": 40
+    }
+  },
+  "boundary_crossings": [
+    {
+      "way": 411314663,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4130186272,
+      "outside_node": 4130186271,
+      "gate_verified": false
+    },
+    {
+      "way": 411314668,
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "inside_node": 4130186287,
+      "outside_node": 3040043928,
+      "gate_verified": false
+    },
+    {
+      "way": 471592962,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4657546841,
+      "outside_node": 4657546842,
+      "gate_verified": false
+    },
+    {
+      "way": 471592963,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4657546843,
+      "outside_node": 4657546844,
+      "gate_verified": false
+    },
+    {
+      "way": 472300426,
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "inside_node": 4665172636,
+      "outside_node": 4665172637,
+      "gate_verified": false
+    },
+    {
+      "way": 1067311761,
+      "tags": {
+        "highway": "service",
+        "name": "기숙사-옆문 도보"
+      },
+      "inside_node": 9799704009,
+      "outside_node": 9799703999,
+      "gate_verified": false
+    },
+    {
+      "way": 1067311767,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4657273077,
+      "outside_node": 9799704016,
+      "gate_verified": false
+    }
+  ],
+  "hazards": {
+    "crossings": [
+      {
+        "node": 13702941711,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 493192211,
+            "tags": {
+              "foot": "yes",
+              "highway": "tertiary",
+              "lanes": "3",
+              "maxheight:signed": "no",
+              "name": "마유로",
+              "name:en": "Mayu-ro",
+              "name:ko": "마유로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 1495768594,
+            "tags": {
+              "crossing": "traffic_signals",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 1495768614,
+            "tags": {
+              "footway": "sidewalk",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 4665335047,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472321927,
+            "tags": {
+              "highway": "footway",
+              "lit": "yes",
+              "surface": "paving_stones"
+            }
+          },
+          {
+            "way": 472321928,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway",
+              "lit": "yes",
+              "surface": "asphalt"
+            }
+          },
+          {
+            "way": 880489738,
+            "tags": {
+              "highway": "tertiary",
+              "lanes": "4",
+              "lit": "yes",
+              "name": "옥구공원로",
+              "name:en": "Okgugongwon-ro",
+              "name:ko": "옥구공원로",
+              "oneway": "yes",
+              "surface": "asphalt"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625948,
+        "tags": {
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "highway": "crossing",
+          "tactile_paving": "no"
+        },
+        "incident_highways": [
+          {
+            "way": 472321928,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway",
+              "lit": "yes",
+              "surface": "asphalt"
+            }
+          },
+          {
+            "way": 880489736,
+            "tags": {
+              "highway": "tertiary",
+              "lit": "yes",
+              "name": "옥구공원로",
+              "name:en": "Okgugongwon-ro",
+              "name:ko": "옥구공원로",
+              "oneway": "yes",
+              "surface": "asphalt"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625930,
+        "tags": {
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 471592950,
+            "tags": {
+              "highway": "residential"
+            }
+          },
+          {
+            "way": 471592951,
+            "tags": {
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 3040044456,
+        "tags": {
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 299918204,
+            "tags": {
+              "highway": "residential"
+            }
+          },
+          {
+            "way": 471592951,
+            "tags": {
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625929,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 470477060,
+            "tags": {
+              "highway": "tertiary",
+              "lanes": "2",
+              "lit": "yes",
+              "name": "정왕신길로",
+              "name:en": "Jeongwangsingil-ro",
+              "name:ko": "정왕신길로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 472303064,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625928,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472303064,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 492095552,
+            "tags": {
+              "highway": "tertiary",
+              "lanes": "2",
+              "name": "정왕신길로",
+              "name:en": "Jeongwangsingil-ro",
+              "name:ko": "정왕신길로",
+              "oneway": "yes"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625924,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 369942748,
+            "tags": {
+              "highway": "secondary",
+              "name": "역전로",
+              "name:en": "Yeokjeon-ro",
+              "name:ko": "역전로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 472303066,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625925,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 369942744,
+            "tags": {
+              "highway": "secondary",
+              "name": "역전로",
+              "name:en": "Yeokjeon-ro",
+              "name:ko": "역전로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 472303066,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625926,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472303067,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 473454840,
+            "tags": {
+              "highway": "residential",
+              "lanes": "4",
+              "name": "마유로418번길",
+              "name:en": "Mayu-ro 418beon-gil",
+              "name:ko": "마유로418번길"
+            }
+          }
+        ]
+      },
+      {
+        "node": 9667705518,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472303067,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 1052014020,
+            "tags": {
+              "highway": "service",
+              "oneway": "yes"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [],
+    "bridges": [
+      {
+        "way": 471592949,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        }
+      }
+    ],
+    "conditional_or_opening_hours": []
+  },
+  "k_shortest_test": {
+    "algorithm": "Yen loopless, original directed edges; physical distance ordering",
+    "k": 30,
+    "walking_speed_assumption_mps": 1.2,
+    "plus_10_min_limit_distance_m": 2292.400646748005,
+    "distinct_way_sequences": 30,
+    "accepted_below_80_percent_shared_and_plus_10min": [
+      2,
+      4,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  },
+  "k_distance_range_m": [
+    1572.4006467480049,
+    1591.6233005858587
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "작성일": "2026-11-05",
+  "최종 수정일": "2026-11-05",
+  "verified_at": "2026-11-05T20:57:33.716232",
+  "route_status": "already_at_destination",
+  "distance_m": 0,
+  "duration_s": 0,
+  "scores": {
+    "safety_score": null,
+    "average_safety": null,
+    "weak_safety": null
+  },
+  "geometry": null,
+  "segment_count": 0,
+  "versions": {
+    "graph_version": "osm-bb4586cbb583",
+    "active_bundle_id": "local-mvp-3types-v1",
+    "facility_version": "pilot-15b18eb4d217",
+    "routing_config_version": "dijkstra-3types-risk-v1",
+    "scoring_config_version": "mvp-3types-20-5-k2050100-q05-equal-v1"
+  }
+}

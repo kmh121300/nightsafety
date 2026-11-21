@@ -1,0 +1,2790 @@
+{
+  "version": 2,
+  "run_utc": "2026-10-16T00:39:34.990026+00:00",
+  "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=126.719,37.334,126.751,37.359",
+  "acquisition": {
+    "source_url": "https://www.openstreetmap.org/api/0.6/map?bbox=126.719,37.334,126.751,37.359",
+    "retrieved_utc": "2026-10-05T05:49:57.594016+00:00",
+    "timestamp_basis": "original successful download file write time",
+    "http_status": 200,
+    "overpass_attempt": "HTTP406; map API succeeded; no access restrictions bypassed"
+  },
+  "raw_sha256": "bb4586cbb583446979b8461f85c9ac8e8599cfe10de49029749629902576692d",
+  "status": "route_incomplete",
+  "exact_route": null,
+  "verified_complete_walking_route": false,
+  "topology_edits_applied": 0,
+  "simulated_connectors_enabled": false,
+  "safety_scored": false,
+  "start": {
+    "node": 9799703999,
+    "coordinates_lat_lon": [
+      37.3418341,
+      126.7315593
+    ],
+    "basis": "outside endpoint of mapped 기숙사-옆문 도보, not a tagged gate",
+    "exact_node_in_inferred_graph": true
+  },
+  "destination": {
+    "node": 3403277121,
+    "coordinates_lat_lon": [
+      37.35171,
+      126.7427421
+    ],
+    "tags": {
+      "description": "정왕역 1번출구",
+      "description:en": "Jeongwang Station gate 1",
+      "description:ja": "正往駅 1番出口",
+      "railway": "subway_entrance",
+      "ref": "1"
+    },
+    "exact_node_in_graph": false,
+    "snap_node": 4665188383,
+    "snap_coordinates_lat_lon": [
+      37.3515972,
+      126.7427353
+    ],
+    "snap_gap_m": 12.557198653001862,
+    "connector_verified": false,
+    "nearest_pedestrian_segment_candidate": {
+      "way": 472303067,
+      "segment_from_node": 4665188383,
+      "segment_to_node": 9667705518,
+      "fraction": 0,
+      "coordinates_lat_lon": [
+        37.3515972,
+        126.7427353
+      ],
+      "distance_m": 12.557198653001862
+    }
+  },
+  "policy": {
+    "name_ko": "보행선 우선 / 데이터 확실성 페널티",
+    "formula": "sum(physical distance × geometry-class multiplier); tie: shorter physical distance",
+    "multipliers": {
+      "dedicated_pedestrian": 1.0,
+      "road_explicit_foot": 2.0,
+      "road_inferred_foot": 4.0
+    },
+    "weights_empirically_calibrated": false,
+    "heuristic": "haversine distance, admissible because each cost >= physical distance"
+  },
+  "graph": {
+    "vertices": 4080,
+    "directed_edges": 9904,
+    "accepted_way_counts": {
+      "tertiary": 117,
+      "secondary": 16,
+      "footway": 205,
+      "service": 440,
+      "pedestrian": 9,
+      "residential": 166,
+      "tertiary_link": 8,
+      "primary": 1,
+      "living_street": 73,
+      "steps": 1,
+      "unclassified": 19,
+      "track": 20,
+      "path": 4
+    },
+    "skipped_segments": {}
+  },
+  "explicit_diagnosis": {
+    "source_snap_node": 4130186271,
+    "source_snap_gap_m": 11.295643279053783,
+    "source_component_size": 305,
+    "station_nearby_component_size": 15,
+    "same_component": false,
+    "components": 71,
+    "source_snap_incident_highway_ways": [
+      {
+        "way": 411314663,
+        "tags": {
+          "highway": "service"
+        },
+        "geometry_class": "road_inferred_foot"
+      },
+      {
+        "way": 493192211,
+        "tags": {
+          "foot": "yes",
+          "highway": "tertiary",
+          "lanes": "3",
+          "maxheight:signed": "no",
+          "name": "마유로",
+          "name:en": "Mayu-ro",
+          "name:ko": "마유로",
+          "oneway": "yes"
+        },
+        "geometry_class": "road_explicit_foot"
+      }
+    ],
+    "nearest_dedicated_pedestrian_node": {
+      "node": 13702949093,
+      "coordinates_lat_lon": [
+        37.3419022,
+        126.7307169
+      ],
+      "distance_m": 74.85508551392424,
+      "incident_way_ids": [
+        1495769487
+      ],
+      "added_to_graph": false
+    }
+  },
+  "routes": {
+    "distance_only": {
+      "policy_cost": 1572.4006467480049,
+      "distance_m": 1572.4006467480049,
+      "expanded": 136,
+      "segments": [
+        {
+          "from": 9799703999,
+          "to": 9799758217,
+          "way": 1067311768,
+          "distance_m": 73.82433397423546,
+          "policy_cost": 73.82433397423546,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9799758217,
+          "to": 4657273080,
+          "way": 471567474,
+          "distance_m": 2.701597875380869,
+          "policy_cost": 2.701597875380869,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4657273080,
+          "to": 4657273079,
+          "way": 493192211,
+          "distance_m": 5.0013328134921995,
+          "policy_cost": 5.0013328134921995,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273079,
+          "to": 13702941711,
+          "way": 493192211,
+          "distance_m": 157.65981110094475,
+          "policy_cost": 157.65981110094475,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 13702941711,
+          "to": 2066808536,
+          "way": 493192211,
+          "distance_m": 21.629864543053216,
+          "policy_cost": 21.629864543053216,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808536,
+          "to": 2939050965,
+          "way": 632707162,
+          "distance_m": 13.446748191531665,
+          "policy_cost": 13.446748191531665,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2939050965,
+          "to": 2066808533,
+          "way": 632707162,
+          "distance_m": 23.714333073490508,
+          "policy_cost": 23.714333073490508,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808533,
+          "to": 4657273086,
+          "way": 632707162,
+          "distance_m": 45.88240118393437,
+          "policy_cost": 45.88240118393437,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273086,
+          "to": 3448675376,
+          "way": 632707162,
+          "distance_m": 16.72375674335779,
+          "policy_cost": 16.72375674335779,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3448675376,
+          "to": 4657273810,
+          "way": 632707162,
+          "distance_m": 47.20838420881451,
+          "policy_cost": 47.20838420881451,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273810,
+          "to": 4657273082,
+          "way": 632707162,
+          "distance_m": 68.39997127908764,
+          "policy_cost": 68.39997127908764,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273082,
+          "to": 4657273808,
+          "way": 632707162,
+          "distance_m": 72.5715538393826,
+          "policy_cost": 72.5715538393826,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273808,
+          "to": 4657273798,
+          "way": 632707162,
+          "distance_m": 65.6852503927574,
+          "policy_cost": 65.6852503927574,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273798,
+          "to": 2066808538,
+          "way": 632707162,
+          "distance_m": 87.20692484447734,
+          "policy_cost": 87.20692484447734,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808538,
+          "to": 3040044444,
+          "way": 632707162,
+          "distance_m": 16.9028031937912,
+          "policy_cost": 16.9028031937912,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3040044444,
+          "to": 4657546810,
+          "way": 632707162,
+          "distance_m": 55.131912613393254,
+          "policy_cost": 55.131912613393254,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657546810,
+          "to": 3040044482,
+          "way": 632707162,
+          "distance_m": 170.09698841225054,
+          "policy_cost": 170.09698841225054,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3040044482,
+          "to": 2066808540,
+          "way": 632707162,
+          "distance_m": 196.7738449040813,
+          "policy_cost": 196.7738449040813,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808540,
+          "to": 9204855889,
+          "way": 632707162,
+          "distance_m": 8.280839555863814,
+          "policy_cost": 8.280839555863814,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 9204855889,
+          "to": 3040044492,
+          "way": 632707162,
+          "distance_m": 7.217569116294663,
+          "policy_cost": 7.217569116294663,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3040044492,
+          "to": 4673859720,
+          "way": 632707160,
+          "distance_m": 22.638665341600742,
+          "policy_cost": 22.638665341600742,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4673859720,
+          "to": 4673858135,
+          "way": 632707160,
+          "distance_m": 47.453868822125045,
+          "policy_cost": 47.453868822125045,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4673858135,
+          "to": 2974599502,
+          "way": 632707160,
+          "distance_m": 118.57223665039534,
+          "policy_cost": 118.57223665039534,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2974599502,
+          "to": 2974599504,
+          "way": 632707160,
+          "distance_m": 10.63066067817659,
+          "policy_cost": 10.63066067817659,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2974599504,
+          "to": 2875397275,
+          "way": 299918172,
+          "distance_m": 6.256708816360463,
+          "policy_cost": 6.256708816360463,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 2875397275,
+          "to": 4675706755,
+          "way": 299918172,
+          "distance_m": 47.661974720353555,
+          "policy_cost": 47.661974720353555,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4675706755,
+          "to": 9667705503,
+          "way": 473454840,
+          "distance_m": 98.0685987133938,
+          "policy_cost": 98.0685987133938,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9667705503,
+          "to": 9667705521,
+          "way": 473454840,
+          "distance_m": 20.216843188881164,
+          "policy_cost": 20.216843188881164,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9667705521,
+          "to": 9667705520,
+          "way": 1052014020,
+          "distance_m": 13.00269503502928,
+          "policy_cost": 13.00269503502928,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9667705520,
+          "to": 9667705519,
+          "way": 1052014020,
+          "distance_m": 6.412791654150772,
+          "policy_cost": 6.412791654150772,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9667705519,
+          "to": 9667705518,
+          "way": 1052014020,
+          "distance_m": 22.683186284765828,
+          "policy_cost": 22.683186284765828,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9667705518,
+          "to": 4665188383,
+          "way": 472303067,
+          "distance_m": 2.742194983157181,
+          "policy_cost": 2.742194983157181,
+          "class": "dedicated_pedestrian"
+        }
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 290.8287302625512,
+        "road_explicit_foot": 1278.8297215022967,
+        "dedicated_pedestrian": 2.742194983157181
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 18.495841429729442,
+        "road_explicit_foot": 81.32976313302443,
+        "dedicated_pedestrian": 0.1743954372461314
+      },
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        299918172,
+        473454840,
+        1052014020,
+        472303067
+      ],
+      "crossing_nodes": [
+        {
+          "node": 13702941711,
+          "coordinates_lat_lon": [
+            37.3435511,
+            126.7331472
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 2066808533,
+          "coordinates_lat_lon": [
+            37.3439721,
+            126.7335495
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 9667705518,
+          "coordinates_lat_lon": [
+            37.3515747,
+            126.7427226
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "bridge_way_ids": [],
+      "status": "review_candidate_route_incomplete",
+      "facility_safety_scored": false,
+      "dijkstra_policy_cost": 1572.4006467480049,
+      "dijkstra_distance_m": 1572.4006467480049,
+      "dijkstra_expanded": 1509,
+      "shared_with_distance_only_m": 1572.4006467480049,
+      "shared_percent_of_distance_only": 100.0
+    },
+    "moderate_pedestrian_preferred": {
+      "policy_cost": 2565.314561622684,
+      "distance_m": 1812.837624773552,
+      "expanded": 473,
+      "segments": [
+        {
+          "from": 9799703999,
+          "to": 9799758217,
+          "way": 1067311768,
+          "distance_m": 73.82433397423546,
+          "policy_cost": 221.47300192270637,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9799758217,
+          "to": 4657273080,
+          "way": 471567474,
+          "distance_m": 2.701597875380869,
+          "policy_cost": 8.104793626142607,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4657273080,
+          "to": 4657273079,
+          "way": 493192211,
+          "distance_m": 5.0013328134921995,
+          "policy_cost": 7.501999220238299,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273079,
+          "to": 13702941711,
+          "way": 493192211,
+          "distance_m": 157.65981110094475,
+          "policy_cost": 236.48971665141713,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 13702941711,
+          "to": 2066808536,
+          "way": 493192211,
+          "distance_m": 21.629864543053216,
+          "policy_cost": 32.444796814579824,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808536,
+          "to": 2939050965,
+          "way": 632707162,
+          "distance_m": 13.446748191531665,
+          "policy_cost": 20.170122287297495,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2939050965,
+          "to": 2066808533,
+          "way": 632707162,
+          "distance_m": 23.714333073490508,
+          "policy_cost": 35.57149961023576,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808533,
+          "to": 4657273086,
+          "way": 632707162,
+          "distance_m": 45.88240118393437,
+          "policy_cost": 68.82360177590155,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273086,
+          "to": 3448675376,
+          "way": 632707162,
+          "distance_m": 16.72375674335779,
+          "policy_cost": 25.085635115036684,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3448675376,
+          "to": 4657273810,
+          "way": 632707162,
+          "distance_m": 47.20838420881451,
+          "policy_cost": 70.81257631322177,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273810,
+          "to": 6947385438,
+          "way": 471567487,
+          "distance_m": 47.3865195484577,
+          "policy_cost": 47.3865195484577,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 6947385438,
+          "to": 6947385441,
+          "way": 471567487,
+          "distance_m": 72.52997126841368,
+          "policy_cost": 72.52997126841368,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 6947385441,
+          "to": 6947385439,
+          "way": 471567487,
+          "distance_m": 35.37232290080697,
+          "policy_cost": 35.37232290080697,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 6947385439,
+          "to": 5973733593,
+          "way": 471592948,
+          "distance_m": 64.8123511057095,
+          "policy_cost": 64.8123511057095,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 5973733593,
+          "to": 6947385440,
+          "way": 471592948,
+          "distance_m": 73.2707509240802,
+          "policy_cost": 73.2707509240802,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 6947385440,
+          "to": 5973733594,
+          "way": 471592948,
+          "distance_m": 67.47382648090064,
+          "policy_cost": 67.47382648090064,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 5973733594,
+          "to": 4657546808,
+          "way": 471592948,
+          "distance_m": 40.97702057501789,
+          "policy_cost": 40.97702057501789,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546808,
+          "to": 4657546809,
+          "way": 471592949,
+          "distance_m": 105.08510668605652,
+          "policy_cost": 105.08510668605652,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546809,
+          "to": 8189625930,
+          "way": 471592951,
+          "distance_m": 13.773236228377693,
+          "policy_cost": 13.773236228377693,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625930,
+          "to": 3040044456,
+          "way": 471592951,
+          "distance_m": 168.0574589714075,
+          "policy_cost": 168.0574589714075,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 3040044456,
+          "to": 4657546812,
+          "way": 471592951,
+          "distance_m": 12.116602196882942,
+          "policy_cost": 12.116602196882942,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546812,
+          "to": 4657546813,
+          "way": 471592952,
+          "distance_m": 14.618477171769374,
+          "policy_cost": 14.618477171769374,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546813,
+          "to": 4657546814,
+          "way": 471592952,
+          "distance_m": 30.85786581145462,
+          "policy_cost": 30.85786581145462,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546814,
+          "to": 4657546816,
+          "way": 471592953,
+          "distance_m": 13.088558267607816,
+          "policy_cost": 13.088558267607816,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546816,
+          "to": 4657546817,
+          "way": 471592953,
+          "distance_m": 35.88196454081623,
+          "policy_cost": 35.88196454081623,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546817,
+          "to": 4657546827,
+          "way": 471592953,
+          "distance_m": 31.15710994124136,
+          "policy_cost": 31.15710994124136,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546827,
+          "to": 4657546828,
+          "way": 471592956,
+          "distance_m": 32.57989977063664,
+          "policy_cost": 32.57989977063664,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546828,
+          "to": 4657546829,
+          "way": 471592956,
+          "distance_m": 46.91191268675759,
+          "policy_cost": 46.91191268675759,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546829,
+          "to": 4665188372,
+          "way": 471592954,
+          "distance_m": 18.1844294252396,
+          "policy_cost": 18.1844294252396,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188372,
+          "to": 8189625929,
+          "way": 472303064,
+          "distance_m": 8.559867384582432,
+          "policy_cost": 8.559867384582432,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625929,
+          "to": 8189625928,
+          "way": 472303064,
+          "distance_m": 13.97017529836715,
+          "policy_cost": 13.97017529836715,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625928,
+          "to": 4665188373,
+          "way": 472303064,
+          "distance_m": 6.583212272471202,
+          "policy_cost": 6.583212272471202,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188373,
+          "to": 4665188374,
+          "way": 672158188,
+          "distance_m": 3.7908100194844057,
+          "policy_cost": 3.7908100194844057,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188374,
+          "to": 4665188375,
+          "way": 672158188,
+          "distance_m": 33.77620630565442,
+          "policy_cost": 33.77620630565442,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188375,
+          "to": 4673861124,
+          "way": 473224934,
+          "distance_m": 42.41254023001912,
+          "policy_cost": 127.23762069005735,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861124,
+          "to": 4673861123,
+          "way": 473225094,
+          "distance_m": 57.43356239121352,
+          "policy_cost": 172.30068717364057,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861123,
+          "to": 4698282477,
+          "way": 473225094,
+          "distance_m": 35.68268627741224,
+          "policy_cost": 107.0480588322367,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4698282477,
+          "to": 4673861122,
+          "way": 473225094,
+          "distance_m": 30.4787881128661,
+          "policy_cost": 91.4363643385983,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861122,
+          "to": 4665188378,
+          "way": 473225014,
+          "distance_m": 50.88830159878435,
+          "policy_cost": 152.66490479635306,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4665188378,
+          "to": 4665188379,
+          "way": 882558015,
+          "distance_m": 20.331592480706227,
+          "policy_cost": 20.331592480706227,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188379,
+          "to": 4665188380,
+          "way": 882558015,
+          "distance_m": 36.20773555750357,
+          "policy_cost": 36.20773555750357,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188380,
+          "to": 4665188381,
+          "way": 882558015,
+          "distance_m": 49.78153987810771,
+          "policy_cost": 49.78153987810771,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188381,
+          "to": 8189625924,
+          "way": 472303066,
+          "distance_m": 5.2331973020493265,
+          "policy_cost": 5.2331973020493265,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625924,
+          "to": 8189625925,
+          "way": 472303066,
+          "distance_m": 5.800611123940737,
+          "policy_cost": 5.800611123940737,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625925,
+          "to": 4665188382,
+          "way": 472303066,
+          "distance_m": 6.863660027270467,
+          "policy_cost": 6.863660027270467,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188382,
+          "to": 4665188388,
+          "way": 472303066,
+          "distance_m": 7.2718503602988545,
+          "policy_cost": 7.2718503602988545,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188388,
+          "to": 4665188385,
+          "way": 472303069,
+          "distance_m": 5.967455778890334,
+          "policy_cost": 5.967455778890334,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188385,
+          "to": 4665188384,
+          "way": 472303068,
+          "distance_m": 40.077713713285064,
+          "policy_cost": 40.077713713285064,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188384,
+          "to": 8189625926,
+          "way": 472303067,
+          "distance_m": 7.73466914654804,
+          "policy_cost": 7.73466914654804,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625926,
+          "to": 9667705518,
+          "way": 472303067,
+          "distance_m": 9.321306321070137,
+          "policy_cost": 9.321306321070137,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 9667705518,
+          "to": 4665188383,
+          "way": 472303067,
+          "distance_m": 2.742194983157181,
+          "policy_cost": 2.742194983157181,
+          "class": "dedicated_pedestrian"
+        }
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 293.4218104599116,
+        "road_explicit_foot": 331.266631858619,
+        "dedicated_pedestrian": 1188.1491824550217
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 16.185774525535017,
+        "road_explicit_foot": 18.273375802203944,
+        "dedicated_pedestrian": 65.54084967226106
+      },
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        471567487,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "crossing_nodes": [
+        {
+          "node": 13702941711,
+          "coordinates_lat_lon": [
+            37.3435511,
+            126.7331472
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 2066808533,
+          "coordinates_lat_lon": [
+            37.3439721,
+            126.7335495
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 6947385438,
+          "coordinates_lat_lon": [
+            37.3444945,
+            126.7347338
+          ],
+          "tags": {
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 6947385441,
+          "coordinates_lat_lon": [
+            37.3440975,
+            126.7353848
+          ],
+          "tags": {
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625930,
+          "coordinates_lat_lon": [
+            37.3464947,
+            126.7382448
+          ],
+          "tags": {
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 3040044456,
+          "coordinates_lat_lon": [
+            37.3476987,
+            126.739394
+          ],
+          "tags": {
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625929,
+          "coordinates_lat_lon": [
+            37.3488825,
+            126.7411792
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625928,
+          "coordinates_lat_lon": [
+            37.3489784,
+            126.7412813
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625924,
+          "coordinates_lat_lon": [
+            37.3509494,
+            126.7423301
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625925,
+          "coordinates_lat_lon": [
+            37.3509975,
+            126.7423555
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625926,
+          "coordinates_lat_lon": [
+            37.3514983,
+            126.7426792
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 9667705518,
+          "coordinates_lat_lon": [
+            37.3515747,
+            126.7427226
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "bridge_way_ids": [
+        471592949
+      ],
+      "status": "review_candidate_route_incomplete",
+      "facility_safety_scored": false,
+      "dijkstra_policy_cost": 2565.314561622684,
+      "dijkstra_distance_m": 1812.837624773552,
+      "dijkstra_expanded": 1172,
+      "shared_with_distance_only_m": 410.5347586913925,
+      "shared_percent_of_distance_only": 26.1087884656146
+    },
+    "pedestrian_preferred": {
+      "policy_cost": 2975.4893480921746,
+      "distance_m": 1932.562772798003,
+      "expanded": 474,
+      "segments": [
+        {
+          "from": 9799703999,
+          "to": 9799758217,
+          "way": 1067311768,
+          "distance_m": 73.82433397423546,
+          "policy_cost": 295.29733589694183,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9799758217,
+          "to": 4657273080,
+          "way": 471567474,
+          "distance_m": 2.701597875380869,
+          "policy_cost": 10.806391501523477,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4657273080,
+          "to": 4657273079,
+          "way": 493192211,
+          "distance_m": 5.0013328134921995,
+          "policy_cost": 10.002665626984399,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273079,
+          "to": 13702941711,
+          "way": 493192211,
+          "distance_m": 157.65981110094475,
+          "policy_cost": 315.3196222018895,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 13702941711,
+          "to": 13702941752,
+          "way": 1495768614,
+          "distance_m": 14.479248821382402,
+          "policy_cost": 14.479248821382402,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702941752,
+          "to": 13702934127,
+          "way": 1495767511,
+          "distance_m": 11.684521687568045,
+          "policy_cost": 11.684521687568045,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934127,
+          "to": 13702934147,
+          "way": 1495767507,
+          "distance_m": 35.83138184750631,
+          "policy_cost": 35.83138184750631,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934147,
+          "to": 13702934126,
+          "way": 1495767507,
+          "distance_m": 15.29255518486179,
+          "policy_cost": 15.29255518486179,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934126,
+          "to": 13702934128,
+          "way": 1495767507,
+          "distance_m": 28.218935381050002,
+          "policy_cost": 28.218935381050002,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934128,
+          "to": 13702934125,
+          "way": 1495767507,
+          "distance_m": 2.937807137788418,
+          "policy_cost": 2.937807137788418,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934125,
+          "to": 13702934124,
+          "way": 1495767507,
+          "distance_m": 81.61315124680432,
+          "policy_cost": 81.61315124680432,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934124,
+          "to": 13702934123,
+          "way": 1495767507,
+          "distance_m": 38.024435837904626,
+          "policy_cost": 38.024435837904626,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 13702934123,
+          "to": 4665335047,
+          "way": 472321927,
+          "distance_m": 46.524266871148626,
+          "policy_cost": 46.524266871148626,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665335047,
+          "to": 8189625948,
+          "way": 472321928,
+          "distance_m": 13.367089219783207,
+          "policy_cost": 13.367089219783207,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625948,
+          "to": 4665335048,
+          "way": 472321928,
+          "distance_m": 10.187307308501435,
+          "policy_cost": 10.187307308501435,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665335048,
+          "to": 4657546807,
+          "way": 472321929,
+          "distance_m": 22.395917303604502,
+          "policy_cost": 22.395917303604502,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546807,
+          "to": 5973733592,
+          "way": 471592948,
+          "distance_m": 56.742399348735105,
+          "policy_cost": 56.742399348735105,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 5973733592,
+          "to": 6947385439,
+          "way": 471592948,
+          "distance_m": 66.32043248967253,
+          "policy_cost": 66.32043248967253,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 6947385439,
+          "to": 5973733593,
+          "way": 471592948,
+          "distance_m": 64.8123511057095,
+          "policy_cost": 64.8123511057095,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 5973733593,
+          "to": 6947385440,
+          "way": 471592948,
+          "distance_m": 73.2707509240802,
+          "policy_cost": 73.2707509240802,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 6947385440,
+          "to": 5973733594,
+          "way": 471592948,
+          "distance_m": 67.47382648090064,
+          "policy_cost": 67.47382648090064,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 5973733594,
+          "to": 4657546808,
+          "way": 471592948,
+          "distance_m": 40.97702057501789,
+          "policy_cost": 40.97702057501789,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546808,
+          "to": 4657546809,
+          "way": 471592949,
+          "distance_m": 105.08510668605652,
+          "policy_cost": 105.08510668605652,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546809,
+          "to": 8189625930,
+          "way": 471592951,
+          "distance_m": 13.773236228377693,
+          "policy_cost": 13.773236228377693,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625930,
+          "to": 3040044456,
+          "way": 471592951,
+          "distance_m": 168.0574589714075,
+          "policy_cost": 168.0574589714075,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 3040044456,
+          "to": 4657546812,
+          "way": 471592951,
+          "distance_m": 12.116602196882942,
+          "policy_cost": 12.116602196882942,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546812,
+          "to": 4657546813,
+          "way": 471592952,
+          "distance_m": 14.618477171769374,
+          "policy_cost": 14.618477171769374,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546813,
+          "to": 4657546814,
+          "way": 471592952,
+          "distance_m": 30.85786581145462,
+          "policy_cost": 30.85786581145462,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546814,
+          "to": 4657546816,
+          "way": 471592953,
+          "distance_m": 13.088558267607816,
+          "policy_cost": 13.088558267607816,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546816,
+          "to": 4657546817,
+          "way": 471592953,
+          "distance_m": 35.88196454081623,
+          "policy_cost": 35.88196454081623,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546817,
+          "to": 4657546827,
+          "way": 471592953,
+          "distance_m": 31.15710994124136,
+          "policy_cost": 31.15710994124136,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546827,
+          "to": 4657546828,
+          "way": 471592956,
+          "distance_m": 32.57989977063664,
+          "policy_cost": 32.57989977063664,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546828,
+          "to": 4657546829,
+          "way": 471592956,
+          "distance_m": 46.91191268675759,
+          "policy_cost": 46.91191268675759,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4657546829,
+          "to": 4665188372,
+          "way": 471592954,
+          "distance_m": 18.1844294252396,
+          "policy_cost": 18.1844294252396,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188372,
+          "to": 8189625929,
+          "way": 472303064,
+          "distance_m": 8.559867384582432,
+          "policy_cost": 8.559867384582432,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625929,
+          "to": 8189625928,
+          "way": 472303064,
+          "distance_m": 13.97017529836715,
+          "policy_cost": 13.97017529836715,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625928,
+          "to": 4665188373,
+          "way": 472303064,
+          "distance_m": 6.583212272471202,
+          "policy_cost": 6.583212272471202,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188373,
+          "to": 4665188374,
+          "way": 672158188,
+          "distance_m": 3.7908100194844057,
+          "policy_cost": 3.7908100194844057,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188374,
+          "to": 4665188375,
+          "way": 672158188,
+          "distance_m": 33.77620630565442,
+          "policy_cost": 33.77620630565442,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188375,
+          "to": 4673861124,
+          "way": 473224934,
+          "distance_m": 42.41254023001912,
+          "policy_cost": 169.65016092007647,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861124,
+          "to": 4673861123,
+          "way": 473225094,
+          "distance_m": 57.43356239121352,
+          "policy_cost": 229.73424956485408,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861123,
+          "to": 4698282477,
+          "way": 473225094,
+          "distance_m": 35.68268627741224,
+          "policy_cost": 142.73074510964895,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4698282477,
+          "to": 4673861122,
+          "way": 473225094,
+          "distance_m": 30.4787881128661,
+          "policy_cost": 121.9151524514644,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861122,
+          "to": 4665188378,
+          "way": 473225014,
+          "distance_m": 50.88830159878435,
+          "policy_cost": 203.5532063951374,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4665188378,
+          "to": 4665188379,
+          "way": 882558015,
+          "distance_m": 20.331592480706227,
+          "policy_cost": 20.331592480706227,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188379,
+          "to": 4665188380,
+          "way": 882558015,
+          "distance_m": 36.20773555750357,
+          "policy_cost": 36.20773555750357,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188380,
+          "to": 4665188381,
+          "way": 882558015,
+          "distance_m": 49.78153987810771,
+          "policy_cost": 49.78153987810771,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188381,
+          "to": 8189625924,
+          "way": 472303066,
+          "distance_m": 5.2331973020493265,
+          "policy_cost": 5.2331973020493265,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625924,
+          "to": 8189625925,
+          "way": 472303066,
+          "distance_m": 5.800611123940737,
+          "policy_cost": 5.800611123940737,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625925,
+          "to": 4665188382,
+          "way": 472303066,
+          "distance_m": 6.863660027270467,
+          "policy_cost": 6.863660027270467,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188382,
+          "to": 4665188388,
+          "way": 472303066,
+          "distance_m": 7.2718503602988545,
+          "policy_cost": 7.2718503602988545,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188388,
+          "to": 4665188385,
+          "way": 472303069,
+          "distance_m": 5.967455778890334,
+          "policy_cost": 5.967455778890334,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188385,
+          "to": 4665188384,
+          "way": 472303068,
+          "distance_m": 40.077713713285064,
+          "policy_cost": 40.077713713285064,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188384,
+          "to": 8189625926,
+          "way": 472303067,
+          "distance_m": 7.73466914654804,
+          "policy_cost": 7.73466914654804,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625926,
+          "to": 9667705518,
+          "way": 472303067,
+          "distance_m": 9.321306321070137,
+          "policy_cost": 9.321306321070137,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 9667705518,
+          "to": 4665188383,
+          "way": 472303067,
+          "distance_m": 2.742194983157181,
+          "policy_cost": 2.742194983157181,
+          "class": "dedicated_pedestrian"
+        }
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 293.4218104599116,
+        "road_explicit_foot": 162.66114391443696,
+        "dedicated_pedestrian": 1476.4798184236543
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 15.183041637249882,
+        "road_explicit_foot": 8.41686211718406,
+        "dedicated_pedestrian": 76.40009624556605
+      },
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "crossing_nodes": [
+        {
+          "node": 13702941711,
+          "coordinates_lat_lon": [
+            37.3435511,
+            126.7331472
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 4665335047,
+          "coordinates_lat_lon": [
+            37.3427416,
+            126.7348833
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625948,
+          "coordinates_lat_lon": [
+            37.3428362,
+            126.7349766
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "crossing:markings": "zebra",
+            "highway": "crossing",
+            "tactile_paving": "no"
+          }
+        },
+        {
+          "node": 8189625930,
+          "coordinates_lat_lon": [
+            37.3464947,
+            126.7382448
+          ],
+          "tags": {
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 3040044456,
+          "coordinates_lat_lon": [
+            37.3476987,
+            126.739394
+          ],
+          "tags": {
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625929,
+          "coordinates_lat_lon": [
+            37.3488825,
+            126.7411792
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625928,
+          "coordinates_lat_lon": [
+            37.3489784,
+            126.7412813
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625924,
+          "coordinates_lat_lon": [
+            37.3509494,
+            126.7423301
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625925,
+          "coordinates_lat_lon": [
+            37.3509975,
+            126.7423555
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625926,
+          "coordinates_lat_lon": [
+            37.3514983,
+            126.7426792
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 9667705518,
+          "coordinates_lat_lon": [
+            37.3515747,
+            126.7427226
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "bridge_way_ids": [
+        471592949
+      ],
+      "status": "review_candidate_route_incomplete",
+      "facility_safety_scored": false,
+      "dijkstra_policy_cost": 2975.4893480921746,
+      "dijkstra_distance_m": 1932.562772798003,
+      "dijkstra_expanded": 1005,
+      "shared_with_distance_only_m": 241.92927074721047,
+      "shared_percent_of_distance_only": 15.38598138124414
+    },
+    "primary_secondary_excluded": {
+      "policy_cost": 1579.2582626123626,
+      "distance_m": 1579.2582626123626,
+      "expanded": 134,
+      "segments": [
+        {
+          "from": 9799703999,
+          "to": 9799758217,
+          "way": 1067311768,
+          "distance_m": 73.82433397423546,
+          "policy_cost": 73.82433397423546,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 9799758217,
+          "to": 4657273080,
+          "way": 471567474,
+          "distance_m": 2.701597875380869,
+          "policy_cost": 2.701597875380869,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4657273080,
+          "to": 4657273079,
+          "way": 493192211,
+          "distance_m": 5.0013328134921995,
+          "policy_cost": 5.0013328134921995,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273079,
+          "to": 13702941711,
+          "way": 493192211,
+          "distance_m": 157.65981110094475,
+          "policy_cost": 157.65981110094475,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 13702941711,
+          "to": 2066808536,
+          "way": 493192211,
+          "distance_m": 21.629864543053216,
+          "policy_cost": 21.629864543053216,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808536,
+          "to": 2939050965,
+          "way": 632707162,
+          "distance_m": 13.446748191531665,
+          "policy_cost": 13.446748191531665,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2939050965,
+          "to": 2066808533,
+          "way": 632707162,
+          "distance_m": 23.714333073490508,
+          "policy_cost": 23.714333073490508,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808533,
+          "to": 4657273086,
+          "way": 632707162,
+          "distance_m": 45.88240118393437,
+          "policy_cost": 45.88240118393437,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273086,
+          "to": 3448675376,
+          "way": 632707162,
+          "distance_m": 16.72375674335779,
+          "policy_cost": 16.72375674335779,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3448675376,
+          "to": 4657273810,
+          "way": 632707162,
+          "distance_m": 47.20838420881451,
+          "policy_cost": 47.20838420881451,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273810,
+          "to": 4657273082,
+          "way": 632707162,
+          "distance_m": 68.39997127908764,
+          "policy_cost": 68.39997127908764,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273082,
+          "to": 4657273808,
+          "way": 632707162,
+          "distance_m": 72.5715538393826,
+          "policy_cost": 72.5715538393826,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273808,
+          "to": 4657273798,
+          "way": 632707162,
+          "distance_m": 65.6852503927574,
+          "policy_cost": 65.6852503927574,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657273798,
+          "to": 2066808538,
+          "way": 632707162,
+          "distance_m": 87.20692484447734,
+          "policy_cost": 87.20692484447734,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808538,
+          "to": 3040044444,
+          "way": 632707162,
+          "distance_m": 16.9028031937912,
+          "policy_cost": 16.9028031937912,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3040044444,
+          "to": 4657546810,
+          "way": 632707162,
+          "distance_m": 55.131912613393254,
+          "policy_cost": 55.131912613393254,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4657546810,
+          "to": 3040044482,
+          "way": 632707162,
+          "distance_m": 170.09698841225054,
+          "policy_cost": 170.09698841225054,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3040044482,
+          "to": 2066808540,
+          "way": 632707162,
+          "distance_m": 196.7738449040813,
+          "policy_cost": 196.7738449040813,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 2066808540,
+          "to": 9204855889,
+          "way": 632707162,
+          "distance_m": 8.280839555863814,
+          "policy_cost": 8.280839555863814,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 9204855889,
+          "to": 3040044492,
+          "way": 632707162,
+          "distance_m": 7.217569116294663,
+          "policy_cost": 7.217569116294663,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 3040044492,
+          "to": 4673859720,
+          "way": 632707160,
+          "distance_m": 22.638665341600742,
+          "policy_cost": 22.638665341600742,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4673859720,
+          "to": 4673858135,
+          "way": 632707160,
+          "distance_m": 47.453868822125045,
+          "policy_cost": 47.453868822125045,
+          "class": "road_explicit_foot"
+        },
+        {
+          "from": 4673858135,
+          "to": 4673861122,
+          "way": 473225014,
+          "distance_m": 104.88367831740977,
+          "policy_cost": 104.88367831740977,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4673861122,
+          "to": 4665188378,
+          "way": 473225014,
+          "distance_m": 50.88830159878435,
+          "policy_cost": 50.88830159878435,
+          "class": "road_inferred_foot"
+        },
+        {
+          "from": 4665188378,
+          "to": 4665188379,
+          "way": 882558015,
+          "distance_m": 20.331592480706227,
+          "policy_cost": 20.331592480706227,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188379,
+          "to": 4665188380,
+          "way": 882558015,
+          "distance_m": 36.20773555750357,
+          "policy_cost": 36.20773555750357,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188380,
+          "to": 4665188381,
+          "way": 882558015,
+          "distance_m": 49.78153987810771,
+          "policy_cost": 49.78153987810771,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188381,
+          "to": 8189625924,
+          "way": 472303066,
+          "distance_m": 5.2331973020493265,
+          "policy_cost": 5.2331973020493265,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625924,
+          "to": 8189625925,
+          "way": 472303066,
+          "distance_m": 5.800611123940737,
+          "policy_cost": 5.800611123940737,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625925,
+          "to": 4665188382,
+          "way": 472303066,
+          "distance_m": 6.863660027270467,
+          "policy_cost": 6.863660027270467,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188382,
+          "to": 4665188388,
+          "way": 472303066,
+          "distance_m": 7.2718503602988545,
+          "policy_cost": 7.2718503602988545,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188388,
+          "to": 4665188385,
+          "way": 472303069,
+          "distance_m": 5.967455778890334,
+          "policy_cost": 5.967455778890334,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188385,
+          "to": 4665188384,
+          "way": 472303068,
+          "distance_m": 40.077713713285064,
+          "policy_cost": 40.077713713285064,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 4665188384,
+          "to": 8189625926,
+          "way": 472303067,
+          "distance_m": 7.73466914654804,
+          "policy_cost": 7.73466914654804,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 8189625926,
+          "to": 9667705518,
+          "way": 472303067,
+          "distance_m": 9.321306321070137,
+          "policy_cost": 9.321306321070137,
+          "class": "dedicated_pedestrian"
+        },
+        {
+          "from": 9667705518,
+          "to": 4665188383,
+          "way": 472303067,
+          "distance_m": 2.742194983157181,
+          "policy_cost": 2.742194983157181,
+          "class": "dedicated_pedestrian"
+        }
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 232.29791176581045,
+        "road_explicit_foot": 1149.6268241737248,
+        "dedicated_pedestrian": 197.33352667282762
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 14.7093048214641,
+        "road_explicit_foot": 72.79536548202356,
+        "dedicated_pedestrian": 12.495329696512353
+      },
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "crossing_nodes": [
+        {
+          "node": 13702941711,
+          "coordinates_lat_lon": [
+            37.3435511,
+            126.7331472
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 2066808533,
+          "coordinates_lat_lon": [
+            37.3439721,
+            126.7335495
+          ],
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625924,
+          "coordinates_lat_lon": [
+            37.3509494,
+            126.7423301
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625925,
+          "coordinates_lat_lon": [
+            37.3509975,
+            126.7423555
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 8189625926,
+          "coordinates_lat_lon": [
+            37.3514983,
+            126.7426792
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        },
+        {
+          "node": 9667705518,
+          "coordinates_lat_lon": [
+            37.3515747,
+            126.7427226
+          ],
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "highway": "crossing"
+          }
+        }
+      ],
+      "bridge_way_ids": [],
+      "status": "review_candidate_route_incomplete",
+      "facility_safety_scored": false,
+      "shared_with_distance_only_m": 1228.894951006498,
+      "shared_percent_of_distance_only": 78.1540603883663
+    }
+  },
+  "sensitivity": [
+    {
+      "multipliers": {
+        "dedicated_pedestrian": 1.0,
+        "road_explicit_foot": 1,
+        "road_inferred_foot": 1
+      },
+      "policy_cost": 1572.4006467480049,
+      "distance_m": 1572.4006467480049,
+      "pedestrian_share_percent": 0.1743954372461314,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        299918172,
+        473454840,
+        1052014020,
+        472303067
+      ],
+      "dijkstra_match": true
+    },
+    {
+      "multipliers": {
+        "dedicated_pedestrian": 1.0,
+        "road_explicit_foot": 1.5,
+        "road_inferred_foot": 3
+      },
+      "policy_cost": 2565.314561622684,
+      "distance_m": 1812.837624773552,
+      "pedestrian_share_percent": 65.54084967226106,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        471567487,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "dijkstra_match": true
+    },
+    {
+      "multipliers": {
+        "dedicated_pedestrian": 1.0,
+        "road_explicit_foot": 2,
+        "road_inferred_foot": 4
+      },
+      "policy_cost": 2975.4893480921746,
+      "distance_m": 1932.562772798003,
+      "pedestrian_share_percent": 76.40009624556605,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "dijkstra_match": true
+    },
+    {
+      "multipliers": {
+        "dedicated_pedestrian": 1.0,
+        "road_explicit_foot": 4,
+        "road_inferred_foot": 12
+      },
+      "policy_cost": 5648.186119600344,
+      "distance_m": 1932.562772798003,
+      "pedestrian_share_percent": 76.40009624556605,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "dijkstra_match": true
+    },
+    {
+      "multipliers": {
+        "dedicated_pedestrian": 1.0,
+        "road_explicit_foot": 10,
+        "road_inferred_foot": 30
+      },
+      "policy_cost": 11905.745571365376,
+      "distance_m": 1932.562772798003,
+      "pedestrian_share_percent": 76.40009624556605,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "dijkstra_match": true
+    }
+  ],
+  "corrections": [
+    {
+      "id": "station-exit-gap",
+      "kind": "missing_endpoint_connector",
+      "status": "unverified_review_candidate",
+      "accepted": false,
+      "added_to_graph": false,
+      "coordinates_lat_lon": [
+        [
+          37.3515972,
+          126.7427353
+        ],
+        [
+          37.35171,
+          126.7427421
+        ]
+      ],
+      "reason_ko": "출구 노드가 어떤 highway way에도 없으며, 가까운 횡단보도 노드와12.56m 이격. 단순 근접은 연결 근거가 아니다. 검증 전 edge를 추가하지 않는다.",
+      "source_osm_ids": {
+        "nodes": [
+          4665188383,
+          3403277121
+        ],
+        "ways": [
+          472303067
+        ]
+      },
+      "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+      "gap_m": 12.557198653001862
+    },
+    {
+      "id": "side-door-explicit-access-gap",
+      "kind": "origin_access_review",
+      "status": "unverified_review_candidate",
+      "accepted": false,
+      "added_to_graph": false,
+      "coordinates_lat_lon": [
+        [
+          37.3418341,
+          126.7315593
+        ],
+        [
+          37.3417787,
+          126.7314522
+        ]
+      ],
+      "reason_ko": "옆문 도보(service) 바깥 endpoint와 명시 foot=yes 도로노드는 서로 다른 node ID. 근접11.30m를 자동 연결하지 않는다. 이 대상은 전용 footway가 아니다.",
+      "source_osm_ids": {
+        "nodes": [
+          9799703999,
+          4130186271
+        ],
+        "ways": [
+          411314663,
+          493192211,
+          1067311761,
+          1067311768
+        ]
+      },
+      "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+      "gap_m": 11.295643279053783,
+      "target_geometry_class": "road_explicit_foot"
+    },
+    {
+      "id": "explicit-component-nearest-gap",
+      "kind": "component_gap_review",
+      "status": "unverified_review_candidate",
+      "accepted": false,
+      "added_to_graph": false,
+      "coordinates_lat_lon": [
+        [
+          37.3514449,
+          126.7407494
+        ],
+        [
+          37.3510282,
+          126.7417654
+        ]
+      ],
+      "reason_ko": "출발·역 explicit 성분 사이의 가장 가까운 node 쌍. 직선은 관측 경로가 아니며 연결을 허용하지 않는다.",
+      "source_osm_ids": {
+        "nodes": [
+          2974599502,
+          4665188380
+        ]
+      },
+      "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+      "gap_m": 101.05532657549332
+    },
+    {
+      "id": "road-run-0",
+      "kind": "sidewalk_geometry_review",
+      "status": "unverified_review_candidate",
+      "accepted": false,
+      "added_to_graph": false,
+      "coordinates_lat_lon": [
+        [
+          37.3418341,
+          126.7315593
+        ],
+        [
+          37.3423622,
+          126.7320654
+        ],
+        [
+          37.34238,
+          126.7320446
+        ]
+      ],
+      "reason_ko": "원본 도로 선형으로만 연결된 구간. 실제 보도의 위치·연속성과 횡단 topology를 확인할 우선 검토 대상이며 도로 중심선 offset은 생성하지 않는다.",
+      "source_osm_ids": {
+        "nodes": [
+          9799703999,
+          9799758217,
+          4657273080
+        ],
+        "ways": [
+          1067311768,
+          471567474
+        ]
+      },
+      "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+      "distance_m": 76.52593184961633,
+      "geometry_class": "road_inferred_foot"
+    },
+    {
+      "id": "road-run-1",
+      "kind": "sidewalk_geometry_review",
+      "status": "unverified_review_candidate",
+      "accepted": false,
+      "added_to_graph": false,
+      "coordinates_lat_lon": [
+        [
+          37.34238,
+          126.7320446
+        ],
+        [
+          37.3424154,
+          126.7320795
+        ],
+        [
+          37.3435511,
+          126.7331472
+        ]
+      ],
+      "reason_ko": "원본 도로 선형으로만 연결된 구간. 실제 보도의 위치·연속성과 횡단 topology를 확인할 우선 검토 대상이며 도로 중심선 offset은 생성하지 않는다.",
+      "source_osm_ids": {
+        "nodes": [
+          4657273080,
+          4657273079,
+          13702941711
+        ],
+        "ways": [
+          493192211
+        ]
+      },
+      "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+      "distance_m": 162.66114391443696,
+      "geometry_class": "road_explicit_foot"
+    },
+    {
+      "id": "road-run-3",
+      "kind": "sidewalk_geometry_review",
+      "status": "unverified_review_candidate",
+      "accepted": false,
+      "added_to_graph": false,
+      "coordinates_lat_lon": [
+        [
+          37.3493194,
+          126.7411351
+        ],
+        [
+          37.3495502,
+          126.7407531
+        ],
+        [
+          37.3499623,
+          126.7411448
+        ],
+        [
+          37.3502832,
+          126.7411461
+        ],
+        [
+          37.3505573,
+          126.7411448
+        ],
+        [
+          37.3505589,
+          126.7417205
+        ]
+      ],
+      "reason_ko": "원본 도로 선형으로만 연결된 구간. 실제 보도의 위치·연속성과 횡단 topology를 확인할 우선 검토 대상이며 도로 중심선 offset은 생성하지 않는다.",
+      "source_osm_ids": {
+        "nodes": [
+          4665188375,
+          4673861124,
+          4673861123,
+          4698282477,
+          4673861122,
+          4665188378
+        ],
+        "ways": [
+          473224934,
+          473225094,
+          473225014
+        ]
+      },
+      "verification_needed_ko": "현장/공식 시설도면으로 실제 보도·횡단·접근 가능 여부 및 장애물·운영시간 확인",
+      "distance_m": 216.89587861029534,
+      "geometry_class": "road_inferred_foot"
+    }
+  ],
+  "internal_campus_test": {
+    "distance_only": {
+      "start_node": 9799703963,
+      "coordinates_lat_lon": [
+        37.3412571,
+        126.7324818
+      ],
+      "distance_m": 1669.7370778131733,
+      "policy_cost": 1669.7370778131733,
+      "complete": false,
+      "way_ids": [
+        411314664,
+        471567471,
+        1067311767,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        299918172,
+        473454840,
+        1052014020,
+        472303067
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 388.1651613277197,
+        "road_explicit_foot": 1278.8297215022967,
+        "dedicated_pedestrian": 2.742194983157181
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 23.247082818337674,
+        "road_explicit_foot": 76.58868803327759,
+        "dedicated_pedestrian": 0.16422914838476174
+      }
+    },
+    "moderate_pedestrian_preferred": {
+      "start_node": 9799703963,
+      "coordinates_lat_lon": [
+        37.3412571,
+        126.7324818
+      ],
+      "distance_m": 1868.1116307288696,
+      "policy_cost": 2750.4719889899084,
+      "complete": false,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 441.18017913051983,
+        "dedicated_pedestrian": 1426.9314515983497
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 23.616371306375694,
+        "dedicated_pedestrian": 76.38362869362429
+      }
+    },
+    "pedestrian_preferred": {
+      "start_node": 9799703963,
+      "coordinates_lat_lon": [
+        37.3412571,
+        126.7324818
+      ],
+      "distance_m": 1868.1116307288696,
+      "policy_cost": 3191.6521681204285,
+      "complete": false,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "geometry_distance_m": {
+        "road_inferred_foot": 441.18017913051983,
+        "dedicated_pedestrian": 1426.9314515983497
+      },
+      "geometry_share_percent": {
+        "road_inferred_foot": 23.616371306375694,
+        "dedicated_pedestrian": 76.38362869362429
+      }
+    }
+  },
+  "preferred_route_runs": [
+    {
+      "class": "road_inferred_foot",
+      "from_node": 9799703999,
+      "to_node": 4657273080,
+      "distance_m": 76.52593184961633,
+      "way_ids": [
+        1067311768,
+        471567474
+      ]
+    },
+    {
+      "class": "road_explicit_foot",
+      "from_node": 4657273080,
+      "to_node": 13702941711,
+      "distance_m": 162.66114391443696,
+      "way_ids": [
+        493192211
+      ]
+    },
+    {
+      "class": "dedicated_pedestrian",
+      "from_node": 13702941711,
+      "to_node": 4665188375,
+      "distance_m": 1279.1462917508268,
+      "way_ids": [
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188
+      ]
+    },
+    {
+      "class": "road_inferred_foot",
+      "from_node": 4665188375,
+      "to_node": 4665188378,
+      "distance_m": 216.89587861029534,
+      "way_ids": [
+        473224934,
+        473225094,
+        473225014
+      ]
+    },
+    {
+      "class": "dedicated_pedestrian",
+      "from_node": 4665188378,
+      "to_node": 4665188383,
+      "distance_m": 197.33352667282762,
+      "way_ids": [
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ]
+    }
+  ],
+  "named_service_walkway_candidates": [
+    {
+      "way": 1067311751,
+      "tags": {
+        "highway": "service",
+        "name": "기숙사-종합관 보도"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311753,
+      "tags": {
+        "highway": "service",
+        "name": "종합관-행정동 보도"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311754,
+      "tags": {
+        "highway": "service",
+        "name": "종합관-벙커-산융 보도"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311756,
+      "tags": {
+        "highway": "service",
+        "name": "C동-D동 사이 보도"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311759,
+      "tags": {
+        "highway": "service",
+        "name": "A동-B동 사이 보도"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311761,
+      "tags": {
+        "highway": "service",
+        "name": "기숙사-옆문 도보"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311764,
+      "tags": {
+        "highway": "service",
+        "name": "P동-산융 도보",
+        "surface": "asphalt"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1067311766,
+      "tags": {
+        "highway": "service",
+        "name": "체육관-종합관 사이 도보"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    },
+    {
+      "way": 1465056228,
+      "tags": {
+        "highway": "service",
+        "name": "행정동-산융 보도",
+        "surface": "asphalt"
+      },
+      "status": "unverified_classification_review",
+      "automatically_reclassified": false
+    }
+  ],
+  "pedestrian_area_audit": [
+    {
+      "way": 471765493,
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian",
+        "surface": "paved"
+      },
+      "contains_station_exit": false,
+      "shared_linear_graph_nodes": [
+        4659216771,
+        4662313289,
+        4662313315,
+        4662313316,
+        4662313326,
+        5973733573
+      ],
+      "used_for_station_connector": false
+    },
+    {
+      "way": 1052014080,
+      "tags": {
+        "area": "yes",
+        "highway": "pedestrian"
+      },
+      "contains_station_exit": false,
+      "shared_linear_graph_nodes": [],
+      "used_for_station_connector": false
+    }
+  ],
+  "edge_provenance_verified": true,
+  "independent_validation_note": "Parent independently reproduced baseline 2/4 policy with SciPy sparse csgraph Dijkstra: policy cost2975.4893480921746, physical distance1932.5627727980034m; all adjacency derives from raw consecutive OSM nodes."
+}

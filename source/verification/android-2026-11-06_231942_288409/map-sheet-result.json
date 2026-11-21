@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-06",
+  "profile": "standard",
+  "apk_sha256": "ab713f83167ecfe69cdd3b2cef8e68634346837696641bd25f5e718e4b3d650b",
+  "failure": "Control ScrollView missing",
+  "outcome": "FAIL",
+  "cleanup_errors": [],
+  "measurements": {},
+  "steps": []
+}

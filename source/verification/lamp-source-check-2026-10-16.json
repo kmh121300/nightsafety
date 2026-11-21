@@ -1,0 +1,219 @@
+[
+  {
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=1",
+    "checked_at_utc": "2026-10-16T01:30:19.653489+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "response_bytes": 3684,
+    "top_level_keys": [
+      "Smartstlamp"
+    ],
+    "response_excerpt": "{'Smartstlamp': [{'head': [{'list_total_count': 71}, {'RESULT': {'CODE': 'INFO-000', 'MESSAGE': '정상 처리되었습니다.'}}, {'api_version': '1.0'}]}, {'row': [{'SIGUN_CD': None, 'SIGUN_NM': None, 'STLAMP_KIND_NM': '1', 'SIDO_NM': '경기도', 'SIGNGU_NM': '만안구', 'ROAD_NM': '예술공원로', 'STLAMP_FORM_NM': '1', 'LIGHT_YN': 'N', 'SENR_KIND_INFO': '조명제어', 'SENR_SERVC_INFO': None, 'CCTV_YN': 'N', 'WIFI_YN': 'N', 'GPS_YN': 'Y', 'BEACON_YN': 'N', 'LIGHT_CONTROL_YN': 'Y', 'STATMNT_YN': 'N', 'APP_SERVC_INFO': None, 'APP_SERVC",
+    "json_response_parsed": true,
+    "siheung_coordinates_verified": false
+  },
+  {
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=1&SIGUN_NM=%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+    "checked_at_utc": "2026-10-16T01:30:19.968458+00:00",
+    "http_status": 200,
+    "content_type": "text/html;charset=UTF-8",
+    "response_bytes": 82,
+    "top_level_keys": [
+      "RESULT"
+    ],
+    "response_excerpt": "{'RESULT': {'CODE': 'INFO-200', 'MESSAGE': '해당하는 데이터가 없습니다.'}}",
+    "json_response_parsed": true,
+    "siheung_coordinates_verified": false
+  },
+  {
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=100&SIGNGU_NM=%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+    "checked_at_utc": "2026-10-16T01:31:06.051684+00:00",
+    "http_status": 200,
+    "response": {
+      "Smartstlamp": [
+        {
+          "head": [
+            {
+              "list_total_count": 71
+            },
+            {
+              "RESULT": {
+                "CODE": "INFO-000",
+                "MESSAGE": "정상 처리되었습니다."
+              }
+            },
+            {
+              "api_version": "1.0"
+            }
+          ]
+        },
+        {
+          "row": [
+            {
+              "SIGUN_CD": null,
+              "SIGUN_NM": null,
+              "STLAMP_KIND_NM": "1",
+              "SIDO_NM": "경기도",
+              "SIGNGU_NM": "만안구",
+              "ROAD_NM": "예술공원로",
+              "STLAMP_FORM_NM": "1",
+              "LIGHT_YN": "N",
+              "SENR_KIND_INFO": "조명제어",
+              "SENR_SERVC_INFO": null,
+              "CCTV_YN": "N",
+              "WIFI_YN": "N",
+              "GPS_YN": "Y",
+              "BEACON_YN": "N",
+              "LIGHT_CONTROL_YN": "Y",
+              "STATMNT_YN": "N",
+              "APP_SERVC_INFO": null,
+              "APP_SERVC_PROVSN_INFO": null,
+              "ETC_SERVC_INFO": null,
+              "INSTL_YY": null,
+              "MANAGE_INST_NM": "경기도 안양시청",
+              "MNGINST_TELNO": "031-8045-5699",
+              "DATA_STD_DE": "20260206",
+              "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 안양동 1360-2",
+              "REFINE_ROADNM_ADDR": "경기도 안양시 만안구 예술공원로 201",
+              "REFINE_WGS84_LOGT": 126.9281822,
+              "REFINE_WGS84_LAT": 37.42010243
+            },
+            {
+              "SIGUN_CD": null,
+              "SIGUN_NM": null,
+              "STLAMP_KIND_NM": "1",
+              "SIDO_NM": "경기도",
+              "SIGNGU_NM": "만안구",
+              "ROAD_NM": "예술공원로",
+              "STLAMP_FORM_NM": "1",
+              "LIGHT_YN": "N",
+              "SENR_KIND_INFO": "조명제어",
+              "SENR_SERVC_INFO": null,
+              "CCTV_YN": "N",
+              "WIFI_YN": "N",
+              "GPS_YN": "Y",
+              "BEACON_YN": "N",
+              "LIGHT_CONTROL_YN": "Y",
+              "STATMNT_YN": "N",
+              "APP_SERVC_INFO": null,
+              "APP_SERVC_PROVSN_INFO": null,
+              "ETC_SERVC_INFO": null,
+              "INSTL_YY": null,
+              "MANAGE_INST_NM": "경기도 안양시청",
+              "MNGINST_TELNO": "031-8045-5699",
+              "DATA_STD_DE": "20260206",
+              "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 안양동 1360-3",
+              "REFINE_ROADNM_ADDR": "경기도 안양시 만안구 예술공원로 203",
+              "REFINE_WGS84_LOGT": 126.9283931,
+              "REFINE_WGS84_LAT": 37.42010445
+            },
+            {
+              "SIGUN_CD": null,
+              "SIGUN_NM": null,
+              "STLAMP_KIND_NM": "1",
+              "SIDO_NM": "경기도",
+              "SIGNGU_NM": "만안구",
+              "ROAD_NM": "예술공원로",
+              "STLAMP_FORM_NM": "1",
+              "LIGHT_YN": "N",
+              "SENR_KIND_INFO": "조명제어",
+              "SENR_SERVC_INFO": null,
+              "CCTV_YN": "N",
+              "WIFI_YN": "N",
+              "GPS_YN": "Y",
+              "BEACON_YN": "N",
+              "LIGHT_CONTROL_YN": "Y",
+              "STATMNT_YN": "N",
+              "APP_SERVC_INFO": null,
+              "APP_SERVC_PROVSN_INFO": null,
+              "ETC_SERVC_INFO": null,
+              "INSTL_YY": null,
+              "MANAGE_INST_NM": "경기도 안양시청",
+              "MNGINST_TELNO": "031-8045-5699",
+              "DATA_STD_DE": "20260206",
+              "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 안양동 1360-4",
+              "REFINE_ROADNM_ADDR": "경기도 안양시 만안구 예술공원로 205",
+              "REFINE_WGS84_LOGT": 126.9285701,
+              "REFINE_WGS84_LAT": 37.4201114
+            },
+            {
+              "SIGUN_CD": null,
+              "SIGUN_NM": null,
+              "STLAMP_KIND_NM": "1",
+              "SIDO_NM": "경기도",
+              "SIGNGU_NM": "만안구",
+              "ROAD_NM": "예술공원로",
+              "STLAMP_FORM_NM": "1",
+              "LIGHT_YN": "N",
+              "SENR_KIND_INFO": "조명제어",
+              "SENR_SERVC_INFO": null,
+              "CCTV_YN": "N",
+              "WIFI_YN": "N",
+              "GPS_YN": "Y",
+              "BEACON_YN": "N",
+              "LIGHT_CONTROL_YN": "Y",
+              "STATMNT_YN": "N",
+              "APP_SERVC_INFO": null,
+              "APP_SERVC_PROVSN_INFO": null,
+              "ETC_SERVC_INFO": null,
+              "INSTL_YY": null,
+              "MANAGE_INST_NM": "경기도 안양시청",
+              "MNGINST_TELNO": "031-8045-5699",
+              "DATA_STD_DE": "20260206",
+              "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 석수동 241-43",
+              "REFINE_ROADNM_ADDR": "경기도 안양시 만안구 예술공원로 213",
+              "REFINE_WGS84_LOGT": 126.9292922,
+              "REFINE_WGS84_LAT": 37.42107061
+            },
+            {
+              "SIGUN_CD": null,
+              "SIGUN_NM": null,
+              "STLAMP_KIND_NM": "1",
+              "SIDO_NM": "경기도",
+              "SIGNGU_NM": "만안구",
+              "ROAD_NM": "예술공원로",
+              "STLAMP_FORM_NM": "1",
+              "LIGHT_YN": "N",
+              "SENR_KIND_INFO": "조명제어",
+              "SENR_SERVC_INFO": null,
+              "CCTV_YN": "N",
+              "WIFI_YN": "N",
+              "GPS_YN": "Y",
+              "BEACON_YN": "N",
+              "LIGHT_CONTROL_YN": "Y",
+              "STATMNT_YN": "N",
+              "APP_SERVC_INFO": null,
+              "APP_SERVC_PROVSN_INFO": null,
+              "ETC_SERVC_INFO": null,
+              "INSTL_YY": null,
+              "MANAGE_INST_NM": "경기도 안양시청",
+              "MNGINST_TELNO": "031-8045-5699",
+              "DATA_STD_DE": "20260206",
+              "REFINE_LOTNO_ADDR": "경기도 안양시 만안구 석수동 839-1",
+              "REFINE_ROADNM_ADDR": null,
+              "REFINE_WGS84_LOGT": 126.9300567,
+              "REFINE_WGS84_LAT": 37.42032772
+            }
+          ]
+        }
+      ]
+    },
+    "siheung_coordinates_verified": false
+  },
+  {
+    "unfiltered_pSize100_observation": {
+      "reported_total": 71,
+      "returned_rows": 5,
+      "municipalities": [
+        "만안구"
+      ],
+      "source_as_of": [
+        "20260206"
+      ],
+      "latitude_field": "REFINE_WGS84_LAT",
+      "longitude_field": "REFINE_WGS84_LOGT"
+    },
+    "full_dataset_verified": false,
+    "note": "No TMAP app key was used for this separate public source. Successful sample schema does not establish Siheung coverage or current physical operation."
+  }
+]

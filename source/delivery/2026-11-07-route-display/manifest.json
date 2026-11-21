@@ -1,0 +1,24 @@
+{
+  "created_date": "2026-11-07",
+  "last_updated": "2026-11-07",
+  "file": "night-safety-route-display-debug.apk",
+  "sha256": "05fb61fac4d40eeb0a6bc25f20a88cb2a558dc8af994b7896a08b892cb35549f",
+  "bytes": 44721631,
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "validation": "API35 full integration 8 PASS; small/standard/pane 3 PASS",
+  "unit_tests_last_run": "2026-11-07",
+  "unit_tests_count": 31,
+  "lint_errors": 0,
+  "lint_warnings": 39,
+  "tool_tests": 14,
+  "physical_device_verified": false,
+  "report": "../../verification/route-display-2026-11-07/verification.md",
+  "ui_profiles": [
+    "small",
+    "standard",
+    "pane"
+  ],
+  "ui_cleanup_errors": 0
+}

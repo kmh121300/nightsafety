@@ -1,0 +1,1 @@
+PostGIS snapshot load failed. Check connection, schema and imported bundle; credentials suppressed.

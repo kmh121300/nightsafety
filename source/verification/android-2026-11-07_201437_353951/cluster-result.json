@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-07",
+  "sha256": "ac7590cf9b55f28ddddb06fbed4b23bf723ca13e56447c7d8441ea5b2cc87d89",
+  "groups": [
+    {
+      "map": "tmap",
+      "count": 3,
+      "listed": 3,
+      "list_and_detail": "PASS"
+    },
+    {
+      "map": "local",
+      "count": 5,
+      "listed": 5,
+      "list_and_detail": "PASS"
+    }
+  ],
+  "filter": "CCTV off1111/on1381 PASS",
+  "installed_hash": "MATCH",
+  "zoom": "Native SDK double tap zoom regrouped; +2 opens exactly2 rows PASS"
+}

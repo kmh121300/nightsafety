@@ -1,0 +1,19 @@
+{
+  "created_date": "2026-11-06",
+  "last_updated": "2026-11-06",
+  "file": "night-safety-viewbinding-debug.apk",
+  "sha256": "4c14fb98ad4346c1ce0863d6ef843f132ac0b825f082bec56bb5a0968b646db7",
+  "bytes": 44619531,
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "view_binding": true,
+  "validation": "API35 integration 8 functional tests and compact/pane checks PASS",
+  "report": "../../verification/viewbinding-2026-11-06/verification.md",
+  "unit_tests_last_run": "2026-11-06",
+  "unit_tests_count": 27,
+  "lint_errors": 0,
+  "lint_warnings": 41,
+  "tool_tests": 13,
+  "physical_device_verified": false
+}

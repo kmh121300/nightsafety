@@ -1,0 +1,12 @@
+[
+  {
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=1",
+    "checked_at_utc": "2026-10-05T06:38:52.858945+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=1&SIGUN_NM=%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+    "checked_at_utc": "2026-10-05T06:39:04.853967+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  }
+]

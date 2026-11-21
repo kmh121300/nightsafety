@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-05",
+  "apk_sha256": "f1d1a7c84d926be070ceb1b0447de95c8dfbf261d23ed1b479ed58324aa673ef",
+  "api": 36,
+  "system_image": "36.1",
+  "startup_pid": "5689",
+  "after_zero_route_pid": "5986",
+  "exit_info": [
+    "timestamp=2026-11-05 14:07:31.319 pid=5689 realUid=10232 packageUid=10232 definingUid=10232 user=0",
+    "process=kr.ac.tukorea.nightsafety reason=10 (USER REQUESTED) subreason=21 (FORCE STOP) status=0",
+    "importance=100 pss=0.00 rss=0.00 description=stop kr.ac.tukorea.nightsafety due to from pid 5977 state=empty trace=null"
+  ],
+  "zero_route_exit_code": 0
+}

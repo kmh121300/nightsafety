@@ -1,0 +1,99 @@
+{
+  "date": "2026-11-06",
+  "serial": "emulator-5556",
+  "android_api": "35",
+  "gpu": "host",
+  "apk_sha256": "039efba8118cdc538581bb4aebd49a900b609d54ca3f5640597c0fc8ddf870b9",
+  "installed_sha256": "039efba8118cdc538581bb4aebd49a900b609d54ca3f5640597c0fc8ddf870b9",
+  "measurements": {
+    "collapsed": {
+      "map_container": [
+        0,
+        0,
+        1080,
+        2220
+      ],
+      "controls_scroll": [
+        0,
+        1890,
+        1080,
+        2220
+      ],
+      "reset_map": [
+        816,
+        165,
+        1058,
+        297
+      ],
+      "search_routes": [
+        61,
+        591,
+        1019,
+        712
+      ],
+      "map_status": [
+        33,
+        241,
+        1047,
+        296
+      ]
+    },
+    "expanded": {
+      "map_container": [
+        0,
+        0,
+        1080,
+        2220
+      ],
+      "controls_scroll": [
+        0,
+        352,
+        1080,
+        2220
+      ],
+      "reset_map": [
+        816,
+        165,
+        1058,
+        297
+      ],
+      "search_routes": [
+        61,
+        591,
+        1019,
+        712
+      ],
+      "map_status": [
+        33,
+        241,
+        1047,
+        296
+      ]
+    },
+    "fullscreen": {
+      "map_container": [
+        0,
+        0,
+        1080,
+        2220
+      ],
+      "reset_map": [
+        816,
+        165,
+        1058,
+        297
+      ]
+    }
+  },
+  "steps": [
+    "Handled an external Android system ANR dialog (wait when available)"
+  ],
+  "failure": "",
+  "scope": "Visual captures only; no live API/DB or complete functional acceptance test",
+  "ready_screenshots": [
+    "ui-ready-collapsed.png",
+    "ui-ready-expanded.png"
+  ],
+  "map_ready_confirmed": true,
+  "restored_to_collapsed": true
+}

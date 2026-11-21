@@ -1,0 +1,327 @@
+{
+  "data_audit": {
+    "cctv": {
+      "source": "project_readiness/data/source/모바일프로그래밍 팀플/CCTV정보_경기시흥시.csv",
+      "sha256": "3064357fcdb3b0c3a7d3999bf9c03545e54aae65c59c6a07e664269a0602b083",
+      "encoding": "cp949",
+      "rows": 2130,
+      "valid_coordinates": 2130,
+      "invalid_coordinate_csv_rows": [],
+      "unique_management_ids": 2130,
+      "unique_coordinate_sites": 2129,
+      "duplicate_coordinate_extra_rows": 1,
+      "coordinate_duplicate_groups": [
+        {
+          "coordinates": [
+            126.7929983,
+            37.43645512
+          ],
+          "count": 2
+        }
+      ],
+      "pilot_rows": 270,
+      "pilot_unique_sites": 270,
+      "eligible_unique_sites": 1805,
+      "eligible_pilot_sites": 231,
+      "fields": {
+        "설치목적구분": {
+          "교통단속": 163,
+          "쓰레기단속": 106,
+          "생활방범": 1805,
+          "차량방범": 56
+        },
+        "데이터기준일자": {
+          "2026-01-20": 2130
+        }
+      },
+      "reported_camera_units": 7647
+    },
+    "bell": {
+      "source": "project_readiness/data/source/모바일프로그래밍 팀플/안전비상벨위치정보_경기시흥시.csv",
+      "sha256": "605b402a6df0abfafecb5467a6bc8b880bba4d574911222a2610ff3d4343f3a0",
+      "encoding": "cp949",
+      "rows": 1851,
+      "valid_coordinates": 1851,
+      "invalid_coordinate_csv_rows": [],
+      "unique_management_ids": 1851,
+      "unique_coordinate_sites": 1841,
+      "duplicate_coordinate_extra_rows": 10,
+      "coordinate_duplicate_groups": [
+        {
+          "coordinates": [
+            126.781257,
+            37.389789
+          ],
+          "count": 4
+        },
+        {
+          "coordinates": [
+            126.709912,
+            37.354514
+          ],
+          "count": 3
+        },
+        {
+          "coordinates": [
+            126.715048,
+            37.335933
+          ],
+          "count": 2
+        },
+        {
+          "coordinates": [
+            126.755514,
+            37.338759
+          ],
+          "count": 2
+        },
+        {
+          "coordinates": [
+            126.800801,
+            37.448658
+          ],
+          "count": 2
+        },
+        {
+          "coordinates": [
+            126.79928,
+            37.440918
+          ],
+          "count": 2
+        },
+        {
+          "coordinates": [
+            126.805836,
+            37.443968
+          ],
+          "count": 2
+        }
+      ],
+      "pilot_rows": 238,
+      "pilot_unique_sites": 238,
+      "eligible_unique_sites": 1798,
+      "eligible_pilot_sites": 231,
+      "fields": {
+        "설치장소유형": {
+          "기타": 1798,
+          "화장실": 53
+        },
+        "경찰연계유무": {
+          "N": 1798,
+          "Y": 53
+        },
+        "최종점검결과구분": {
+          "Y": 1851
+        },
+        "데이터기준일자": {
+          "2026-01-22": 1851
+        },
+        "최종점검일자": {
+          "2025-12-31": 1798,
+          "2026-01-15": 14,
+          "2026-01-22": 39
+        }
+      }
+    }
+  },
+  "route_proximity": {
+    "distance_only": {
+      "distance_m": 1572.4006467480049,
+      "samples": 333,
+      "max_sample_interval_m": 5,
+      "metrics": {
+        "cctv_all": {
+          "25": 12.75716133481016,
+          "50": 36.35848601986013,
+          "100": 67.53710435774862
+        },
+        "cctv_eligible_unverified": {
+          "25": 12.141783364914485,
+          "50": 30.847997022222568,
+          "100": 59.8115742851332
+        },
+        "bell_all": {
+          "25": 12.141783364914485,
+          "50": 30.847997022222568,
+          "100": 59.8115742851332
+        },
+        "bell_eligible_unverified": {
+          "25": 12.141783364914485,
+          "50": 30.847997022222568,
+          "100": 59.8115742851332
+        }
+      }
+    },
+    "moderate_pedestrian_preferred": {
+      "distance_m": 1812.8376247735523,
+      "samples": 391,
+      "max_sample_interval_m": 5,
+      "metrics": {
+        "cctv_all": {
+          "25": 21.6928755218627,
+          "50": 52.943568874573735,
+          "100": 75.69939971725785
+        },
+        "cctv_eligible_unverified": {
+          "25": 19.09311905683237,
+          "50": 47.49527254832868,
+          "100": 69.21137412232967
+        },
+        "bell_all": {
+          "25": 21.36026318003252,
+          "50": 48.04059071392589,
+          "100": 69.75669228792685
+        },
+        "bell_eligible_unverified": {
+          "25": 19.09311905683237,
+          "50": 47.49527254832868,
+          "100": 69.21137412232967
+        }
+      }
+    },
+    "pedestrian_preferred": {
+      "distance_m": 1932.5627727980032,
+      "samples": 418,
+      "max_sample_interval_m": 5,
+      "metrics": {
+        "cctv_all": {
+          "25": 20.348969507792717,
+          "50": 50.1503201481946,
+          "100": 81.62516255756681
+        },
+        "cctv_eligible_unverified": {
+          "25": 17.91027183577258,
+          "50": 45.03955391065986,
+          "100": 75.53907983128582
+        },
+        "bell_all": {
+          "25": 20.03696299694557,
+          "50": 45.55108880203927,
+          "100": 76.05061472266522
+        },
+        "bell_eligible_unverified": {
+          "25": 17.91027183577258,
+          "50": 45.03955391065986,
+          "100": 75.53907983128582
+        }
+      }
+    },
+    "primary_secondary_excluded": {
+      "distance_m": 1579.2582626123626,
+      "samples": 337,
+      "max_sample_interval_m": 5,
+      "metrics": {
+        "cctv_all": {
+          "25": 9.37397684483484,
+          "50": 37.81631673281231,
+          "100": 67.67806804521481
+        },
+        "cctv_eligible_unverified": {
+          "25": 8.761271031754067,
+          "50": 32.32975594100731,
+          "100": 59.9860845550937
+        },
+        "bell_all": {
+          "25": 8.761271031754067,
+          "50": 32.32975594100731,
+          "100": 59.9860845550937
+        },
+        "bell_eligible_unverified": {
+          "25": 8.761271031754067,
+          "50": 32.32975594100731,
+          "100": 59.9860845550937
+        }
+      }
+    }
+  },
+  "shared_exact_cctv_bell_coordinates_city": 80,
+  "shared_exact_cctv_bell_coordinates_pilot": 9,
+  "police_osm_candidates": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7287238,
+          37.3511683
+        ]
+      },
+      "properties": {
+        "kind": "police_osm_candidate",
+        "osm_type": "node",
+        "osm_id": "368606165",
+        "name": "시흥경찰서 옥구지구대",
+        "official_status_verified": false,
+        "entrance_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          126.7436733,
+          37.3401724
+        ]
+      },
+      "properties": {
+        "kind": "police_osm_candidate",
+        "osm_type": "node",
+        "osm_id": "4636798530",
+        "name": "시흥경찰서 시화파출소",
+        "official_status_verified": false,
+        "entrance_verified": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              126.7409271,
+              37.348771
+            ],
+            [
+              126.7410185,
+              37.3487147
+            ],
+            [
+              126.7410741,
+              37.3487717
+            ],
+            [
+              126.7409826,
+              37.348828
+            ],
+            [
+              126.7409271,
+              37.348771
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "kind": "police_osm_candidate",
+        "osm_type": "way",
+        "osm_id": "545484505",
+        "name": "시흥경찰서 정왕지구대",
+        "official_status_verified": false,
+        "entrance_verified": false
+      }
+    }
+  ],
+  "osm_street_lamp_features": 0,
+  "method": "length-weighted <=5m midpoint samples, local equirectangular metric about pilot center; straight-line proximity only, no wall/road/visibility/access verification",
+  "radius_m": [
+    25,
+    50,
+    100
+  ],
+  "final_safety_score": null,
+  "lighting_coordinates_verified": false,
+  "police_official_coordinates_verified": false,
+  "police_operational_status_verified": false,
+  "graph_endpoint_completion_verified": false
+}

@@ -1,0 +1,18 @@
+{
+  "created_date": "2026-11-06",
+  "last_updated": "2026-11-06",
+  "file": "night-safety-mvp-debug.apk",
+  "sha256": "b863ec3a3387d83c66ee59bfba7f85d58fea52ddb7d781e81734660385b1f0e6",
+  "bytes": 44615719,
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "validation": "API35 compact/standard screen checks PASS",
+  "report": "../../verification/screen-install-2026-11-06/verification.md",
+  "unit_tests_last_run": "2026-11-05",
+  "unit_tests_count": 27,
+  "lint_errors": 0,
+  "lint_warnings": 33,
+  "tool_tests": 13,
+  "physical_device_verified": false
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-07",
+  "sha256": "c02aed75eea3ab417c023d702ec7aa6a60d53311228fadb6578c0aff52582f4a",
+  "installed_hash": "MATCH",
+  "results": [
+    {
+      "map": "tmap",
+      "address_list_and_detail": "PASS",
+      "rows_checked": 3
+    },
+    {
+      "map": "local",
+      "address_list_and_detail": "PASS",
+      "rows_checked": 5
+    }
+  ]
+}

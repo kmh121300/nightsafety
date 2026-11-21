@@ -1,0 +1,11 @@
+{
+  "date": "2026-11-06",
+  "original_size": "Physical size: 1080x2220",
+  "original_density": "Physical density: 440",
+  "profile": "720x1280 density360 = 320x568dp",
+  "bounds": {},
+  "outcome": "FAIL",
+  "failure": "Application ANR/crash dialog observed",
+  "size_restored": true,
+  "density_restored": true
+}

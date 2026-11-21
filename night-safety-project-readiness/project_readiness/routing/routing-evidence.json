@@ -1,0 +1,5888 @@
+{
+  "raw_sha256": "bb4586cbb583446979b8461f85c9ac8e8599cfe10de49029749629902576692d",
+  "original_edges_only": true,
+  "physical_verification": false,
+  "campus_boundary_crossing_ways": [
+    {
+      "way": 411314663,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4130186272,
+      "outside_node": 4130186271,
+      "gate_verified": false
+    },
+    {
+      "way": 411314668,
+      "tags": {
+        "highway": "service",
+        "surface": "asphalt"
+      },
+      "inside_node": 4130186287,
+      "outside_node": 3040043928,
+      "gate_verified": false
+    },
+    {
+      "way": 471592962,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4657546841,
+      "outside_node": 4657546842,
+      "gate_verified": false
+    },
+    {
+      "way": 471592963,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4657546843,
+      "outside_node": 4657546844,
+      "gate_verified": false
+    },
+    {
+      "way": 472300426,
+      "tags": {
+        "highway": "footway",
+        "surface": "paving_stones"
+      },
+      "inside_node": 4665172636,
+      "outside_node": 4665172637,
+      "gate_verified": false
+    },
+    {
+      "way": 1067311761,
+      "tags": {
+        "highway": "service",
+        "name": "기숙사-옆문 도보"
+      },
+      "inside_node": 9799704009,
+      "outside_node": 9799703999,
+      "gate_verified": false
+    },
+    {
+      "way": 1067311767,
+      "tags": {
+        "highway": "service"
+      },
+      "inside_node": 4657273077,
+      "outside_node": 9799704016,
+      "gate_verified": false
+    }
+  ],
+  "targets": [
+    {
+      "node": 4665188383,
+      "lat_lon": [
+        37.3515972,
+        126.7427353
+      ],
+      "tags": {}
+    },
+    {
+      "node": 4665188380,
+      "lat_lon": [
+        37.3510282,
+        126.7417654
+      ],
+      "tags": {}
+    },
+    {
+      "node": 4673861122,
+      "lat_lon": [
+        37.3505573,
+        126.7411448
+      ],
+      "tags": {}
+    },
+    {
+      "node": 3403277121,
+      "lat_lon": [
+        37.35171,
+        126.7427421
+      ],
+      "tags": {
+        "description": "정왕역 1번출구",
+        "description:en": "Jeongwang Station gate 1",
+        "description:ja": "正往駅 1番出口",
+        "railway": "subway_entrance",
+        "ref": "1"
+      }
+    },
+    {
+      "node": 3403277120,
+      "lat_lon": [
+        37.3519669,
+        126.7428722
+      ],
+      "tags": {
+        "description": "정왕역 2번출구",
+        "description:en": "Jeongwang Station gate 2",
+        "description:ja": "正往駅 2番出口",
+        "railway": "subway_entrance",
+        "ref": "2"
+      }
+    }
+  ],
+  "modes": {
+    "inferred": {
+      "vertices": 4080,
+      "directed_edges": 9904,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 24,
+      "reverse_reachable_pairs": 24,
+      "tested_pairs": 40
+    },
+    "no_major": {
+      "vertices": 3909,
+      "directed_edges": 9424,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 24,
+      "reverse_reachable_pairs": 24,
+      "tested_pairs": 40
+    },
+    "explicit": {
+      "vertices": 887,
+      "directed_edges": 1708,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 0,
+      "reverse_reachable_pairs": 0,
+      "tested_pairs": 40
+    },
+    "no_steps_bridge": {
+      "vertices": 4080,
+      "directed_edges": 9786,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 24,
+      "reverse_reachable_pairs": 24,
+      "tested_pairs": 40
+    },
+    "no_untagged_access": {
+      "vertices": 4080,
+      "directed_edges": 154,
+      "asymmetric_edges": 0,
+      "forward_reachable_pairs": 0,
+      "reverse_reachable_pairs": 0,
+      "tested_pairs": 40
+    }
+  },
+  "routes": [
+    {
+      "mode": "inferred",
+      "from_node": 4130186271,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1940.9668011421766,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4130186271,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1800.1726025075588,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4130186271,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1692.7449728705647,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4130186271,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4130186271,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 3040043928,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1888.4185731607133,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 3040043928,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1747.6243745260956,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 3040043928,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1640.1967448891014,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 3040043928,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 3040043928,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546842,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1643.8273302086452,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546842,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1503.0331315740275,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546842,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1395.6055019370333,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546842,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546842,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546844,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1652.651360028325,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546844,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1511.8571613937072,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546844,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1404.429531756713,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546844,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4657546844,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4665172637,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1982.5476232076878,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4665172637,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1841.75342457307,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4665172637,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1734.325794936076,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4665172637,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 4665172637,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703999,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1932.562772798003,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703999,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1791.7685741633852,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703999,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1684.340944526391,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703999,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703999,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799704016,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1814.9865026228965,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799704016,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1674.1923039882788,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799704016,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1566.7646743512846,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799704016,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799704016,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703963,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1868.1116307288696,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703963,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1727.317432094252,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703963,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1619.8898024572577,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703963,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "inferred",
+      "from_node": 9799703963,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4130186271,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1940.9668011421766,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4130186271,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1800.1726025075588,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4130186271,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1692.7449728705647,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4130186271,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4130186271,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 3040043928,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1888.4185731607133,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 3040043928,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1747.6243745260956,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 3040043928,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1640.1967448891014,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 3040043928,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 3040043928,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546842,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1643.8273302086452,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546842,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1503.0331315740275,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546842,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1395.6055019370333,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546842,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546842,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546844,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1652.651360028325,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546844,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1511.8571613937072,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546844,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1404.429531756713,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546844,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4657546844,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4665172637,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1982.5476232076878,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4665172637,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1841.75342457307,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4665172637,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1734.325794936076,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4665172637,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 4665172637,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703999,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1932.562772798003,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703999,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1791.7685741633852,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703999,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1684.340944526391,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        1495768614,
+        1495767511,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [],
+      "bridge_ways": [
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703999,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703999,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799704016,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1814.9865026228965,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799704016,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1674.1923039882788,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799704016,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1566.7646743512846,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799704016,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799704016,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703963,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1868.1116307288696,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703963,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1727.317432094252,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703963,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1619.8898024572577,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311751,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        472321925,
+        472321926,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471592949,
+        471592951,
+        471592952,
+        471592953,
+        471592956,
+        471592954,
+        472303064,
+        672158188,
+        473224934,
+        473225094
+      ],
+      "steps_ways": [
+        472321926
+      ],
+      "bridge_ways": [
+        472321925,
+        471592949
+      ]
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703963,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_major",
+      "from_node": 9799703963,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4130186271,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4130186271,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4130186271,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4130186271,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4130186271,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 3040043928,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 3040043928,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 3040043928,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 3040043928,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 3040043928,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546842,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546842,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546842,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546842,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546842,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546844,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546844,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546844,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546844,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4657546844,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4665172637,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4665172637,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4665172637,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4665172637,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 4665172637,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703999,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703999,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703999,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703999,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703999,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799704016,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799704016,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799704016,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799704016,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799704016,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703963,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703963,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703963,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703963,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "explicit",
+      "from_node": 9799703963,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4130186271,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1587.662290956536,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4130186271,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1446.8680923219183,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4130186271,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1339.4404626849241,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        493192211,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4130186271,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4130186271,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 3040043928,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2325.791437564181,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 3040043928,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2184.9972389295635,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 3040043928,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2077.5696092925696,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314668,
+        411314666,
+        1465056229,
+        1067311753,
+        1067311760,
+        471567471,
+        471592962,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 3040043928,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 3040043928,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546842,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2081.2001946121136,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546842,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1940.4059959774952,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546842,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1832.978366340501,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546842,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546842,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546844,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2090.024224431793,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546844,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1949.2300257971747,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546844,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1841.8023961601805,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546844,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4657546844,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4665172637,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2419.9204876111544,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4665172637,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2279.126288976537,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4665172637,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 2171.698659339543,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        472300426,
+        471592957,
+        471592959,
+        471592958,
+        1068872811,
+        1068872809,
+        411314665,
+        471567471,
+        471592963,
+        471567474,
+        472321924,
+        1495767508,
+        1495767507,
+        472321927,
+        472321928,
+        472321929,
+        471592948,
+        471567486,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4665172637,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 4665172637,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703999,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1579.2582626123626,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703999,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1438.464063977745,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703999,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1331.0364343407507,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        1067311768,
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703999,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703999,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799704016,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1591.3778813856327,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799704016,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1450.583682751015,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799704016,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1343.1560531140208,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        471567474,
+        493192211,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799704016,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799704016,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703963,
+      "to_node": 4665188383,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1705.1870494600973,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314664,
+        411314663,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015,
+        472303066,
+        472303069,
+        472303068,
+        472303067
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703963,
+      "to_node": 4665188380,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1564.3928508254796,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314664,
+        411314663,
+        493192211,
+        632707162,
+        632707160,
+        473225014,
+        882558015
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703963,
+      "to_node": 4673861122,
+      "graph_reachable": true,
+      "reverse_reachable": true,
+      "distance_m": 1456.9652211884854,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false,
+      "astar_dijkstra_cost_match": true,
+      "way_ids": [
+        411314664,
+        411314663,
+        493192211,
+        632707162,
+        632707160,
+        473225014
+      ],
+      "steps_ways": [],
+      "bridge_ways": []
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703963,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_steps_bridge",
+      "from_node": 9799703963,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4130186271,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4130186271,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4130186271,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4130186271,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4130186271,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 3040043928,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 3040043928,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 3040043928,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 3040043928,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 3040043928,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546842,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546842,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546842,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546842,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546842,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546844,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546844,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546844,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546844,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4657546844,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4665172637,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4665172637,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4665172637,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4665172637,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 4665172637,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703999,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703999,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703999,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703999,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703999,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799704016,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799704016,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799704016,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799704016,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799704016,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703963,
+      "to_node": 4665188383,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703963,
+      "to_node": 4665188380,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703963,
+      "to_node": 4673861122,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703963,
+      "to_node": 3403277121,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    },
+    {
+      "mode": "no_untagged_access",
+      "from_node": 9799703963,
+      "to_node": 3403277120,
+      "graph_reachable": false,
+      "reverse_reachable": false,
+      "distance_m": null,
+      "status": "graph_only_unverified_physical_route",
+      "verified_complete_walking_route": false,
+      "facility_safety_scored": false
+    }
+  ],
+  "preferred_route_hazards": {
+    "crossings": [
+      {
+        "node": 13702941711,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 493192211,
+            "tags": {
+              "foot": "yes",
+              "highway": "tertiary",
+              "lanes": "3",
+              "maxheight:signed": "no",
+              "name": "마유로",
+              "name:en": "Mayu-ro",
+              "name:ko": "마유로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 1495768594,
+            "tags": {
+              "crossing": "traffic_signals",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 1495768614,
+            "tags": {
+              "footway": "sidewalk",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 4665335047,
+        "tags": {
+          "crossing": "traffic_signals",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472321927,
+            "tags": {
+              "highway": "footway",
+              "lit": "yes",
+              "surface": "paving_stones"
+            }
+          },
+          {
+            "way": 472321928,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway",
+              "lit": "yes",
+              "surface": "asphalt"
+            }
+          },
+          {
+            "way": 880489738,
+            "tags": {
+              "highway": "tertiary",
+              "lanes": "4",
+              "lit": "yes",
+              "name": "옥구공원로",
+              "name:en": "Okgugongwon-ro",
+              "name:ko": "옥구공원로",
+              "oneway": "yes",
+              "surface": "asphalt"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625948,
+        "tags": {
+          "crossing": "traffic_signals",
+          "crossing:markings": "zebra",
+          "highway": "crossing",
+          "tactile_paving": "no"
+        },
+        "incident_highways": [
+          {
+            "way": 472321928,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway",
+              "lit": "yes",
+              "surface": "asphalt"
+            }
+          },
+          {
+            "way": 880489736,
+            "tags": {
+              "highway": "tertiary",
+              "lit": "yes",
+              "name": "옥구공원로",
+              "name:en": "Okgugongwon-ro",
+              "name:ko": "옥구공원로",
+              "oneway": "yes",
+              "surface": "asphalt"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625930,
+        "tags": {
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 471592950,
+            "tags": {
+              "highway": "residential"
+            }
+          },
+          {
+            "way": 471592951,
+            "tags": {
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 3040044456,
+        "tags": {
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 299918204,
+            "tags": {
+              "highway": "residential"
+            }
+          },
+          {
+            "way": 471592951,
+            "tags": {
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625929,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 470477060,
+            "tags": {
+              "highway": "tertiary",
+              "lanes": "2",
+              "lit": "yes",
+              "name": "정왕신길로",
+              "name:en": "Jeongwangsingil-ro",
+              "name:ko": "정왕신길로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 472303064,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625928,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472303064,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 492095552,
+            "tags": {
+              "highway": "tertiary",
+              "lanes": "2",
+              "name": "정왕신길로",
+              "name:en": "Jeongwangsingil-ro",
+              "name:ko": "정왕신길로",
+              "oneway": "yes"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625924,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 369942748,
+            "tags": {
+              "highway": "secondary",
+              "name": "역전로",
+              "name:en": "Yeokjeon-ro",
+              "name:ko": "역전로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 472303066,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625925,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 369942744,
+            "tags": {
+              "highway": "secondary",
+              "name": "역전로",
+              "name:en": "Yeokjeon-ro",
+              "name:ko": "역전로",
+              "oneway": "yes"
+            }
+          },
+          {
+            "way": 472303066,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          }
+        ]
+      },
+      {
+        "node": 8189625926,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472303067,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 473454840,
+            "tags": {
+              "highway": "residential",
+              "lanes": "4",
+              "name": "마유로418번길",
+              "name:en": "Mayu-ro 418beon-gil",
+              "name:ko": "마유로418번길"
+            }
+          }
+        ]
+      },
+      {
+        "node": 9667705518,
+        "tags": {
+          "crossing": "marked",
+          "crossing:markings": "zebra",
+          "highway": "crossing"
+        },
+        "incident_highways": [
+          {
+            "way": 472303067,
+            "tags": {
+              "crossing": "marked",
+              "crossing:markings": "zebra",
+              "footway": "crossing",
+              "highway": "footway"
+            }
+          },
+          {
+            "way": 1052014020,
+            "tags": {
+              "highway": "service",
+              "oneway": "yes"
+            }
+          }
+        ]
+      }
+    ],
+    "steps": [],
+    "bridges": [
+      {
+        "way": 471592949,
+        "tags": {
+          "bridge": "yes",
+          "highway": "footway"
+        }
+      }
+    ],
+    "conditional_or_opening_hours": []
+  },
+  "candidate_audit": [
+    {
+      "id": "station-exit-gap",
+      "correction_supported": false,
+      "nodes": [
+        {
+          "id": 4665188383,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 472303067,
+              "tags": {
+                "crossing": "marked",
+                "crossing:markings": "zebra",
+                "footway": "crossing",
+                "highway": "footway"
+              }
+            }
+          ]
+        },
+        {
+          "id": 3403277121,
+          "tags": {
+            "description": "정왕역 1번출구",
+            "description:en": "Jeongwang Station gate 1",
+            "description:ja": "正往駅 1番出口",
+            "railway": "subway_entrance",
+            "ref": "1"
+          },
+          "incident_highways": []
+        }
+      ],
+      "way_tags": [
+        {
+          "way": 472303067,
+          "tags": {
+            "crossing": "marked",
+            "crossing:markings": "zebra",
+            "footway": "crossing",
+            "highway": "footway"
+          }
+        }
+      ]
+    },
+    {
+      "id": "side-door-explicit-access-gap",
+      "correction_supported": false,
+      "nodes": [
+        {
+          "id": 9799703999,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 1067311761,
+              "tags": {
+                "highway": "service",
+                "name": "기숙사-옆문 도보"
+              }
+            },
+            {
+              "way": 1067311768,
+              "tags": {
+                "highway": "service"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4130186271,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 411314663,
+              "tags": {
+                "highway": "service"
+              }
+            },
+            {
+              "way": 493192211,
+              "tags": {
+                "foot": "yes",
+                "highway": "tertiary",
+                "lanes": "3",
+                "maxheight:signed": "no",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "way_tags": [
+        {
+          "way": 411314663,
+          "tags": {
+            "highway": "service"
+          }
+        },
+        {
+          "way": 493192211,
+          "tags": {
+            "foot": "yes",
+            "highway": "tertiary",
+            "lanes": "3",
+            "maxheight:signed": "no",
+            "name": "마유로",
+            "name:en": "Mayu-ro",
+            "name:ko": "마유로",
+            "oneway": "yes"
+          }
+        },
+        {
+          "way": 1067311761,
+          "tags": {
+            "highway": "service",
+            "name": "기숙사-옆문 도보"
+          }
+        },
+        {
+          "way": 1067311768,
+          "tags": {
+            "highway": "service"
+          }
+        }
+      ]
+    },
+    {
+      "id": "explicit-component-nearest-gap",
+      "correction_supported": false,
+      "nodes": [
+        {
+          "id": 2974599502,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 369942748,
+              "tags": {
+                "highway": "secondary",
+                "name": "역전로",
+                "name:en": "Yeokjeon-ro",
+                "name:ko": "역전로",
+                "oneway": "yes"
+              }
+            },
+            {
+              "way": 632707160,
+              "tags": {
+                "foot": "yes",
+                "highway": "tertiary",
+                "lanes": "3",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4665188380,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 882558015,
+              "tags": {
+                "highway": "footway"
+              }
+            }
+          ]
+        }
+      ],
+      "way_tags": []
+    },
+    {
+      "id": "road-run-0",
+      "correction_supported": false,
+      "nodes": [
+        {
+          "id": 9799703999,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 1067311761,
+              "tags": {
+                "highway": "service",
+                "name": "기숙사-옆문 도보"
+              }
+            },
+            {
+              "way": 1067311768,
+              "tags": {
+                "highway": "service"
+              }
+            }
+          ]
+        },
+        {
+          "id": 9799758217,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 471567474,
+              "tags": {
+                "highway": "service",
+                "oneway": "no",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 1067311768,
+              "tags": {
+                "highway": "service"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4657273080,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 471567474,
+              "tags": {
+                "highway": "service",
+                "oneway": "no",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 493192211,
+              "tags": {
+                "foot": "yes",
+                "highway": "tertiary",
+                "lanes": "3",
+                "maxheight:signed": "no",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        }
+      ],
+      "way_tags": [
+        {
+          "way": 1067311768,
+          "tags": {
+            "highway": "service"
+          }
+        },
+        {
+          "way": 471567474,
+          "tags": {
+            "highway": "service",
+            "oneway": "no",
+            "surface": "asphalt"
+          }
+        }
+      ]
+    },
+    {
+      "id": "road-run-1",
+      "correction_supported": false,
+      "nodes": [
+        {
+          "id": 4657273080,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 471567474,
+              "tags": {
+                "highway": "service",
+                "oneway": "no",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 493192211,
+              "tags": {
+                "foot": "yes",
+                "highway": "tertiary",
+                "lanes": "3",
+                "maxheight:signed": "no",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4657273079,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 493192211,
+              "tags": {
+                "foot": "yes",
+                "highway": "tertiary",
+                "lanes": "3",
+                "maxheight:signed": "no",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": 13702941711,
+          "tags": {
+            "crossing": "traffic_signals",
+            "highway": "crossing"
+          },
+          "incident_highways": [
+            {
+              "way": 493192211,
+              "tags": {
+                "foot": "yes",
+                "highway": "tertiary",
+                "lanes": "3",
+                "maxheight:signed": "no",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes"
+              }
+            },
+            {
+              "way": 1495768594,
+              "tags": {
+                "crossing": "traffic_signals",
+                "footway": "crossing",
+                "highway": "footway"
+              }
+            },
+            {
+              "way": 1495768614,
+              "tags": {
+                "footway": "sidewalk",
+                "highway": "footway"
+              }
+            }
+          ]
+        }
+      ],
+      "way_tags": [
+        {
+          "way": 493192211,
+          "tags": {
+            "foot": "yes",
+            "highway": "tertiary",
+            "lanes": "3",
+            "maxheight:signed": "no",
+            "name": "마유로",
+            "name:en": "Mayu-ro",
+            "name:ko": "마유로",
+            "oneway": "yes"
+          }
+        }
+      ]
+    },
+    {
+      "id": "road-run-3",
+      "correction_supported": false,
+      "nodes": [
+        {
+          "id": 4665188375,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 473224934,
+              "tags": {
+                "highway": "residential",
+                "lanes": "2",
+                "name": "군서마을로",
+                "name:en": "Gunseomaeul-ro",
+                "name:ko": "군서마을로",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 473226020,
+              "tags": {
+                "highway": "residential",
+                "name": "다솜마을1길",
+                "name:en": "Dasommaeul 1-gil",
+                "name:ko": "다솜마을1길",
+                "oneway": "yes"
+              }
+            },
+            {
+              "way": 672158188,
+              "tags": {
+                "highway": "footway"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4673861124,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 473224934,
+              "tags": {
+                "highway": "residential",
+                "lanes": "2",
+                "name": "군서마을로",
+                "name:en": "Gunseomaeul-ro",
+                "name:ko": "군서마을로",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 473225094,
+              "tags": {
+                "highway": "residential",
+                "name": "군서마을로",
+                "name:en": "Gunseomaeul-ro",
+                "name:ko": "군서마을로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4673861123,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 473225094,
+              "tags": {
+                "highway": "residential",
+                "name": "군서마을로",
+                "name:en": "Gunseomaeul-ro",
+                "name:ko": "군서마을로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4698282477,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 473225094,
+              "tags": {
+                "highway": "residential",
+                "name": "군서마을로",
+                "name:en": "Gunseomaeul-ro",
+                "name:ko": "군서마을로",
+                "oneway": "yes"
+              }
+            },
+            {
+              "way": 473225223,
+              "tags": {
+                "highway": "residential",
+                "name": "다솜마을2길",
+                "name:en": "Dasommaeul 2-gil",
+                "name:ko": "다솜마을2길"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4673861122,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 473225014,
+              "tags": {
+                "highway": "residential",
+                "lanes": "1",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 473225094,
+              "tags": {
+                "highway": "residential",
+                "name": "군서마을로",
+                "name:en": "Gunseomaeul-ro",
+                "name:ko": "군서마을로",
+                "oneway": "yes"
+              }
+            }
+          ]
+        },
+        {
+          "id": 4665188378,
+          "tags": {},
+          "incident_highways": [
+            {
+              "way": 473225014,
+              "tags": {
+                "highway": "residential",
+                "lanes": "1",
+                "name": "마유로",
+                "name:en": "Mayu-ro",
+                "name:ko": "마유로",
+                "oneway": "yes",
+                "surface": "asphalt"
+              }
+            },
+            {
+              "way": 882558015,
+              "tags": {
+                "highway": "footway"
+              }
+            }
+          ]
+        }
+      ],
+      "way_tags": [
+        {
+          "way": 473224934,
+          "tags": {
+            "highway": "residential",
+            "lanes": "2",
+            "name": "군서마을로",
+            "name:en": "Gunseomaeul-ro",
+            "name:ko": "군서마을로",
+            "surface": "asphalt"
+          }
+        },
+        {
+          "way": 473225094,
+          "tags": {
+            "highway": "residential",
+            "name": "군서마을로",
+            "name:en": "Gunseomaeul-ro",
+            "name:ko": "군서마을로",
+            "oneway": "yes"
+          }
+        },
+        {
+          "way": 473225014,
+          "tags": {
+            "highway": "residential",
+            "lanes": "1",
+            "name": "마유로",
+            "name:en": "Mayu-ro",
+            "name:ko": "마유로",
+            "oneway": "yes",
+            "surface": "asphalt"
+          }
+        }
+      ]
+    }
+  ],
+  "pairwise_diversity_greedy_ranks": [
+    1,
+    2,
+    4,
+    14
+  ],
+  "k_shortest_test": {
+    "algorithm": "Yen loopless, original directed edges; physical distance ordering",
+    "k": 30,
+    "walking_speed_assumption_mps": 1.2,
+    "plus_10_min_limit_distance_m": 2292.400646748005,
+    "paths": [
+      {
+        "rank": 1,
+        "distance_m": 1572.4006467480049,
+        "dedicated_pedestrian_share_percent": 0.1743954372461314,
+        "extra_minutes_at_1_2_mps": 0.0,
+        "shared_shortest_m": 1572.4006467480049,
+        "shared_fraction_of_shortest": 1.0,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 2,
+        "distance_m": 1579.2582626123626,
+        "dedicated_pedestrian_share_percent": 12.495329696512357,
+        "extra_minutes_at_1_2_mps": 0.09524466478274639,
+        "shared_shortest_m": 1228.894951006498,
+        "shared_fraction_of_shortest": 0.7815406038836631,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          473225014,
+          882558015,
+          472303066,
+          472303069,
+          472303068,
+          472303067
+        ]
+      },
+      {
+        "rank": 3,
+        "distance_m": 1579.7448886858615,
+        "dedicated_pedestrian_share_percent": 0.7636360396305858,
+        "extra_minutes_at_1_2_mps": 0.10200336024800866,
+        "shared_shortest_m": 1530.301973774059,
+        "shared_fraction_of_shortest": 0.9732264972918873,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 4,
+        "distance_m": 1580.2244448860215,
+        "dedicated_pedestrian_share_percent": 0.1735319936374589,
+        "extra_minutes_at_1_2_mps": 0.10866386302800872,
+        "shared_shortest_m": 693.237528383415,
+        "shared_fraction_of_shortest": 0.44087842994541465,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          742082332,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 5,
+        "distance_m": 1580.7126898030074,
+        "dedicated_pedestrian_share_percent": 5.426632050708145,
+        "extra_minutes_at_1_2_mps": 0.11544504243059034,
+        "shared_shortest_m": 1347.4671876568934,
+        "shared_fraction_of_shortest": 0.8569490164250997,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          369942748,
+          472303066,
+          472303069,
+          472303068,
+          472303067
+        ]
+      },
+      {
+        "rank": 6,
+        "distance_m": 1581.0512004973905,
+        "dedicated_pedestrian_share_percent": 0.17344125113054534,
+        "extra_minutes_at_1_2_mps": 0.12014657985257789,
+        "shared_shortest_m": 1561.7699860698283,
+        "shared_fraction_of_shortest": 0.9932392162899687,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          369942748,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 7,
+        "distance_m": 1581.1623280450108,
+        "dedicated_pedestrian_share_percent": 0.17342906129996788,
+        "extra_minutes_at_1_2_mps": 0.12169001801397093,
+        "shared_shortest_m": 1357.6068065835486,
+        "shared_fraction_of_shortest": 0.8633975121997776,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          470477060,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 8,
+        "distance_m": 1582.2996267510098,
+        "dedicated_pedestrian_share_percent": 0.9284705035679386,
+        "extra_minutes_at_1_2_mps": 0.13748583337506817,
+        "shared_shortest_m": 515.0230149682207,
+        "shared_fraction_of_shortest": 0.32753930496872846,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          1495768592,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 9,
+        "distance_m": 1582.6592956070353,
+        "dedicated_pedestrian_share_percent": 0.173265022406822,
+        "extra_minutes_at_1_2_mps": 0.14248123415320102,
+        "shared_shortest_m": 1373.1052152557072,
+        "shared_fraction_of_shortest": 0.8732540387181378,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          492095552,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 10,
+        "distance_m": 1582.6672291572875,
+        "dedicated_pedestrian_share_percent": 0.1732641538687384,
+        "extra_minutes_at_1_2_mps": 0.1425914223511471,
+        "shared_shortest_m": 935.6040606538236,
+        "shared_fraction_of_shortest": 0.5950163290690663,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          196298557,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 11,
+        "distance_m": 1582.9676300649498,
+        "dedicated_pedestrian_share_percent": 0.17323127340542444,
+        "extra_minutes_at_1_2_mps": 0.14676365717979126,
+        "shared_shortest_m": 477.86193370319853,
+        "shared_fraction_of_shortest": 0.3039059635923575,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          880489738,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 12,
+        "distance_m": 1583.0159971453793,
+        "dedicated_pedestrian_share_percent": 0.17322598053981297,
+        "extra_minutes_at_1_2_mps": 0.14743542218575575,
+        "shared_shortest_m": 918.7012574600324,
+        "shared_fraction_of_shortest": 0.584266649444634,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          58672529,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 13,
+        "distance_m": 1583.6300414085504,
+        "dedicated_pedestrian_share_percent": 1.0291696962059975,
+        "extra_minutes_at_1_2_mps": 0.15596381472979853,
+        "shared_shortest_m": 456.23206916014533,
+        "shared_fraction_of_shortest": 0.2901500136773104,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          1495768594,
+          158981790,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 14,
+        "distance_m": 1583.8053983876034,
+        "dedicated_pedestrian_share_percent": 0.1731396411420796,
+        "extra_minutes_at_1_2_mps": 0.15839932832775755,
+        "shared_shortest_m": 1160.8329616794674,
+        "shared_fraction_of_shortest": 0.7382552049188416,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          299918201,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 15,
+        "distance_m": 1583.9747209871393,
+        "dedicated_pedestrian_share_percent": 0.17312113298425835,
+        "extra_minutes_at_1_2_mps": 0.16075103109908973,
+        "shared_shortest_m": 491.30868189473017,
+        "shared_fraction_of_shortest": 0.31245769512423,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          880489736,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 16,
+        "distance_m": 1587.5686868238781,
+        "dedicated_pedestrian_share_percent": 0.7598727163334144,
+        "extra_minutes_at_1_2_mps": 0.21066722327601736,
+        "shared_shortest_m": 651.1388554094691,
+        "shared_fraction_of_shortest": 0.41410492723730197,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          742082332,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 17,
+        "distance_m": 1588.395442435247,
+        "dedicated_pedestrian_share_percent": 0.7594772046016559,
+        "extra_minutes_at_1_2_mps": 0.22214994010058653,
+        "shared_shortest_m": 1519.6713130958824,
+        "shared_fraction_of_shortest": 0.966465713581856,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          369942748,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 18,
+        "distance_m": 1588.5065699828674,
+        "dedicated_pedestrian_share_percent": 0.7594240736667164,
+        "extra_minutes_at_1_2_mps": 0.22369337826197958,
+        "shared_shortest_m": 1315.5081336096027,
+        "shared_fraction_of_shortest": 0.8366240094916648,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          470477060,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 19,
+        "distance_m": 1589.6438686888664,
+        "dedicated_pedestrian_share_percent": 1.5105579373148708,
+        "extra_minutes_at_1_2_mps": 0.23948919362307683,
+        "shared_shortest_m": 472.9243419942748,
+        "shared_fraction_of_shortest": 0.3007658022606158,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          1495768592,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 20,
+        "distance_m": 1590.003537544892,
+        "dedicated_pedestrian_share_percent": 0.7587090858209313,
+        "extra_minutes_at_1_2_mps": 0.24448459440120965,
+        "shared_shortest_m": 1331.0065422817613,
+        "shared_fraction_of_shortest": 0.8464805360100252,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          492095552,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 21,
+        "distance_m": 1590.011471095144,
+        "dedicated_pedestrian_share_percent": 0.7587053001522311,
+        "extra_minutes_at_1_2_mps": 0.24459478259915576,
+        "shared_shortest_m": 893.5053876798777,
+        "shared_fraction_of_shortest": 0.5682428263609536,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          196298557,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 22,
+        "distance_m": 1590.061001216467,
+        "dedicated_pedestrian_share_percent": 5.029923397236503,
+        "extra_minutes_at_1_2_mps": 0.24528270095086352,
+        "shared_shortest_m": 1358.09784833507,
+        "shared_fraction_of_shortest": 0.863709800135131,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          369942744,
+          472303066,
+          472303069,
+          472303068,
+          472303067
+        ]
+      },
+      {
+        "rank": 23,
+        "distance_m": 1590.3118720028065,
+        "dedicated_pedestrian_share_percent": 0.7585619850171144,
+        "extra_minutes_at_1_2_mps": 0.2487670174277999,
+        "shared_shortest_m": 435.76326072925264,
+        "shared_fraction_of_shortest": 0.27713246088424476,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          880489738,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 24,
+        "distance_m": 1590.360239083236,
+        "dedicated_pedestrian_share_percent": 0.7585389151316642,
+        "extra_minutes_at_1_2_mps": 0.24943878243376438,
+        "shared_shortest_m": 876.6025844860865,
+        "shared_fraction_of_shortest": 0.5574931467365213,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          58672529,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 25,
+        "distance_m": 1590.5681717119244,
+        "dedicated_pedestrian_share_percent": 13.117541233572346,
+        "extra_minutes_at_1_2_mps": 0.25232673560999314,
+        "shared_shortest_m": 1228.894951006498,
+        "shared_fraction_of_shortest": 0.7815406038836631,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          632707160,
+          473225014,
+          882558015,
+          472303066,
+          472303069,
+          472303067
+        ]
+      },
+      {
+        "rank": 26,
+        "distance_m": 1590.6854174268694,
+        "dedicated_pedestrian_share_percent": 0.17239077903870023,
+        "extra_minutes_at_1_2_mps": 0.25395514831756333,
+        "shared_shortest_m": 703.8681890615916,
+        "shared_fraction_of_shortest": 0.44763921365544596,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          742082332,
+          632707163,
+          632707159,
+          369942748,
+          632707160,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      },
+      {
+        "rank": 27,
+        "distance_m": 1590.974283346407,
+        "dedicated_pedestrian_share_percent": 1.610305526332836,
+        "extra_minutes_at_1_2_mps": 0.2579671749778072,
+        "shared_shortest_m": 414.13339618619943,
+        "shared_fraction_of_shortest": 0.2633765109691977,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          1495768594,
+          158981790,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 28,
+        "distance_m": 1591.14964032546,
+        "dedicated_pedestrian_share_percent": 0.7581625887656803,
+        "extra_minutes_at_1_2_mps": 0.2604026885757662,
+        "shared_shortest_m": 1118.7342887055215,
+        "shared_fraction_of_shortest": 0.7114817022107289,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          299918201,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 29,
+        "distance_m": 1591.3189629249957,
+        "dedicated_pedestrian_share_percent": 0.7580819172828467,
+        "extra_minutes_at_1_2_mps": 0.2627543913470952,
+        "shared_shortest_m": 449.21000892078433,
+        "shared_fraction_of_shortest": 0.2856841924161173,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          880489736,
+          632707163,
+          632707159,
+          299918172,
+          473454840,
+          472303067
+        ]
+      },
+      {
+        "rank": 30,
+        "distance_m": 1591.6233005858587,
+        "dedicated_pedestrian_share_percent": 0.17228919570025206,
+        "extra_minutes_at_1_2_mps": 0.26698130330352554,
+        "shared_shortest_m": 1368.2374672617252,
+        "shared_fraction_of_shortest": 0.8701582959098089,
+        "way_ids": [
+          1067311768,
+          471567474,
+          493192211,
+          632707162,
+          470477060,
+          632707163,
+          632707159,
+          369942748,
+          632707160,
+          299918172,
+          473454840,
+          1052014020,
+          472303067
+        ]
+      }
+    ],
+    "distinct_way_sequences": 30,
+    "accepted_below_80_percent_shared_and_plus_10min": [
+      2,
+      4,
+      8,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      19,
+      21,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29
+    ]
+  }
+}

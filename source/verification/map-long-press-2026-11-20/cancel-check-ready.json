@@ -1,0 +1,14 @@
+{
+  "before": {
+    "origin_input": "대학 옆문 실험점",
+    "destination_input": "정왕역 1번출구"
+  },
+  "after": {
+    "origin_input": "대학 옆문 실험점",
+    "destination_input": "정왕역 1번출구"
+  },
+  "outcome": "PASS",
+  "small_confirmation": "PASS",
+  "drag_does_not_long_press": "PASS",
+  "cancel_preserves_inputs": "PASS"
+}

@@ -1,0 +1,12 @@
+{
+  "created_date": "2026-11-07",
+  "last_updated": "2026-11-07",
+  "file": "night-safety-bell-icon-debug.apk",
+  "sha256": "052d11c7d90727adfdb3edd1ed5e29d30935ec60c6fb9509a7c661f2f81a432f",
+  "variant": "debug",
+  "build": "assembleDebug SUCCESSFUL in11s",
+  "validation": "API35 native/local captures and installed hash match",
+  "unit_lint_rerun": false,
+  "physical_device_verified": false,
+  "report": "../../../log/log-2026-11-07-bell-icon.md"
+}

@@ -1,0 +1,9 @@
+{
+  "date": "2026-11-05",
+  "tests": 9,
+  "failures": [
+    "rejectsNegativeFractionalOrNonfiniteRouteCounts",
+    "keepsRouteCountsDistinctFromMapFiltersAndUnknownFromZero"
+  ],
+  "reason": "Route facility counts are ignored and invalid counts are not rejected"
+}

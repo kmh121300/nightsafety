@@ -1,0 +1,14 @@
+{
+  "created_date": "2026-11-07",
+  "last_updated": "2026-11-07",
+  "file": "night-safety-facility-icons-debug.apk",
+  "sha256": "73c803010d855b7177f2724851388a5dac1b72b765f2905b50f7edf94c46b4c0",
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "unit_tests_count": 31,
+  "lint_errors": 0,
+  "lint_warnings": 40,
+  "physical_device_verified": false,
+  "report": "../../verification/facility-icons-2026-11-07/verification.md"
+}

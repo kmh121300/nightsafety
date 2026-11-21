@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-20",
+  "apk_sha256": "0d965d977dfcf5d4ec8207d58c5a2450a976b763139a1ea14937fdaa589af814",
+  "outcome": "PASS",
+  "failure": "",
+  "observations": [
+    {
+      "mode": "tmap",
+      "role": "출발지",
+      "label": "지도 출발지 · 25m 보정",
+      "confirmation": false
+    },
+    {
+      "mode": "local",
+      "role": "도착지",
+      "label": "지도 도착지 · 50m 보정",
+      "confirmation": false
+    }
+  ]
+}

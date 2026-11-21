@@ -1,0 +1,14 @@
+{
+  "created_date": "2026-11-07",
+  "last_updated": "2026-11-07",
+  "file": "night-safety-facility-addresses-debug.apk",
+  "sha256": "c02aed75eea3ab417c023d702ec7aa6a60d53311228fadb6578c0aff52582f4a",
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "unit_tests": 38,
+  "lint_errors": 0,
+  "lint_warnings": 41,
+  "physical_device_verified": false,
+  "report": "../../verification/facility-addresses-2026-11-07/verification.md"
+}

@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-06",
+  "profile": "standard",
+  "apk_sha256": "09e32f7979a42e409bb655b36d840c153854fda8ab5133aeaca29fc3b640d096",
+  "failure": "Summary collides with navigation bar",
+  "outcome": "FAIL",
+  "cleanup_errors": [],
+  "measurements": {},
+  "steps": []
+}

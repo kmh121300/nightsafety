@@ -1,0 +1,24 @@
+{
+  "created_date": "2026-11-06",
+  "last_updated": "2026-11-06",
+  "file": "night-safety-ui-sheet-debug.apk",
+  "sha256": "259dec689c428456ac244bff7333400533d94eaf80e6e86a6152881e19310fd3",
+  "bytes": 44721631,
+  "variant": "debug",
+  "min_android_api": 26,
+  "target_android_api": 36,
+  "validation": "API35 final APK small/standard/pane 3 UI profiles PASS",
+  "unit_tests_last_run": "2026-11-06",
+  "unit_tests_count": 27,
+  "lint_errors": 0,
+  "lint_warnings": 38,
+  "tool_tests": 13,
+  "physical_device_verified": false,
+  "report": "../../verification/ui-sheet-fixes-2026-11-06/verification.md",
+  "ui_profiles": [
+    "small",
+    "standard",
+    "pane"
+  ],
+  "ui_cleanup_errors": 0
+}

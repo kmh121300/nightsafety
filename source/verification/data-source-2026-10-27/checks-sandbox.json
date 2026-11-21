@@ -1,0 +1,38 @@
+[
+  {
+    "name": "gg_security_lamps",
+    "url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VEY71398U2941WM4E7PV21507518&infSeq=1",
+    "checked_at_utc": "2026-10-27T04:08:14.743140+00:00",
+    "error": "URLError"
+  },
+  {
+    "name": "gg_cctv",
+    "url": "https://data.gg.go.kr/portal/data/service/selectServicePage.do?infId=VIPK0N53968Q7DV5TT2312643570&infSeq=3",
+    "checked_at_utc": "2026-10-27T04:08:14.745656+00:00",
+    "error": "URLError"
+  },
+  {
+    "name": "smart_lamp_sample",
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=100",
+    "checked_at_utc": "2026-10-27T04:08:14.746657+00:00",
+    "error": "URLError"
+  },
+  {
+    "name": "smart_lamp_siheung",
+    "url": "https://openapi.gg.go.kr/Smartstlamp?Type=json&pIndex=1&pSize=5&SIGUN_NM=%EC%8B%9C%ED%9D%A5%EC%8B%9C",
+    "checked_at_utc": "2026-10-27T04:08:14.983274+00:00",
+    "error": "URLError"
+  },
+  {
+    "name": "localdata_cctv",
+    "url": "https://file.localdata.go.kr/file/cctv_info/info",
+    "checked_at_utc": "2026-10-27T04:08:14.985276+00:00",
+    "error": "URLError"
+  },
+  {
+    "name": "portal_bell_search",
+    "url": "https://www.data.go.kr/tcs/dss/selectDataSetList.do?keyword=%EC%95%88%EC%A0%84%EB%B9%84%EC%83%81%EB%B2%A8&dType=TOTAL",
+    "checked_at_utc": "2026-10-27T04:08:15.099491+00:00",
+    "error": "URLError"
+  }
+]

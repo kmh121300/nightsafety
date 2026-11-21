@@ -1,0 +1,7 @@
+<resources>
+    <item type="id" name="place_lookup" />
+    <item type="id" name="place_query" />
+    <item type="id" name="place_label" />
+    <item type="id" name="place_latitude" />
+    <item type="id" name="place_longitude" />
+</resources>

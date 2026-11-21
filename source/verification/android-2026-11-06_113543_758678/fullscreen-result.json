@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-06",
+  "profile": "small",
+  "outcome": "PASS",
+  "failure": "",
+  "cleanup_errors": [],
+  "steps": [
+    "small: tmap fullscreen expands, hides panels, exits and preserves route",
+    "small: local fullscreen expands, hides panels, exits and preserves route"
+  ],
+  "apk_sha256": "eb23f011afd8758722af2eaee31164216dbaa997b89b450771963d88034cc38d"
+}

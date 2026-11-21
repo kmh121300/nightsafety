@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-06",
+  "command": ":app:testDebugUnitTest :app:lintDebug :app:assembleDebug",
+  "outcome": "BUILD SUCCESSFUL (58s)",
+  "android": {
+    "tests": 27,
+    "failures": 0,
+    "errors": 0
+  },
+  "lint": {
+    "Error": 0,
+    "Warning": 41
+  },
+  "tools": 13,
+  "sha256": "eb23f011afd8758722af2eaee31164216dbaa997b89b450771963d88034cc38d",
+  "initial_lint_failure": "GestureBackNavigation on legacy onBackPressed fallback; narrow documented suppression because API33+ uses OnBackInvokedCallback",
+  "unit_execution": "UP-TO-DATE; latest 27 passing tests use identical Kotlin/DEX code",
+  "previous_caption_apk_sha256": "6d2f3577bbe17bf55320abf27c688c8857ea2efd0a4171ec36958d66b2413821",
+  "dex_unchanged_from_previous_caption_apk": true
+}

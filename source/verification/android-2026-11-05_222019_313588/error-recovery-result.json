@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-05",
+  "environment": "emulator-5556 API35",
+  "apk_sha256": "ebf2b079d96fccd74381278cb98b9648c3caaf7081f63ddaacf02d1296bf91d9",
+  "outcome": "FAIL",
+  "steps": [
+    "Blank/no-result place search and out-of-area coordinates keep the original endpoint",
+    "Two endpoint swaps restore labels and stale input cannot be saved as latest",
+    "Disconnected search reports failure and keeps old scores; stale save blocked; reconnect succeeds",
+    "Force-stop/relaunch uses default unsaved inputs; no latest server result is claimed at startup",
+    "OS location denial keeps manual endpoints and server route search usable",
+    "Coarse-only permission with no mock fix times out and preserves manual origin"
+  ],
+  "failure": "Control unavailable: origin_input",
+  "original_permissions": {
+    "ACCESS_COARSE_LOCATION": {
+      "granted": false,
+      "flags": [
+        "USER_SET",
+        "USER_SENSITIVE_WHEN_GRANTED",
+        "USER_SENSITIVE_WHEN_DENIED"
+      ]
+    },
+    "ACCESS_FINE_LOCATION": {
+      "granted": false,
+      "flags": [
+        "USER_SET",
+        "USER_SENSITIVE_WHEN_GRANTED",
+        "USER_SENSITIVE_WHEN_DENIED"
+      ]
+    }
+  },
+  "original_location_enabled": "true",
+  "cleanup_errors": [
+    "AssertionError"
+  ]
+}

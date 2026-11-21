@@ -1,0 +1,41 @@
+{
+  "apk_sha256": "f3a952dbf6a799575639dc68ef0757e0e79a0f32faaa18d4bee0350f66de3eba",
+  "profiles": [
+    {
+      "profile": "standard",
+      "outcome": "PASS",
+      "minimize_bounds": [
+        695,
+        132,
+        827,
+        264
+      ],
+      "saved_list_bounds": [
+        827,
+        154,
+        1014,
+        242
+      ]
+    },
+    {
+      "profile": "small",
+      "outcome": "PASS",
+      "minimize_bounds": [
+        405,
+        108,
+        513,
+        216
+      ],
+      "saved_list_bounds": [
+        513,
+        126,
+        666,
+        198
+      ]
+    }
+  ],
+  "display_restored": {
+    "size": "Physical size: 1080x2220",
+    "density": "Physical density: 440"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-11-06",
+  "profile": "standard",
+  "outcome": "PASS",
+  "failure": "",
+  "cleanup_errors": [],
+  "steps": [
+    "standard: tmap fullscreen expands, hides panels, exits and preserves route",
+    "standard: local fullscreen expands, hides panels, exits and preserves route"
+  ],
+  "apk_sha256": "09b6741988404fbdbdbe8e40ba9125630ce1e0a7de43c1ce0d6c53ba869fd15a",
+  "original_reported_sha256": "6d2f3577bbe17bf55320abf27c688c8857ea2efd0a4171ec36958d66b2413821",
+  "evidence_note": "Preliminary APK before legacy-back lint annotation and exit-label line break. SHA256 corrected on 2026-11-06 using installed APK: original tool hashed changing build output at test end. Final tests capture and match installed/local hash before testing."
+}

@@ -1,0 +1,3 @@
+작성일: 2026-11-05 · 최종 수정일: 2026-11-05
+
+App text changed at system scale 1.3: {'title': 80, 'subtitle': 43} -> {'title': 94, 'subtitle': 56}

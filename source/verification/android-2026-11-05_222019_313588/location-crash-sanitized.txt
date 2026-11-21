@@ -1,0 +1,15 @@
+E/AndroidRuntime(15656): FATAL EXCEPTION: main
+E/AndroidRuntime(15656): Process: kr.ac.tukorea.nightsafety, PID: 15656
+E/AndroidRuntime(15656): java.lang.NullPointerException: Attempt to invoke virtual method 'void com.skt.tmap.vsm.map.marker.VSMMarkerPoint.setVisible(boolean)' on a null object reference
+E/AndroidRuntime(15656): 	at com.skt.tmap.overlay.TMapLocationLayer.setVisibleIcon(r8-map-id-d848f0e53e2e6efe9b2e07555c43ac9e2cac6c6d59b7717d95597407a6efa74c:2)
+E/AndroidRuntime(15656): 	at com.skt.tmap.TMapView.lambda$setIconVisibility$5$com-skt-tmap-TMapView(r8-map-id-d848f0e53e2e6efe9b2e07555c43ac9e2cac6c6d59b7717d95597407a6efa74c:1)
+E/AndroidRuntime(15656): 	at com.skt.tmap.TMapView$$ExternalSyntheticLambda33.run(D8$$SyntheticClass:0)
+E/AndroidRuntime(15656): 	at com.skt.tmap.TMapView.runWhenReady(r8-map-id-d848f0e53e2e6efe9b2e07555c43ac9e2cac6c6d59b7717d95597407a6efa74c:5)
+E/AndroidRuntime(15656): 	at com.skt.tmap.TMapView.setIconVisibility(r8-map-id-d848f0e53e2e6efe9b2e07555c43ac9e2cac6c6d59b7717d95597407a6efa74c:1)
+E/AndroidRuntime(15656): 	at kr.ac.tukorea.nightsafety.TmapPilotMap.update(TmapPilotMap.kt:122)
+E/AndroidRuntime(15656): 	at kr.ac.tukorea.nightsafety.MainActivity.refresh(MainActivity.kt:186)
+E/AndroidRuntime(15656): 	at kr.ac.tukorea.nightsafety.MainActivity.requestLocation$lambda$44(MainActivity.kt:279)
+E/AndroidRuntime(15656): 	at kr.ac.tukorea.nightsafety.MainActivity$$ExternalSyntheticLambda2.accept(D8$$SyntheticClass:0)
+E/AndroidRuntime(15656): 	at android.location.LocationManager$GetCurrentLocationTransport$1.operate(LocationManager.java:3249)
+E/AndroidRuntime(15656): 	at android.location.LocationManager$GetCurrentLocationTransport$1.operate(LocationManager.java:3246)
+E/AndroidRuntime(15656): 	at java.lang.reflect.Method.invoke(Native Method)

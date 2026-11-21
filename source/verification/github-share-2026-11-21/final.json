@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-21",
+  "outcome": "PASS",
+  "candidate_files": 704,
+  "candidate_bytes": 132252895,
+  "known_credential_matches": [],
+  "credential_pattern_matches": [],
+  "nested_archives_inspected": 7,
+  "utf16_bom_streams_checked": 17,
+  "temporary_git_add_matches": true,
+  "private_files_preserved": true,
+  "example_values_empty_and_correct": true,
+  "changed_markdown_dates_and_links_valid": true,
+  "rules_match_initial_test": true,
+  "git_version": "git version 2.54.0.windows.1"
+}
